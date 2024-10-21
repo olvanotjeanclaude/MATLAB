@@ -1,0 +1,1239 @@
+MATLAB OTURUMU BAŞARILI BİR ŞEKİLDE AÇILDI...
+cd ..
+dir gcd*.*
+No matches for pattern 'gcd*.*'.
+cd gunluk
+edit
+gcd2(10,3)
+
+ans =
+
+     1
+
+b=gcd2(10,4)
+
+b =
+
+     2
+
+help flops
+
+flops not found.
+
+Use the Help browser search field to <a href="matlab:docsearch flops">search the documentation</a>, or
+type "<a href="matlab:help help">help help</a>" for help command options, such as help for methods.
+
+lookfor flops
+flops not found.
+.2
+
+ans =
+
+    0.2000
+
+inf_while
+
+x =
+
+    0.8000
+
+
+x =
+
+    0.6000
+
+
+x =
+
+    0.4000
+
+
+x =
+
+    0.2000
+
+
+x =
+
+   5.5511e-17
+
+
+x =
+
+   -0.2000
+
+
+x =
+
+   -0.4000
+
+
+x =
+
+   -0.6000
+
+
+x =
+
+   -0.8000
+
+
+x =
+
+    -1
+
+
+x =
+
+   -1.2000
+
+
+x =
+
+   -1.4000
+
+
+x =
+
+   -1.6000
+
+
+x =
+
+   -1.8000
+
+
+x =
+
+   -2.0000
+
+
+x =
+
+   -2.2000
+
+
+x =
+
+   -2.4000
+
+
+x =
+
+   -2.6000
+
+
+x =
+
+   -2.8000
+
+
+x =
+
+   -3.0000
+
+
+x =
+
+   -3.2000
+
+
+x =
+
+   -3.4000
+
+
+x =
+
+   -3.6000
+
+
+x =
+
+   -3.8000
+
+
+x =
+
+   -4.0000
+
+
+x =
+
+   -4.2000
+
+
+x =
+
+   -4.4000
+
+
+x =
+
+   -4.6000
+
+
+x =
+
+   -4.8000
+
+
+x =
+
+   -5.0000
+
+
+x =
+
+   -5.2000
+
+
+x =
+
+   -5.4000
+
+
+x =
+
+   -5.6000
+
+
+x =
+
+   -5.8000
+
+{Operation terminated by user during <a href="matlab:matlab.internal.language.introspective.errorDocCallback('inf_while', 'C:\Users\kou\Documents\MATLAB\gunluk\inf_while.m', 6)" style="font-weight:bold">inf_while</a> (<a href="matlab: opentoline('C:\Users\kou\Documents\MATLAB\gunluk\inf_while.m',6,0)">line 6</a>)
+} 
+eps
+
+ans =
+
+   2.2204e-16
+
+inf_while
+
+x =
+
+    0.8000
+
+
+x =
+
+    0.6000
+
+
+x =
+
+    0.4000
+
+
+x =
+
+    0.2000
+
+
+x =
+
+   5.5511e-17
+
+
+x =
+
+   -0.2000
+
+1-0.2
+
+ans =
+
+    0.8000
+
+format long
+1-0.2
+
+ans =
+
+   0.800000000000000
+
+1-0.2-.2
+
+ans =
+
+   0.600000000000000
+
+1-0.2-.2-.2
+
+ans =
+
+   0.400000000000000
+
+1-0.2-.2-.2-.2
+
+ans =
+
+   0.200000000000000
+
+1-0.2-.2-.2-.2-.2
+
+ans =
+
+     5.551115123125783e-17
+
+tol=5e-17
+
+tol =
+
+     5.000000000000000e-17
+
+dir ex*.*
+
+Ex_16_4.m   Ex_for.m    Ex_while.m  Exa03_02.m  
+Ex_2_5.m    Ex_if.m     Exa03_01.m  exa02_09.m  
+
+logspace(2.5, 6.3)
+
+ans =
+
+   1.0e+06 *
+
+  Columns 1 through 4
+
+   0.000316227766017   0.000378051547747   0.000451962123865   0.000540322510583
+
+  Columns 5 through 8
+
+   0.000645957703150   0.000772244994584   0.000923221952075   0.001103715503203
+
+  Columns 9 through 12
+
+   0.001319496259023   0.001577463007924   0.001885863278773   0.002254557025019
+
+  Columns 13 through 16
+
+   0.002695331860098   0.003222279922591   0.003852248420037   0.004605378255822
+
+  Columns 17 through 20
+
+   0.005505747959785   0.006582143509787   0.007868978656466   0.009407395175121
+
+  Columns 21 through 24
+
+   0.011246578221198   0.013445328842998   0.016073943926839   0.019216463678961
+
+  Columns 25 through 28
+
+   0.022973358499046   0.027464741148161   0.032834206908267   0.039253424508138
+
+  Columns 29 through 32
+
+   0.046927624593488   0.056102161214771   0.067070356111843   0.080182876587383
+
+  Columns 33 through 36
+
+   0.095858946791729   0.114599750858346   0.137004456405399   0.163789370695406
+
+  Columns 37 through 40
+
+   0.195810841900031   0.234092637652917   0.279858676218128   0.334572156731759
+
+  Columns 41 through 44
+
+   0.399982339560893   0.478180472408147   0.571666650191362   0.683429746294766
+
+  Columns 45 through 48
+
+   0.817042970696610   0.976778110089490   1.167742102397052   1.396040312150075
+
+  Columns 49 through 50
+
+   1.668971726845733   1.995262314968879
+
+linspace(2.5, 6.3)
+
+ans =
+
+  Columns 1 through 4
+
+   2.500000000000000   2.538383838383838   2.576767676767677   2.615151515151515
+
+  Columns 5 through 8
+
+   2.653535353535354   2.691919191919192   2.730303030303030   2.768686868686869
+
+  Columns 9 through 12
+
+   2.807070707070707   2.845454545454545   2.883838383838384   2.922222222222222
+
+  Columns 13 through 16
+
+   2.960606060606060   2.998989898989899   3.037373737373737   3.075757575757576
+
+  Columns 17 through 20
+
+   3.114141414141414   3.152525252525253   3.190909090909091   3.229292929292929
+
+  Columns 21 through 24
+
+   3.267676767676768   3.306060606060606   3.344444444444445   3.382828282828283
+
+  Columns 25 through 28
+
+   3.421212121212121   3.459595959595959   3.497979797979798   3.536363636363636
+
+  Columns 29 through 32
+
+   3.574747474747475   3.613131313131313   3.651515151515151   3.689898989898990
+
+  Columns 33 through 36
+
+   3.728282828282828   3.766666666666667   3.805050505050505   3.843434343434343
+
+  Columns 37 through 40
+
+   3.881818181818182   3.920202020202020   3.958585858585859   3.996969696969697
+
+  Columns 41 through 44
+
+   4.035353535353535   4.073737373737374   4.112121212121212   4.150505050505051
+
+  Columns 45 through 48
+
+   4.188888888888889   4.227272727272728   4.265656565656565   4.304040404040403
+
+  Columns 49 through 52
+
+   4.342424242424242   4.380808080808080   4.419191919191919   4.457575757575757
+
+  Columns 53 through 56
+
+   4.495959595959595   4.534343434343434   4.572727272727272   4.611111111111111
+
+  Columns 57 through 60
+
+   4.649494949494949   4.687878787878788   4.726262626262626   4.764646464646464
+
+  Columns 61 through 64
+
+   4.803030303030303   4.841414141414141   4.879797979797980   4.918181818181818
+
+  Columns 65 through 68
+
+   4.956565656565656   4.994949494949495   5.033333333333333   5.071717171717172
+
+  Columns 69 through 72
+
+   5.110101010101010   5.148484848484848   5.186868686868687   5.225252525252525
+
+  Columns 73 through 76
+
+   5.263636363636364   5.302020202020202   5.340404040404040   5.378787878787879
+
+  Columns 77 through 80
+
+   5.417171717171717   5.455555555555556   5.493939393939394   5.532323232323233
+
+  Columns 81 through 84
+
+   5.570707070707071   5.609090909090909   5.647474747474748   5.685858585858586
+
+  Columns 85 through 88
+
+   5.724242424242425   5.762626262626263   5.801010101010101   5.839393939393939
+
+  Columns 89 through 92
+
+   5.877777777777778   5.916161616161617   5.954545454545455   5.992929292929293
+
+  Columns 93 through 96
+
+   6.031313131313131   6.069696969696969   6.108080808080808   6.146464646464647
+
+  Columns 97 through 100
+
+   6.184848484848485   6.223232323232323   6.261616161616161   6.300000000000000
+
+pipe
+rectify
+clc
+help fread
+ <strong>fread</strong>  Read binary data from file.
+    A = <strong>fread</strong>(FID) reads binary data from the specified file and writes it into
+    matrix A.  FID is an integer file identifier obtained from FOPEN.  MATLAB reads
+    the entire file and positions the file pointer at the end of the file (see FEOF
+    for details).
+ 
+    A = <strong>fread</strong>(FID,SIZE) reads the number of elements specified by SIZE.  Valid
+    entries for SIZE are:
+        N      read N elements into a column vector. 
+        inf    read to the end of the file.
+        [M,N]  read elements to fill an M-by-N matrix, in column order.
+               N can be inf, but M can't.
+ 
+    A = <strong>fread</strong>(FID,SIZE,PRECISION) reads the file according to the data format
+    specified by PRECISION. The PRECISION input commonly contains a datatype
+    specifier like 'int' or 'float', followed by an integer giving the size in bits.
+    The SIZE argument is optional when using this syntax.
+ 
+    Any of the following values, either the MATLAB version, or their C or
+    Fortran equivalent, may be used for PRECISION.  If not specified, the
+    default PRECISION is 'uint8'.
+        MATLAB    C or Fortran     Description
+        'uchar'   'unsigned char'  unsigned integer,  8 bits.
+        'schar'   'signed char'    signed integer,  8 bits.
+        'int8'    'integer*1'      integer, 8 bits.
+        'int16'   'integer*2'      integer, 16 bits.
+        'int32'   'integer*4'      integer, 32 bits.
+        'int64'   'integer*8'      integer, 64 bits.
+        'uint8'   'integer*1'      unsigned integer, 8 bits.
+        'uint16'  'integer*2'      unsigned integer, 16 bits.
+        'uint32'  'integer*4'      unsigned integer, 32 bits.
+        'uint64'  'integer*8'      unsigned integer, 64 bits.
+        'single'  'real*4'         floating point, 32 bits.
+        'float32' 'real*4'         floating point, 32 bits.
+        'double'  'real*8'         floating point, 64 bits.
+        'float64' 'real*8'         floating point, 64 bits.
+ 
+    The following platform dependent formats are also supported but they are not
+    guaranteed to be the same size on all platforms.
+ 
+        MATLAB    C or Fortran     Description
+        'char'    'char*1'         character.
+        'short'   'short'          integer,  16 bits.
+        'int'     'int'            integer,  32 bits.
+        'long'    'long'           integer,  32 or 64 bits.
+        'ushort'  'unsigned short' unsigned integer,  16 bits.
+        'uint'    'unsigned int'   unsigned integer,  32 bits.
+        'ulong'   'unsigned long'  unsigned integer,  32 bits or 64 bits.
+        'float'   'float'          floating point, 32 bits.
+ 
+    If the precision is 'char' or 'char*1', MATLAB reads characters using the
+    encoding scheme associated with the file. See FOPEN for more information.
+ 
+    The following formats map to an input stream of bits rather than bytes.
+ 
+        'bitN'                     signed integer, N bits  (1<=N<=64).
+        'ubitN'                    unsigned integer, N bits (1<=N<=64).
+ 
+    If the input stream is bytes and <strong>fread</strong> reaches the end of file (see FEOF) in the
+    middle of reading the number of bytes required for an element, the partial result
+    is ignored. However, if the input stream is bits, then the partial result is
+    returned as the last value.  If an error occurs before reaching the end of file,
+    only full elements read up to that point are used.
+ 
+    By default, numeric and character values are returned in class 'double' arrays.
+    To return these values stored in classes other than double, create your PRECISION
+    argument by first specifying your source format, then following it by '=>', and
+    finally specifying your destination format. If the source and destination formats
+    are the same then the following shorthand notation may be used:
+ 
+        *source
+ 
+    which means:
+ 
+        source=>source
+ 
+    For example,
+ 
+        uint8=>uint8               read in unsigned 8-bit integers and
+                                   save them in an unsigned 8-bit integer array
+ 
+        *uint8                     shorthand version of previous example
+ 
+        bit4=>int8                 read in signed 4-bit integers packed
+                                   in bytes and save them in a signed 8-bit integer
+                                   array (each 4-bit integer becomes one 8-bit
+                                   integer)
+ 
+        double=>real*4             read in doubles, convert and save
+                                   as a 32-bit floating point array
+ 
+    A = <strong>fread</strong>(FID,SIZE,PRECISION,SKIP) includes a SKIP argument that specifies the
+    number of bytes to skip after each PRECISION value is read. If PRECISION
+    specifies a bit source format, like 'bitN' or 'ubitN', the SKIP argument is
+    interpreted as the number of bits to skip.  The SIZE argument is optional when
+    using this syntax.
+ 
+    When SKIP is used, the PRECISION specifier may contain a positive integer repetition factor
+    of the form 'N*' which prepends the source format of the PRECISION argument, like
+    '40*uchar'.  Note that 40*uchar for the PRECISION alone is equivalent to
+    '40*uchar=>double', not '40*uchar=>uchar'.  With SKIP specified, <strong>fread</strong> reads in,
+    at most, a repetition factor number of values (default of 1), does a skip of
+    input specified by the SKIP argument, reads in another block of values and does a
+    skip of input, etc. until SIZE number of values have been read.  If a SKIP
+    argument is not specified, the repetition factor is ignored.  Repetition with
+    skip is useful for extracting data in noncontiguous fields from fixed length
+    records.
+ 
+    For example,
+ 
+        s = fread(fid,120,'40*uchar=>uchar',8);
+ 
+    reads in 120 characters in blocks of 40 each separated by 8 characters.
+ 
+    A = <strong>fread</strong>(FID,SIZE,PRECISION,SKIP,MACHINEFORMAT) treats the data read as having a
+    format given by the MACHINEFORMAT. You can obtain the MACHINEFORMAT argument from
+    the output of the FOPEN function. See FOPEN for possible values for
+    MACHINEFORMAT. The SIZE and SKIP arguments are optional when using this syntax.
+    
+    [A, COUNT] = <strong>fread</strong>(...) Optional output argument COUNT returns the number of
+    elements successfully read.
+ 
+    Examples:
+ 
+    The file alphabet.txt contains the 26 letters of the English alphabet, all
+    capitalized. Open the file for read access with fopen, and read the first five
+    elements into output c. Because a precision has not been specified, MATLAB uses
+    the default precision of uchar, and the output is numeric:
+ 
+    fid = fopen('alphabet.txt', 'r');
+    c = fread(fid, 5)'
+    c =
+        65    66    67    68    69
+    fclose(fid);
+ 
+    This time, specify that you want each element read as an unsigned 8-bit integer
+    and output as a character. (Using a precision of 'char=>char' or '*char' will
+    produce the same result):
+ 
+    fid = fopen('alphabet.txt', 'r');
+    c = fread(fid, 5, 'uint8=>char')'
+    c =
+        ABCDE
+    fclose(fid);
+ 
+    See also <a href="matlab:help fwrite">fwrite</a>, <a href="matlab:help fseek">fseek</a>, <a href="matlab:help fscanf">fscanf</a>, <a href="matlab:help fgetl">fgetl</a>, <a href="matlab:help fgets">fgets</a>, <a href="matlab:help load">load</a>, <a href="matlab:help fopen">fopen</a>, <a href="matlab:help feof">feof</a>.
+
+    <a href="matlab:doc fread">Documentation for fread</a>
+    <a href="matlab:matlab.internal.language.introspective.overloads.displayOverloads('fread')">Other functions named fread</a>
+
+clc
+help xlsread
+  <strong>xlsread</strong> Read Microsoft Excel spreadsheet file.
+    [NUM,TXT,RAW]=<strong>xlsread</strong>(FILE) reads data from the first worksheet in the Microsoft
+    Excel spreadsheet file named FILE and returns the numeric data in array NUM.
+    Optionally, returns the text fields in cell array TXT, and the unprocessed data
+    (numbers and text) in cell array RAW.
+ 
+    [NUM,TXT,RAW]=<strong>xlsread</strong>(FILE,SHEET) reads the specified worksheet.
+ 
+    [NUM,TXT,RAW]=<strong>xlsread</strong>(FILE,SHEET,RANGE) reads from the specified SHEET and RANGE.
+    Specify RANGE using the syntax 'C1:C2', where C1 and C2 are opposing corners of
+    the region. Not supported for XLS files in BASIC mode.
+ 
+    [NUM,TXT,RAW]=<strong>xlsread</strong>(FILE,SHEET,RANGE,'basic') reads from the spreadsheet in
+    BASIC mode, the default on systems without Excel for Windows. RANGE is supported
+    for XLSX files only.
+ 
+    [NUM,TXT,RAW]=<strong>xlsread</strong>(FILE,RANGE) reads data from the specified RANGE of the
+    first worksheet in the file. Not supported for XLS files in BASIC mode.
+ 
+    The following syntaxes are supported only on Windows systems with Excel software:
+ 
+    [NUM,TXT,RAW]=<strong>xlsread</strong>(FILE,-1) opens an Excel window to select data
+    interactively.
+ 
+    [NUM,TXT,RAW,CUSTOM]=<strong>xlsread</strong>(FILE,SHEET,RANGE,'',FUNCTIONHANDLE) reads from the
+    spreadsheet, executes the function associated with FUNCTIONHANDLE on the data,
+    and returns the final results. Optionally, returns additional CUSTOM output,
+    which is the second output from the function. <strong>xlsread</strong> does not change the data
+    stored in the spreadsheet.
+ 
+    Input Arguments:
+ 
+    FILE    Name of the file to read. SHEET   Worksheet to read. One of the
+            following:
+            * The worksheet name.
+            * Positive, integer-valued scalar indicating the worksheet
+              index.
+ 
+    RANGE   Character vector or string that specifies a rectangular portion of the
+            worksheet to read. Not case sensitive. Use Excel A1 reference style. If 
+            you do not specify a SHEET, RANGE must include both corners and a colon 
+            character (:), even for a single cell (such as 'D2:D2').
+ 
+    'basic' Flag to request reading in BASIC mode, which is the default for
+            systems without Excel for Windows. In BASIC mode, <strong>xlsread</strong>:
+            * Reads XLS, XLSX, XLSM, XLTX, and XLTM files only.
+            * Does not support an xlRange input when reading XLS files.
+              In this case, use '' in place of xlRange.
+            * For XLS files, requires a name to specify the SHEET,
+              and the name is case sensitive.
+            * Does not support function handle inputs.
+            * Imports all dates as Excel serial date numbers. Excel
+              serial date numbers use a different reference date than MATLAB date
+              numbers.
+ 
+    -1      Flag to open an interactive Excel window for selecting data.
+            Select the worksheet, drag and drop the mouse over the range you want,
+            and click OK. Supported only on Windows systems with Excel software.
+ 
+    FUNCTIONHANDLE
+            Handle to your custom function. When <strong>xlsread</strong> calls your function, it
+            passes a range interface from Excel to provide access to the data. Your
+            function must include this interface (of type
+            'Interface.Microsoft_Excel_5.0_Object_Library.Range', for example) both
+            as an input and output argument.
+ 
+    Notes:
+ 
+    * On Windows systems with Excel software, <strong>xlsread</strong> reads any file
+      format recognized by your version of Excel, including XLS, XLSX, XLSB, XLSM,
+      and HTML-based formats.
+ 
+    * If your system does not have Excel for Windows, <strong>xlsread</strong> operates in
+      BASIC mode (see Input Arguments).
+ 
+    * <strong>xlsread</strong> imports formatted dates as character vectors (such as '10/31/96'),
+      except in BASIC mode. In BASIC mode, <strong>xlsread</strong> imports all dates as serial date
+      numbers. Serial date numbers in Excel use different reference dates than date
+      numbers in MATLAB. For information on converting dates, see the documentation
+      on importing spreadsheets.
+ 
+    Examples:
+ 
+    % Create data for use in the examples that follow:
+    values = {1, 2, 3 ; 4, 5, 'x' ; 7, 8, 9};
+    headers = {'First', 'Second', 'Third'};
+    xlswrite('myExample.xls', [headers; values]);
+    moreValues = rand(5);
+    xlswrite('myExample.xls', moreValues, 'MySheet');
+ 
+    % Read data from the first worksheet into a numeric array:
+    A = xlsread('myExample.xls')
+ 
+    % Read a specific range of data:
+    subsetA = xlsread('myExample.xls', 1, 'B2:C3')
+ 
+    % Read from a named worksheet:
+    B = xlsread('myExample.xls', 'MySheet')
+ 
+    % Request the numeric data, text, and a copy of the unprocessed (raw)
+    % data from the first worksheet:
+    [ndata, text, alldata] = xlsread('myExample.xls')
+ 
+    See also <a href="matlab:help xlswrite">xlswrite</a>, <a href="matlab:help xlsfinfo">xlsfinfo</a>, <a href="matlab:help dlmread">dlmread</a>, <a href="matlab:help importdata">importdata</a>, <a href="matlab:help textscan">textscan</a>.
+
+    <a href="matlab:doc xlsread">Documentation for xlsread</a>
+
+help dlmread
+ <strong>dlmread</strong> Read ASCII delimited file.
+    RESULT = <strong>dlmread</strong>(FILENAME) reads numeric data from the ASCII
+    delimited file FILENAME.  The delimiter is inferred from the formatting
+    of the file.
+ 
+    RESULT = <strong>dlmread</strong>(FILENAME,DELIMITER) reads numeric data from the ASCII
+    delimited file FILENAME using the delimiter DELIMITER.  The result is
+    returned in RESULT.  Use '\t' to specify a tab.
+ 
+    When a delimiter is inferred from the formatting of the file,
+    consecutive whitespaces are treated as a single delimiter.  By
+    contrast, if a delimiter is specified by the DELIMITER input, any
+    repeated delimiter character is treated as a separate delimiter.
+ 
+    RESULT = <strong>dlmread</strong>(FILENAME,DELIMITER,R,C) reads data from the
+    DELIMITER-delimited file FILENAME.  R and C specify the row R and column
+    C where the upper-left corner of the data lies in the file.  R and C are
+    zero-based so that R=0 and C=0 specifies the first value in the file.
+ 
+    All data in the input file must be numeric. <strong>dlmread</strong> does not operate 
+    on files containing nonnumeric data, even if the specified rows and
+    columns for the read contain numeric data only.
+ 
+    RESULT = <strong>dlmread</strong>(FILENAME,DELIMITER,RANGE) reads the range specified
+    by RANGE = [R1 C1 R2 C2] where (R1,C1) is the upper-left corner of
+    the data to be read and (R2,C2) is the lower-right corner.  RANGE
+    can also be specified using spreadsheet notation as in RANGE = 'A1..B7'.
+ 
+    <strong>dlmread</strong> fills empty delimited fields with zero.  Data files where
+    the lines end with a non-whitespace delimiter will produce a result with
+    an extra last column filled with zeros.
+ 
+    See also <a href="matlab:help dlmwrite">dlmwrite</a>, <a href="matlab:help csvread">csvread</a>, <a href="matlab:help textscan">textscan</a>, <a href="matlab:help load">load</a>.
+
+    <a href="matlab:doc dlmread">Documentation for dlmread</a>
+
+help csvread
+ <strong>csvread</strong> Read a comma separated value file.
+    M = <strong>csvread</strong>('FILENAME') reads a comma separated value formatted file
+    FILENAME.  The result is returned in M.  The file can only contain
+    numeric values.
+ 
+    M = <strong>csvread</strong>('FILENAME',R,C) reads data from the comma separated value
+    formatted file starting at row R and column C.  R and C are zero-
+    based so that R=0 and C=0 specifies the first value in the file.
+ 
+    M = <strong>csvread</strong>('FILENAME',R,C,RNG) reads only the range specified
+    by RNG = [R1 C1 R2 C2] where (R1,C1) is the upper-left corner of
+    the data to be read and (R2,C2) is the lower-right corner.  RNG
+    can also be specified using spreadsheet notation as in RNG = 'A1..B7'.
+ 
+    <strong>csvread</strong> fills empty delimited fields with zero.  Data files where
+    the lines end with a comma will produce a result with an extra last 
+    column filled with zeros.
+ 
+    See also <a href="matlab:help csvwrite">csvwrite</a>, <a href="matlab:help dlmread">dlmread</a>, <a href="matlab:help dlmwrite">dlmwrite</a>, <a href="matlab:help load">load</a>, <a href="matlab:help textscan">textscan</a>.
+
+    <a href="matlab:doc csvread">Documentation for csvread</a>
+
+clear all
+vr
+
+veri =
+
+    10    20
+    34    50
+
+vr
+
+veri =
+
+    10    20
+    34    50
+
+
+data =
+
+    16     2     3    13
+     5    11    10     8
+     9     7     6    12
+     4    14    15     1
+
+help num2str
+ <strong>num2str</strong> Convert numbers to character representation
+    T = <strong>num2str</strong>(X) converts the matrix X into its character representation T
+    with about 4 digits and an exponent if required.  This is useful for
+    labeling plots with the TITLE, XLABEL, YLABEL, and TEXT commands.
+ 
+    T = <strong>num2str</strong>(X,N) converts the matrix X into a character representation
+    with a maximum N digits of precision.  The default number of digits is
+    based on the magnitude of the elements of X.
+ 
+    T = <strong>num2str</strong>(X,FORMAT) uses the format specifier FORMAT (see SPRINTF for
+    details).
+ 
+    Example:
+        <strong>num2str</strong>(randn(2,2),3) produces a character representation such as
+ 
+        ' 1.44    -0.755'
+        '0.325      1.37'
+ 
+    Example:
+        <strong>num2str</strong>(pi,'%.2f') produces a character representation such as
+ 
+        '3.14'
+ 
+    See also <a href="matlab:help int2str">int2str</a>, <a href="matlab:help sprintf">sprintf</a>, <a href="matlab:help fprintf">fprintf</a>, <a href="matlab:help mat2str">mat2str</a>, <a href="matlab:help string">string</a>.
+
+    <a href="matlab:doc num2str">Documentation for num2str</a>
+    <a href="matlab:matlab.internal.language.introspective.overloads.displayOverloads('num2str')">Other functions named num2str</a>
+
+help mat2str
+ <strong>mat2str</strong> Represent matrix as character vector in MATLAB syntax
+    STR = <strong>mat2str</strong>(MAT) represents the matrix MAT as a character
+    vector so that EVAL(STR) produces the original matrix (to
+    within 15 digits of precision). Conversions of non-scalar matrices 
+    contain brackets [].
+ 
+    STR = <strong>mat2str</strong>(MAT,N) uses N digits of precision.
+ 
+    STR = <strong>mat2str</strong>(MAT, 'class') creates a character vector with the name of 
+    the class of MAT included.  This option ensures that the result of evaluating 
+    STR will also contain the class information.
+ 
+    STR = <strong>mat2str</strong>(MAT, N, 'class') uses N digits of precision and includes
+    the class information.
+ 
+    Example
+        <strong>mat2str</strong>(magic(3)) produces the character vector '[8 1 6; 3 5 7; 4 9 2]'.
+        a = int8(magic(3))
+        <strong>mat2str</strong>(a,'class') produces the character vector
+                   'int8([8 1 6; 3 5 7; 4 9 2])'.
+ 
+    See also <a href="matlab:help num2str">num2str</a>, <a href="matlab:help int2str">int2str</a>, <a href="matlab:help sprintf">sprintf</a>, <a href="matlab:help class">class</a>, <a href="matlab:help eval">eval</a>.
+
+    <a href="matlab:doc mat2str">Documentation for mat2str</a>
+    <a href="matlab:matlab.internal.language.introspective.overloads.displayOverloads('mat2str')">Other functions named mat2str</a>
+
+clear
+vr_xls_yaz_oku
+a
+
+a =
+
+    16     2     3    13
+     5    11    10     8
+     9     7     6    12
+     4    14    15     1
+
+magic(4)
+
+ans =
+
+    16     2     3    13
+     5    11    10     8
+     9     7     6    12
+     4    14    15     1
+
+magic(4)
+
+ans =
+
+    16     2     3    13
+     5    11    10     8
+     9     7     6    12
+     4    14    15     1
+
+magic(5)
+
+ans =
+
+    17    24     1     8    15
+    23     5     7    14    16
+     4     6    13    20    22
+    10    12    19    21     3
+    11    18    25     2     9
+
+magic(5)
+
+ans =
+
+    17    24     1     8    15
+    23     5     7    14    16
+     4     6    13    20    22
+    10    12    19    21     3
+    11    18    25     2     9
+
+help xlsread
+  <strong>xlsread</strong> Read Microsoft Excel spreadsheet file.
+    [NUM,TXT,RAW]=<strong>xlsread</strong>(FILE) reads data from the first worksheet in the Microsoft
+    Excel spreadsheet file named FILE and returns the numeric data in array NUM.
+    Optionally, returns the text fields in cell array TXT, and the unprocessed data
+    (numbers and text) in cell array RAW.
+ 
+    [NUM,TXT,RAW]=<strong>xlsread</strong>(FILE,SHEET) reads the specified worksheet.
+ 
+    [NUM,TXT,RAW]=<strong>xlsread</strong>(FILE,SHEET,RANGE) reads from the specified SHEET and RANGE.
+    Specify RANGE using the syntax 'C1:C2', where C1 and C2 are opposing corners of
+    the region. Not supported for XLS files in BASIC mode.
+ 
+    [NUM,TXT,RAW]=<strong>xlsread</strong>(FILE,SHEET,RANGE,'basic') reads from the spreadsheet in
+    BASIC mode, the default on systems without Excel for Windows. RANGE is supported
+    for XLSX files only.
+ 
+    [NUM,TXT,RAW]=<strong>xlsread</strong>(FILE,RANGE) reads data from the specified RANGE of the
+    first worksheet in the file. Not supported for XLS files in BASIC mode.
+ 
+    The following syntaxes are supported only on Windows systems with Excel software:
+ 
+    [NUM,TXT,RAW]=<strong>xlsread</strong>(FILE,-1) opens an Excel window to select data
+    interactively.
+ 
+    [NUM,TXT,RAW,CUSTOM]=<strong>xlsread</strong>(FILE,SHEET,RANGE,'',FUNCTIONHANDLE) reads from the
+    spreadsheet, executes the function associated with FUNCTIONHANDLE on the data,
+    and returns the final results. Optionally, returns additional CUSTOM output,
+    which is the second output from the function. <strong>xlsread</strong> does not change the data
+    stored in the spreadsheet.
+ 
+    Input Arguments:
+ 
+    FILE    Name of the file to read. SHEET   Worksheet to read. One of the
+            following:
+            * The worksheet name.
+            * Positive, integer-valued scalar indicating the worksheet
+              index.
+ 
+    RANGE   Character vector or string that specifies a rectangular portion of the
+            worksheet to read. Not case sensitive. Use Excel A1 reference style. If 
+            you do not specify a SHEET, RANGE must include both corners and a colon 
+            character (:), even for a single cell (such as 'D2:D2').
+ 
+    'basic' Flag to request reading in BASIC mode, which is the default for
+            systems without Excel for Windows. In BASIC mode, <strong>xlsread</strong>:
+            * Reads XLS, XLSX, XLSM, XLTX, and XLTM files only.
+            * Does not support an xlRange input when reading XLS files.
+              In this case, use '' in place of xlRange.
+            * For XLS files, requires a name to specify the SHEET,
+              and the name is case sensitive.
+            * Does not support function handle inputs.
+            * Imports all dates as Excel serial date numbers. Excel
+              serial date numbers use a different reference date than MATLAB date
+              numbers.
+ 
+    -1      Flag to open an interactive Excel window for selecting data.
+            Select the worksheet, drag and drop the mouse over the range you want,
+            and click OK. Supported only on Windows systems with Excel software.
+ 
+    FUNCTIONHANDLE
+            Handle to your custom function. When <strong>xlsread</strong> calls your function, it
+            passes a range interface from Excel to provide access to the data. Your
+            function must include this interface (of type
+            'Interface.Microsoft_Excel_5.0_Object_Library.Range', for example) both
+            as an input and output argument.
+ 
+    Notes:
+ 
+    * On Windows systems with Excel software, <strong>xlsread</strong> reads any file
+      format recognized by your version of Excel, including XLS, XLSX, XLSB, XLSM,
+      and HTML-based formats.
+ 
+    * If your system does not have Excel for Windows, <strong>xlsread</strong> operates in
+      BASIC mode (see Input Arguments).
+ 
+    * <strong>xlsread</strong> imports formatted dates as character vectors (such as '10/31/96'),
+      except in BASIC mode. In BASIC mode, <strong>xlsread</strong> imports all dates as serial date
+      numbers. Serial date numbers in Excel use different reference dates than date
+      numbers in MATLAB. For information on converting dates, see the documentation
+      on importing spreadsheets.
+ 
+    Examples:
+ 
+    % Create data for use in the examples that follow:
+    values = {1, 2, 3 ; 4, 5, 'x' ; 7, 8, 9};
+    headers = {'First', 'Second', 'Third'};
+    xlswrite('myExample.xls', [headers; values]);
+    moreValues = rand(5);
+    xlswrite('myExample.xls', moreValues, 'MySheet');
+ 
+    % Read data from the first worksheet into a numeric array:
+    A = xlsread('myExample.xls')
+ 
+    % Read a specific range of data:
+    subsetA = xlsread('myExample.xls', 1, 'B2:C3')
+ 
+    % Read from a named worksheet:
+    B = xlsread('myExample.xls', 'MySheet')
+ 
+    % Request the numeric data, text, and a copy of the unprocessed (raw)
+    % data from the first worksheet:
+    [ndata, text, alldata] = xlsread('myExample.xls')
+ 
+    See also <a href="matlab:help xlswrite">xlswrite</a>, <a href="matlab:help xlsfinfo">xlsfinfo</a>, <a href="matlab:help dlmread">dlmread</a>, <a href="matlab:help importdata">importdata</a>, <a href="matlab:help textscan">textscan</a>.
+
+    <a href="matlab:doc xlsread">Documentation for xlsread</a>
+
+b=xlsread('yaz.xlsx')
+
+b =
+
+    16     2     3    13
+     5    11    10     8
+     9     7     6    12
+     4    14    15     1
+   NaN    34   NaN    34
+
+i=isnan(b)
+
+i =
+
+  5×4 <a href="matlab:helpPopup logical" style="font-weight:bold">logical</a> array
+
+   0   0   0   0
+   0   0   0   0
+   0   0   0   0
+   0   0   0   0
+   1   0   1   0
+
+b(i)=0
+
+b =
+
+    16     2     3    13
+     5    11    10     8
+     9     7     6    12
+     4    14    15     1
+     0    34     0    34
+
+b
+
+b =
+
+    16     2     3    13
+     5    11    10     8
+     9     7     6    12
+     4    14    15     1
+     0    34     0    34
+
+i
+
+i =
+
+  5×4 <a href="matlab:helpPopup logical" style="font-weight:bold">logical</a> array
+
+   0   0   0   0
+   0   0   0   0
+   0   0   0   0
+   0   0   0   0
+   1   0   1   0
+
+b=xlsread('yaz.xlsx')
+
+b =
+
+    16     2     3    13
+     5    11    10     8
+     9     7     6    12
+     4    14    15     1
+   NaN    34   NaN    34
+
+pause
+i=isnan(b)
+
+i =
+
+  5×4 <a href="matlab:helpPopup logical" style="font-weight:bold">logical</a> array
+
+   0   0   0   0
+   0   0   0   0
+   0   0   0   0
+   0   0   0   0
+   1   0   1   0
+
+b(i)=0
+
+b =
+
+    16     2     3    13
+     5    11    10     8
+     9     7     6    12
+     4    14    15     1
+     0    34     0    34
+
+vr_xls_yaz_oku
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('xlswrite', 'C:\Program Files\Polyspace\R2020b\toolbox\matlab\iofun\xlswrite.m', 224)" style="font-weight:bold">xlswrite</a> (<a href="matlab: opentoline('C:\Program Files\Polyspace\R2020b\toolbox\matlab\iofun\xlswrite.m',224,0)">line 224</a>)
+The file C:\Users\kou\Documents\MATLAB\gunluk\yaz.xlsx is not writable.  It might be locked by
+another process.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('vr_xls_yaz_oku', 'C:\Users\kou\Documents\MATLAB\gunluk\vr_xls_yaz_oku.m', 4)" style="font-weight:bold">vr_xls_yaz_oku</a> (<a href="matlab: opentoline('C:\Users\kou\Documents\MATLAB\gunluk\vr_xls_yaz_oku.m',4,0)">line 4</a>)
+xlswrite('yaz.xlsx',a)
+} 
+c=xlsread('yaz.xlsx','page','B1:B4')
+
+c =
+
+     2
+    11
+     7
+    14
+
+b
+{Unrecognized function or variable 'b'.
+} 
+b=xlsread('yaz.xlsx')
+
+b =
+
+    16     2     3    13
+     5    11    10     8
+     9     7     6    12
+     4    14    15     1
+   NaN    34   NaN    34
+
+pause
+i=isnan(b)
+
+i =
+
+  5×4 <a href="matlab:helpPopup logical" style="font-weight:bold">logical</a> array
+
+   0   0   0   0
+   0   0   0   0
+   0   0   0   0
+   0   0   0   0
+   1   0   1   0
+
+b(i)=0
+
+b =
+
+    16     2     3    13
+     5    11    10     8
+     9     7     6    12
+     4    14    15     1
+     0    34     0    34
+
+c=xlsread('yaz.xlsx','page','B1:B4')
+
+c =
+
+     2
+    11
+     7
+    14
+
+b
+
+b =
+
+    16     2     3    13
+     5    11    10     8
+     9     7     6    12
+     4    14    15     1
+     0    34     0    34
+
+isim='melih inal'
+
+isim =
+
+    'melih inal'
+
+isim=[isim ; 'Ali Al']
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('vertcat')" style="font-weight:bold">vertcat</a>
+Dimensions of arrays being concatenated are not consistent.
+} 
+isim=[isim ; {'Ali Al'}]
+
+isim =
+
+  2×1 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+    {'melih inal'}
+    {'Ali Al'    }
+
+isim=[isim ; 'Ali Al   ']
+
+isim =
+
+  3×1 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+    {'melih inal'}
+    {'Ali Al'    }
+    {'Ali Al   ' }
+
+veri(1)={rand(4,3)}
+
+veri =
+
+  1×1 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+    {4×3 double}
+
+veri(2)={rand(5,6)}
+
+veri =
+
+  1×2 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+    {4×3 double}    {5×6 double}
+
+!calc
+!excel
+'excel' is not recognized as an internal or external command, 
+operable program or batch file. 
+!excel.exe
+'excel.exe' is not recognized as an internal or external command, 
+operable program or batch file. 
+who
+
+Your variables are:
+
+a     b     c     i     isim  veri  
+
+whos
+  Name      Size            Bytes  Class      Attributes
+
+  a         4x4               128  double               
+  b         5x4               160  double               
+  c         4x1                32  double               
+  i         5x4                20  logical              
+  isim      3x1               362  cell                 
+  veri      1x2               544  cell                 
+

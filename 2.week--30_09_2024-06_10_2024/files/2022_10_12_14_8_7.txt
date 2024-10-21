@@ -1,0 +1,533 @@
+MATLAB OTURUMU BAŞARILI BİR ŞEKİLDE AÇILDI...
+sqrt(-1)
+
+ans =
+
+   0.0000 + 1.0000i
+
+i=5
+
+i =
+
+     5
+
+sqrt(-1)
+
+ans =
+
+   0.0000 + 1.0000i
+
+3+4*j
+
+ans =
+
+   3.0000 + 4.0000i
+
+s=3+4*j
+
+s =
+
+   3.0000 + 4.0000i
+
+s=3+j4
+{Unrecognized function or variable 'j4'.
+} 
+s=3+4j
+
+s =
+
+   3.0000 + 4.0000i
+
+clc
+s
+
+s =
+
+   3.0000 + 4.0000i
+
+rho=abs(s)
+
+rho =
+
+     5
+
+theta=angle(s)
+
+theta =
+
+    0.9273
+
+tan(4/3)
+
+ans =
+
+    4.1317
+
+atan(4/3)
+
+ans =
+
+    0.9273
+
+rho*exp(j*theta)
+
+ans =
+
+   3.0000 + 4.0000i
+
+dir eu*.*
+No matches for pattern 'eu*.*'.
+dir
+
+.                       2022_9_28_13_6_36.txt   fig_02_04.m             
+..                      Ex_02_06.m              fonk.m                  
+2021_9_27_13_22_36.txt  Exp_02_04.m             hi_lo.m                 
+2021_9_27_13_47_20.txt  Exp_02_05.m             pyt.m                   
+2021_9_27_13_51_47.txt  Exp_02_08.m             true_error.m            
+2022_10_12_14_8_7.txt   Exp_02_09.m             veri.mat                
+2022_10_5_19_58_41.txt  F.m                     veritext.txt            
+2022_9_21_14_31_19.txt  IterMeth.m              watch.m                 
+2022_9_21_14_48_44.txt  aprox_error.m           yariyabolme.m           
+2022_9_21_14_49_37.txt  bisection_method.m      
+
+cd ..
+dir eu*.*
+
+euler_terim.m  
+
+edit euler_terim
+euler_terim
+Theta in Radian:0.9273
+Enter # term:5
+
+T =
+
+   0.6000 + 0.8000i
+
+
+T_est =
+
+   0.6009 - 0.7887i
+
+
+se =
+
+   7.2242e-05
+
+
+sonuc =
+
+    '5. terim için karesel hata= 7.2242e-05'
+
+euler_terim
+Theta in Radian:0.92
+Enter # term:10
+
+T =
+
+   0.6058 + 0.7956i
+
+
+T_est =
+
+   0.6058 + 0.7848i
+
+
+se =
+
+   7.2964e-05
+
+
+sonuc =
+
+    '10. terim için karesel hata= 7.2964e-05'
+
+5/0
+
+ans =
+
+   Inf
+
+0/5
+
+ans =
+
+     0
+
+0/0
+
+ans =
+
+   NaN
+
+warn=0/0
+
+warn =
+
+   NaN
+
+isnan(warn)
+
+ans =
+
+  <a href="matlab:helpPopup logical" style="font-weight:bold">logical</a>
+
+   1
+
+help isnan
+ <strong>isnan</strong>  True for Not-a-Number.
+    <strong>isnan</strong>(X) returns an array that contains 1's where
+    the elements of X are NaN's and 0's where they are not.
+    For example, <strong>isnan</strong>([pi NaN Inf -Inf]) is [0 1 0 0].
+ 
+    See also <a href="matlab:help isfinite">isfinite</a>, <a href="matlab:help isinf">isinf</a>, <a href="matlab:help ismissing">ismissing</a>.
+
+    <a href="matlab:doc isnan">Documentation for isnan</a>
+    <a href="matlab:matlab.internal.language.introspective.overloads.displayOverloads('isnan')">Other functions named isnan</a>
+
+help ismissing
+ <strong>ismissing</strong>   Find missing entries
+    First argument must be numeric, datetime, duration, calendarDuration,
+    string, categorical, character array, cell array of character vectors,
+    a table, or a timetable.
+    Standard missing data is defined as:
+       NaN                   - for double and single floating-point arrays
+       NaN                   - for duration and calendarDuration arrays
+       NaT                   - for datetime arrays
+       <missing>             - for string arrays
+       <undefined>           - for categorical arrays
+       blank character [' '] - for character arrays
+       empty character {''}  - for cell arrays of character vectors
+ 
+    IA = <strong>ismissing</strong>(A) returns a logical array IA indicating the standard
+    missing values found in A. IA has the same size as A.
+ 
+    IA = <strong>ismissing</strong>(A,INDICATORS) uses the entries in INDICATORS to specify
+    which entries of A are treated as missing data. Use INDICATORS to find
+    non-standard missing values. If A is an array, INDICATORS must be a
+    vector. If A is a table, INDICATORS can also be a cell with entries of
+    different types.
+ 
+    Double entries in INDICATORS match double, single, integer, and logical
+    entries in A. Single, integer, and logical entries in INDICATORS match
+    single, integer, and logical entries in A, respectively.
+ 
+    String, character, and cell array of character vectors INDICATORS match
+    string entries in A. 
+ 
+    Character, duration, and datetime entries in INDICATORS match
+    character, duration, and datetime entries in A, respectively. 
+ 
+    String and character INDICATORS also match categorical entries in A.
+ 
+    You can include NaN, NaT, the missing string, the empty character '',
+    or '<undefined>' in INDICATORS to also find standard missing values.
+ 
+    Integers cannot store NaN, therefore you must include a special unused
+    integer value in INDICATORS to find missing integer data in A.
+ 
+    Examples:
+ 
+      % IA is TRUE for the entries of A that are NaN
+        A = [NaN 1 2 NaN NaN 3]
+        IA = ismissing(A)
+ 
+      % IA is TRUE for the entries of A that are missing strings
+        A = string({'Mercury','Gemini'}); A(5) = 'Apollo'
+        IA = ismissing(A)
+ 
+      % Find both standard (NaN and <undefined>) and non-standard
+      % (-99 and '--') missing entries in table T.
+      % Use the '' indicator to find the <undefined> categorical entry.
+        temperature = [21.1 21.5 NaN 23.1 25.7 24.1 25.3 NaN 24.1 25.5]';
+        windSpeed = [12.9 13.3 12.1 13.5 10.9 -99 -99 12.2 10.8 17.1]';
+        windDirection = categorical({'W' 'SW' 'SW' '' 'SW' 'S' ...
+                          'S' 'SW' 'SW' 'SW'})';
+        conditions = {'PTCLDY' '--' '--' 'PTCLDY' 'FAIR' 'CLEAR' ...
+                          'CLEAR' 'FAIR' 'PTCLDY' 'MOSUNNY'}';
+        T = table(temperature,windSpeed,windDirection,conditions)
+        IT = ismissing(T,{NaN -99 '' '--'})
+ 
+    See also <a href="matlab:help fillmissing">fillmissing</a>, <a href="matlab:help rmmissing">rmmissing</a>, <a href="matlab:help standardizeMissing">standardizeMissing</a>, <a href="matlab:help isnan">isnan</a>, <a href="matlab:help datetime/isnat">isnat</a>,
+             <a href="matlab:help isoutlier">isoutlier</a>, <a href="matlab:help islocalmax">islocalmax</a>, <a href="matlab:help islocalmin">islocalmin</a>, <a href="matlab:help ischange">ischange</a>
+
+    <a href="matlab:doc ismissing">Documentation for ismissing</a>
+    <a href="matlab:matlab.internal.language.introspective.overloads.displayOverloads('ismissing')">Other functions named ismissing</a>
+
+ A = [NaN 1 2 NaN NaN 3]
+
+A =
+
+   NaN     1     2   NaN   NaN     3
+
+        IA = ismissing(A)
+
+IA =
+
+  1×6 <a href="matlab:helpPopup logical" style="font-weight:bold">logical</a> array
+
+   1   0   0   1   1   0
+
+A(end+1)=Inf
+
+A =
+
+   NaN     1     2   NaN   NaN     3   Inf
+
+IA = ismissing(A)
+
+IA =
+
+  1×7 <a href="matlab:helpPopup logical" style="font-weight:bold">logical</a> array
+
+   1   0   0   1   1   0   0
+
+clc
+edit
+vecrot
+help diff
+ <strong>diff</strong> Difference and approximate derivative.
+    <strong>diff</strong>(X), for a vector X, is [X(2)-X(1)  X(3)-X(2) ... X(n)-X(n-1)].
+    <strong>diff</strong>(X), for a matrix X, is the matrix of row differences,
+       [X(2:n,:) - X(1:n-1,:)].
+    <strong>diff</strong>(X), for an N-D array X, is the difference along the first
+       non-singleton dimension of X.
+    <strong>diff</strong>(X,N) is the N-th order difference along the first non-singleton 
+       dimension (denote it by DIM). If N >= size(X,DIM), <strong>diff</strong> takes 
+       successive differences along the next non-singleton dimension.
+    <strong>diff</strong>(X,N,DIM) is the Nth difference function along dimension DIM. 
+       If N >= size(X,DIM), <strong>diff</strong> returns an empty array.
+ 
+    Examples:
+       h = .001; x = 0:h:pi;
+       diff(sin(x.^2))/h is an approximation to 2*cos(x.^2).*x
+       diff((1:10).^2) is 3:2:19
+ 
+       If X = [3 7 5
+               0 9 2]
+       then diff(X,1,1) is [-3 2 -3], diff(X,1,2) is [4 -2
+                                                      9 -7],
+       diff(X,2,2) is the 2nd order difference along the dimension 2, and
+       diff(X,3,2) is the empty matrix.
+ 
+    See also <a href="matlab:help gradient">gradient</a>, <a href="matlab:help sum">sum</a>, <a href="matlab:help prod">prod</a>.
+
+    <a href="matlab:doc diff">Documentation for diff</a>
+    <a href="matlab:matlab.internal.language.introspective.overloads.displayOverloads('diff')">Other functions named diff</a>
+
+help int
+--- help for <strong>filtstates.int</strong> ---
+
+ <strong>int</strong>   Convert a FILTSTATES.CIC object to an integer matrix.
+    <strong>int</strong>(Hs) returns an signed integer matrix for the FILTSTATES.CIC
+    object.
+ 
+    EXAMPLE:
+    Hm = mfilt.cicdecim;
+    hs = Hm.states; % Returns a FILTSTATES.CIC object
+    states = int(hs); % Convert object to a signed integer matrix.
+ 
+    See also <a href="matlab:help filtstates.cic">filtstates.cic</a>.
+
+    <a href="matlab:matlab.internal.language.introspective.overloads.displayOverloads('filtstates.int')">Other functions named int</a>
+
+lookfor integral
+<a href="matlab:help dblquad">dblquad</a>                        - Numerically evaluate double integral over a rectangle.
+<a href="matlab:help integral">integral</a>                       - Numerically evaluate integral.
+<a href="matlab:help integral2">integral2</a>                      - Numerically evaluate double integral.
+<a href="matlab:help integral3">integral3</a>                      - Numerically evaluate triple integral.
+<a href="matlab:help quad">quad</a>                           - Numerically evaluate integral, adaptive Simpson quadrature.
+<a href="matlab:help quad2d">quad2d</a>                         - Numerically evaluate double integral over a planar region.
+<a href="matlab:help quadgk">quadgk</a>                         - Numerically evaluate integral, adaptive Gauss-Kronrod quadrature.
+<a href="matlab:help quadl">quadl</a>                          - Numerically evaluate integral, adaptive Lobatto quadrature.
+<a href="matlab:help triplequad">triplequad</a>                     - Numerically evaluate triple integral.
+<a href="matlab:help integral2Calc">integral2Calc</a>                  - Perform INTEGRAL2 calculation
+<a href="matlab:help integral2ParseArgs">integral2ParseArgs</a>             - Parse optional inputs to INTEGRAL2.
+<a href="matlab:help integralCalc">integralCalc</a>                   - Perform INTEGRAL calculation.
+<a href="matlab:help integralParseArgs">integralParseArgs</a>              - Parse optional arguments to INTEGRAL.
+<a href="matlab:help ellipke">ellipke</a>                        - Complete elliptic integral.
+<a href="matlab:help expint">expint</a>                         - Exponential integral function.
+help integral
+ <strong>integral</strong>  Numerically evaluate integral.
+    Q = <strong>integral</strong>(FUN,A,B) approximates the integral of function FUN from A
+    to B using global adaptive quadrature and default error tolerances.
+ 
+    FUN must be a function handle. A and B can be -Inf or Inf. If both are
+    finite, they can be complex. If at least one is complex, <strong>integral</strong>
+    approximates the path integral from A to B over a straight line path.
+ 
+    For scalar-valued problems the function Y = FUN(X) must accept a vector
+    argument X and return a vector result Y, the integrand function
+    evaluated at each element of X. For array-valued problems (see the
+    'ArrayValued' option below) FUN must accept a scalar and return an
+    array of values.
+ 
+    Q = <strong>integral</strong>(FUN,A,B,PARAM1,VAL1,PARAM2,VAL2,...) performs the
+    integration with specified values of optional parameters. The available
+    parameters are
+ 
+    'AbsTol', absolute error tolerance
+    'RelTol', relative error tolerance
+ 
+        <strong>integral</strong> attempts to satisfy |Q - I| <= max(AbsTol,RelTol*|Q|),
+        where I denotes the exact value of the integral. Usually RelTol
+        determines the accuracy of the integration. However, if |Q| is
+        sufficiently small, AbsTol determines the accuracy of the
+        integration, instead. The default value of AbsTol is 1.e-10, and
+        the default value of RelTol is 1.e-6. Single precision integrations
+        may require larger tolerances.
+ 
+    'ArrayValued', FUN is an array-valued function when the input is scalar
+ 
+        When 'ArrayValued' is true, FUN is only called with scalar X, and
+        if FUN returns an array, <strong>integral</strong> computes a corresponding array of
+        outputs Q. The default value is false.
+ 
+    'Waypoints', vector of integration waypoints
+ 
+        If FUN(X) has discontinuities in the interval of integration, the
+        locations should be supplied as a 'Waypoints' vector. Waypoints
+        should not be used for singularities in FUN(X). Instead, split the
+        interval and add the results from separate integrations with
+        singularities at the endpoints. If A, B, or any entry of the
+        waypoints vector is complex, the integration is performed over a
+        sequence of straight line paths in the complex plane, from A to the
+        first waypoint, from the first waypoint to the second, and so
+        forth, and finally from the last waypoint to B.
+ 
+    Examples:
+        % Integrate f(x) = exp(-x^2)*log(x)^2 from 0 to infinity:
+        f = @(x) exp(-x.^2).*log(x).^2
+        Q = integral(f,0,Inf)
+ 
+        % To use a parameter in the integrand:
+        f = @(x,c) 1./(x.^3-2*x-c)
+        Q = integral(@(x)f(x,5),0,2)
+ 
+        % Specify tolerances:
+        Q = integral(@(x)log(x),0,1,'AbsTol',1e-6,'RelTol',1e-3)
+ 
+        % Integrate f(z) = 1/(2z-1) in the complex plane over the
+        % triangular path from 0 to 1+1i to 1-1i to 0:
+        Q = integral(@(z)1./(2*z-1),0,0,'Waypoints',[1+1i,1-1i])
+ 
+        % Integrate the vector-valued function sin((1:5)*x) from 0 to 1:
+        Q = integral(@(x)sin((1:5)*x),0,1,'ArrayValued',true)
+ 
+    Class support for inputs A, B, and the output of FUN:
+       float: double, single
+ 
+    See also <a href="matlab:help integral2">integral2</a>, <a href="matlab:help integral3">integral3</a>, <a href="matlab:help function_handle">function_handle</a>
+
+    <a href="matlab:doc integral">Documentation for integral</a>
+
+edit
+fig_04_15
+help bode
+ <strong>bode</strong>  Bode frequency response of dynamic systems.
+ 
+    <strong>bode</strong>(SYS) draws the Bode plot of the dynamic system SYS. The frequency 
+    range and number of points are chosen automatically.
+ 
+    <strong>bode</strong>(SYS,{WMIN,WMAX}) draws the Bode plot for frequencies between WMIN 
+    and WMAX in radians/TimeUnit (relative to the time units specified in 
+    SYS.TimeUnit, the default being seconds).
+ 
+    <strong>bode</strong>(SYS,W) uses the vector W of frequencies (in radians/TimeUnit) to
+    evaluate the frequency response. See LOGSPACE to generate logarithmically 
+    spaced frequency vectors.
+ 
+    <strong>bode</strong>(SYS1,SYS2,...,W) graphs the Bode response of several systems
+    SYS1,SYS2,... on a single plot. The frequency vector W is optional. 
+    You can specify a color, line style, and marker for each model, for
+    example:
+       bode(sys1,'r',sys2,'y--',sys3,'gx').
+ 
+    [MAG,PHASE] = <strong>bode</strong>(SYS,W) and [MAG,PHASE,W] = <strong>bode</strong>(SYS) return the
+    response magnitudes and phases in degrees (along with the frequency 
+    vector W if unspecified).  No plot is drawn on the screen.  
+    If SYS has NY outputs and NU inputs, MAG and PHASE are arrays of 
+    size [NY NU LENGTH(W)] where MAG(:,:,k) and PHASE(:,:,k) determine 
+    the response at the frequency W(k). To get the magnitudes in dB, 
+    type MAGDB = 20*log10(MAG). The frequencies W are in rad/TimeUnit.
+ 
+    [MAG,PHASE,W,SDMAG,SDPHASE] = <strong>bode</strong>(SYS) also returns the estimated
+    standard deviations of the magnitude and phase of the identified system
+    SYS.
+ 
+    For discrete-time models with sample time Ts, <strong>bode</strong> uses the
+    transformation Z = exp(j*W*Ts) to map the unit circle to the real 
+    frequency axis.  The frequency response is only plotted for 
+    frequencies smaller than the Nyquist frequency pi/Ts, and the default 
+    value 1 (time unit) is assumed when Ts is unspecified.
+ 
+    See BODEPLOT for additional graphical options for Bode plots.
+ 
+    See also <a href="matlab:help DynamicSystem/bodeplot">DynamicSystem/bodeplot</a>, <a href="matlab:help DynamicSystem/bodemag">bodemag</a>, <a href="matlab:help nichols">nichols</a>, <a href="matlab:help nyquist">nyquist</a>, <a href="matlab:help sigma">sigma</a>, 
+    <a href="matlab:help freqresp">freqresp</a>, <a href="matlab:help ltiview">ltiview</a>, <a href="matlab:help DynamicSystem">DynamicSystem</a>, <a href="matlab:help idmodel">idmodel</a>.
+
+    <a href="matlab:doc bode">Documentation for bode</a>
+    <a href="matlab:matlab.internal.language.introspective.overloads.displayOverloads('bode')">Other functions named bode</a>
+
+clc
+help loglog
+ <strong>loglog</strong> Log-log scale plot.
+    <strong>loglog</strong>(...) is the same as PLOT(...), except logarithmic
+    scales are used for both the X- and Y- axes.
+ 
+    See also <a href="matlab:help plot">plot</a>, <a href="matlab:help semilogx">semilogx</a>, <a href="matlab:help semilogy">semilogy</a>.
+
+    <a href="matlab:doc loglog">Documentation for loglog</a>
+    <a href="matlab:matlab.internal.language.introspective.overloads.displayOverloads('loglog')">Other functions named loglog</a>
+
+10^(-6)
+
+ans =
+
+   1.0000e-06
+
+1*e-6
+{Unrecognized function or variable 'e'.
+} 
+10^-6
+
+ans =
+
+   1.0000e-06
+
+edit
+Ex_04_06
+
+T =
+
+  -1.5000 + 0.9000i
+
+
+true_speed =
+
+    1.7493
+
+
+deviation =
+
+  149.0362
+
+V
+
+V =
+
+   0.0000 + 0.9000i
+
+S
+
+S =
+
+  -1.5000 + 0.0000i
+
+T
+
+T =
+
+  -1.5000 + 0.9000i
+
+exit

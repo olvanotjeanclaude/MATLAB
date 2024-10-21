@@ -1,0 +1,968 @@
+MATLAB OTURUMU BAÞARILI BÝR ÞEKÝLDE AÇILDI...
+
+	Academic License
+
+clc
+p = [ 1 -3 -6  8];
+x = -3 : 0.1 : 5
+
+x =
+
+  Columns 1 through 7
+
+   -3.0000   -2.9000   -2.8000   -2.7000   -2.6000   -2.5000   -2.4000
+
+  Columns 8 through 14
+
+   -2.3000   -2.2000   -2.1000   -2.0000   -1.9000   -1.8000   -1.7000
+
+  Columns 15 through 21
+
+   -1.6000   -1.5000   -1.4000   -1.3000   -1.2000   -1.1000   -1.0000
+
+  Columns 22 through 28
+
+   -0.9000   -0.8000   -0.7000   -0.6000   -0.5000   -0.4000   -0.3000
+
+  Columns 29 through 35
+
+   -0.2000   -0.1000         0    0.1000    0.2000    0.3000    0.4000
+
+  Columns 36 through 42
+
+    0.5000    0.6000    0.7000    0.8000    0.9000    1.0000    1.1000
+
+  Columns 43 through 49
+
+    1.2000    1.3000    1.4000    1.5000    1.6000    1.7000    1.8000
+
+  Columns 50 through 56
+
+    1.9000    2.0000    2.1000    2.2000    2.3000    2.4000    2.5000
+
+  Columns 57 through 63
+
+    2.6000    2.7000    2.8000    2.9000    3.0000    3.1000    3.2000
+
+  Columns 64 through 70
+
+    3.3000    3.4000    3.5000    3.6000    3.7000    3.8000    3.9000
+
+  Columns 71 through 77
+
+    4.0000    4.1000    4.2000    4.3000    4.4000    4.5000    4.6000
+
+  Columns 78 through 81
+
+    4.7000    4.8000    4.9000    5.0000
+
+clc
+y=polyval(p,x)
+
+y =
+
+  Columns 1 through 7
+
+  -28.0000  -24.2190  -20.6720  -17.3530  -14.2560  -11.3750   -8.7040
+
+  Columns 8 through 14
+
+   -6.2370   -3.9680   -1.8910         0    1.7110    3.2480    4.6170
+
+  Columns 15 through 21
+
+    5.8240    6.8750    7.7760    8.5330    9.1520    9.6390   10.0000
+
+  Columns 22 through 28
+
+   10.2410   10.3680   10.3870   10.3040   10.1250    9.8560    9.5030
+
+  Columns 29 through 35
+
+    9.0720    8.5690    8.0000    7.3710    6.6880    5.9570    5.1840
+
+  Columns 36 through 42
+
+    4.3750    3.5360    2.6730    1.7920    0.8990         0   -0.8990
+
+  Columns 43 through 49
+
+   -1.7920   -2.6730   -3.5360   -4.3750   -5.1840   -5.9570   -6.6880
+
+  Columns 50 through 56
+
+   -7.3710   -8.0000   -8.5690   -9.0720   -9.5030   -9.8560  -10.1250
+
+  Columns 57 through 63
+
+  -10.3040  -10.3870  -10.3680  -10.2410  -10.0000   -9.6390   -9.1520
+
+  Columns 64 through 70
+
+   -8.5330   -7.7760   -6.8750   -5.8240   -4.6170   -3.2480   -1.7110
+
+  Columns 71 through 77
+
+         0    1.8910    3.9680    6.2370    8.7040   11.3750   14.2560
+
+  Columns 78 through 81
+
+   17.3530   20.6720   24.2190   28.0000
+
+clc
+p = [ 1 -3 -6  8]
+
+p =
+
+     1    -3    -6     8
+
+x = -3 : 0.1 : 5
+
+x =
+
+  Columns 1 through 7
+
+   -3.0000   -2.9000   -2.8000   -2.7000   -2.6000   -2.5000   -2.4000
+
+  Columns 8 through 14
+
+   -2.3000   -2.2000   -2.1000   -2.0000   -1.9000   -1.8000   -1.7000
+
+  Columns 15 through 21
+
+   -1.6000   -1.5000   -1.4000   -1.3000   -1.2000   -1.1000   -1.0000
+
+  Columns 22 through 28
+
+   -0.9000   -0.8000   -0.7000   -0.6000   -0.5000   -0.4000   -0.3000
+
+  Columns 29 through 35
+
+   -0.2000   -0.1000         0    0.1000    0.2000    0.3000    0.4000
+
+  Columns 36 through 42
+
+    0.5000    0.6000    0.7000    0.8000    0.9000    1.0000    1.1000
+
+  Columns 43 through 49
+
+    1.2000    1.3000    1.4000    1.5000    1.6000    1.7000    1.8000
+
+  Columns 50 through 56
+
+    1.9000    2.0000    2.1000    2.2000    2.3000    2.4000    2.5000
+
+  Columns 57 through 63
+
+    2.6000    2.7000    2.8000    2.9000    3.0000    3.1000    3.2000
+
+  Columns 64 through 70
+
+    3.3000    3.4000    3.5000    3.6000    3.7000    3.8000    3.9000
+
+  Columns 71 through 77
+
+    4.0000    4.1000    4.2000    4.3000    4.4000    4.5000    4.6000
+
+  Columns 78 through 81
+
+    4.7000    4.8000    4.9000    5.0000
+
+y=polyval(p,x)
+
+y =
+
+  Columns 1 through 7
+
+  -28.0000  -24.2190  -20.6720  -17.3530  -14.2560  -11.3750   -8.7040
+
+  Columns 8 through 14
+
+   -6.2370   -3.9680   -1.8910         0    1.7110    3.2480    4.6170
+
+  Columns 15 through 21
+
+    5.8240    6.8750    7.7760    8.5330    9.1520    9.6390   10.0000
+
+  Columns 22 through 28
+
+   10.2410   10.3680   10.3870   10.3040   10.1250    9.8560    9.5030
+
+  Columns 29 through 35
+
+    9.0720    8.5690    8.0000    7.3710    6.6880    5.9570    5.1840
+
+  Columns 36 through 42
+
+    4.3750    3.5360    2.6730    1.7920    0.8990         0   -0.8990
+
+  Columns 43 through 49
+
+   -1.7920   -2.6730   -3.5360   -4.3750   -5.1840   -5.9570   -6.6880
+
+  Columns 50 through 56
+
+   -7.3710   -8.0000   -8.5690   -9.0720   -9.5030   -9.8560  -10.1250
+
+  Columns 57 through 63
+
+  -10.3040  -10.3870  -10.3680  -10.2410  -10.0000   -9.6390   -9.1520
+
+  Columns 64 through 70
+
+   -8.5330   -7.7760   -6.8750   -5.8240   -4.6170   -3.2480   -1.7110
+
+  Columns 71 through 77
+
+         0    1.8910    3.9680    6.2370    8.7040   11.3750   14.2560
+
+  Columns 78 through 81
+
+   17.3530   20.6720   24.2190   28.0000
+
+ plot (x , y)
+grid
+title('Plot of y = x^3 - 3x^2 - 6x + 8 z_/alpha')
+title('Plot of y = x^3 - 3x^2 - 6x + 8)
+ title('Plot of y = x^3 - 3x^2 - 6x + 8)
+       
+{Error: String is not terminated properly.
+} 
+title('Plot of y = x^3 - 3x^2 - 6x + 8')
+xlabel('x')
+ylabel('y')
+ylabel('y_alpha')
+ylabel('y_(/alpha)')
+ylabel('/alpha')
+ylabel('\alpha')
+ylabel('y_\alpha')
+clc
+ylabel(\beta_\gamma)
+ ylabel(\beta_\gamma)
+        
+{Error: Unexpected MATLAB operator.
+} 
+ylabel('\beta_\gamma')
+clc
+ylabel('\beta_\gamma^\theta')
+clc
+p1=[2 3 1];
+p2=[5 -2];
+p3=conv(p1 ,p2)
+
+p3 =
+
+    10    11    -1    -2
+
+[Q,R]=deconv(p3,p1)
+
+Q =
+
+     5    -2
+
+
+R =
+
+     0     0     0     0
+
+[Q,R]=deconv(p3,p2)
+
+Q =
+
+    2.0000    3.0000    1.0000
+
+
+R =
+
+   1.0e-15 *
+
+         0         0         0    0.5551
+
+p1
+
+p1 =
+
+     2     3     1
+
+eps
+
+ans =
+
+   2.2204e-16
+
+1-.2-.2-.2-.2-.2
+
+ans =
+
+   5.5511e-17
+
+1-0.2-.2-.2-.2-.2
+
+ans =
+
+   5.5511e-17
+
+eps
+
+ans =
+
+   2.2204e-16
+
+realmin
+
+ans =
+
+  2.2251e-308
+
+R
+
+R =
+
+   1.0e-15 *
+
+         0         0         0    0.5551
+
+clc
+p1
+
+p1 =
+
+     2     3     1
+
+p3
+
+p3 =
+
+    10    11    -1    -2
+
+p4=[10 11 2 0]
+
+p4 =
+
+    10    11     2     0
+
+[Q,R]=deconv(p4,p1)
+
+Q =
+
+     5    -2
+
+
+R =
+
+     0     0     3     2
+
+p2
+
+p2 =
+
+     5    -2
+
+clc
+dir divide.m
+'divide.m' not found.
+dir divide
+'divide' not found.
+dir bol
+'bol' not found.
+dir bol.m
+'bol.m' not found.
+dir
+
+.                              mannequin.mat                  
+..                             mccExcludedFiles.log           
+A_s1.m                         midterm_a3_bisection.m         
+B_s1.m                         midterm_b2_newton_rap.m        
+COVID                          midterm_b3_false_pos.m         
+Flur                           muller.m                       
+Gseid.m                        muller_excuse.m                
+Hilal                          muller_final_1A.m              
+KNEA                           muller_final_1B.m              
+Sule_Sirin                     np                             
+ZSKOR                          ortalama.exe                   
+butA1.m                        ortalama.m                     
+butA2.m                        ortalama.prj                   
+butB1.m                        ortalama_delay_load.c          
+butB2.m                        ortalama_main.c                
+deneme.xlsx                    ortalama_mcc_component_data.c  
+df.txt                         power_final_2A.m               
+diary                          readme.txt                     
+exp_final_2B.m                 secant_excuse.m                
+final_3A.m                     senol_sahin                    
+final_3B.m                     startup.m                      
+flightconnectionsatahubEx.m    thickness_of_scab.m            
+gunluk                         veri_creep.xlsx                
+haykin                         
+
+clc
+help divide
+ <strong>divide</strong>(X, Y) integer division of x by y.
+        The operation is carried on by subtracting
+        y from x, until x < y.
+        [ q, r ] = divide(x, y) yields the quotient q and
+        the remainder r.
+
+clc
+divide(10,3)
+
+ans =
+
+     3
+
+[bolum,kalan]=divide(10,3)
+
+bolum =
+
+     3
+
+
+kalan =
+
+     1
+
+[bolum,kalan]=divide(10,0)
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('divide', 'C:\Users\minal\Documents\MATLAB\gunluk\divide.m', 16)" style="font-weight:bold">divide</a> (<a href="matlab: opentoline('C:\Users\minal\Documents\MATLAB\gunluk\divide.m',16,0)">line 16</a>)
+Division by zero
+} 
+[bolum,kalan]=divide(-10,3)
+
+bolum =
+
+    -3
+
+
+kalan =
+
+    -1
+
+[bolum,kalan]=divide(-0,3)
+
+bolum =
+
+     0
+
+
+kalan =
+
+     0
+
+[bolum,kalan]=divide(-0,3)
+
+bolum =
+
+     0
+
+
+kalan =
+
+     0
+
+[bolum,kalan]=divide(-1,3)
+
+bolum =
+
+     0
+
+
+kalan =
+
+    -1
+
+clc
+function [ q, r ] = divide(x, y)
+ function [ q, r ] = divide(x, y)
+ 
+{Error: Function definitions are not permitted in this context.
+} 
+end
+ end
+ 
+{Error: Illegal use of reserved keyword "end".
+} 
+clc
+edit sinh
+edit factorial
+sin(30)
+
+ans =
+
+   -0.9880
+
+sin(30*pi/180)
+
+ans =
+
+    0.5000
+
+sind(30)
+
+ans =
+
+    0.5000
+
+clc
+help fplot
+ <strong>fplot</strong>   Plot function
+    <strong>fplot</strong>(FUN,LIMS) plots the function FUN between the x-axis limits
+    specified by LIMS = [XMIN XMAX]. Using LIMS = [XMIN XMAX YMIN YMAX]
+    also controls the y-axis limits. FUN(x) must return a row vector for
+    each element of vector x. For example, if FUN returns
+    [f1(x),f2(x),f3(x)] then for input [x1;x2] FUN should return
+ 
+       [f1(x1) f2(x1) f3(x1);
+        f1(x2) f2(x2) f3(x2)]
+ 
+    <strong>fplot</strong>(FUN,LIMS,TOL) with TOL < 1 specifies the relative error
+    tolerance. The default TOL is 2e-3, i.e. 0.2 percent accuracy.
+ 
+    <strong>fplot</strong>(FUN,LIMS,N) with N >= 1 plots the function with a minimum of N+1
+    points. The default N is 1. The maximum step size is restricted to be
+    (1/N)*(XMAX-XMIN).
+ 
+    <strong>fplot</strong>(FUN,LIMS,'LineSpec') plots with the given line specification.
+ 
+    <strong>fplot</strong>(FUN,LIMS,...) accepts combinations of the optional arguments
+    TOL, N, and 'LineSpec', in any order.
+    
+    [X,Y] = <strong>fplot</strong>(FUN,LIMS,...) returns X and Y such that Y = FUN(X). No
+    plot is drawn on the screen.
+ 
+    <strong>fplot</strong>(AX,...) plots into AX instead of GCA.
+ 
+    Examples:
+        fplot(@humps,[0 1])
+        fplot(@(x)[tan(x),sin(x),cos(x)], 2*pi*[-1 1 -1 1])
+        fplot(@(x) sin(1./x), [0.01 0.1], 1e-3)
+        f = @(x,n)abs(exp(-1j*x*(0:n-1))*ones(n,1));
+        fplot(@(x)f(x,10),[0 2*pi])
+ 
+    See also <a href="matlab:help plot">plot</a>, <a href="matlab:help ezplot">ezplot</a>, <a href="matlab:help function_handle">function_handle</a>.
+
+    <a href="matlab:doc fplot">Reference page for fplot</a>
+
+clc
+F(1)
+{Error: <a href="matlab: opentoline('C:\Users\minal\Documents\MATLAB\gunluk\F.m',5,5)">File: F.m Line: 5 Column: 5
+</a>Unexpected MATLAB expression.
+} 
+y=F(1)
+
+y =
+
+     5
+
+y=F([1 3 5])
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('mpower')" style="font-weight:bold"> ^ </a>
+Inputs must be a scalar and a square matrix.
+To compute elementwise POWER, use POWER (.^) instead.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('F', 'C:\Users\minal\Documents\MATLAB\gunluk\F.m', 5)" style="font-weight:bold">F</a> (<a href="matlab: opentoline('C:\Users\minal\Documents\MATLAB\gunluk\F.m',5,0)">line 5</a>)
+y=3.*x^2+5.*x-3;
+} 
+y=F([1 3 5])
+
+y =
+
+     5    39    97
+
+y=F([-3:.1:5])
+
+y =
+
+  Columns 1 through 7
+
+    9.0000    7.7300    6.5200    5.3700    4.2800    3.2500    2.2800
+
+  Columns 8 through 14
+
+    1.3700    0.5200   -0.2700   -1.0000   -1.6700   -2.2800   -2.8300
+
+  Columns 15 through 21
+
+   -3.3200   -3.7500   -4.1200   -4.4300   -4.6800   -4.8700   -5.0000
+
+  Columns 22 through 28
+
+   -5.0700   -5.0800   -5.0300   -4.9200   -4.7500   -4.5200   -4.2300
+
+  Columns 29 through 35
+
+   -3.8800   -3.4700   -3.0000   -2.4700   -1.8800   -1.2300   -0.5200
+
+  Columns 36 through 42
+
+    0.2500    1.0800    1.9700    2.9200    3.9300    5.0000    6.1300
+
+  Columns 43 through 49
+
+    7.3200    8.5700    9.8800   11.2500   12.6800   14.1700   15.7200
+
+  Columns 50 through 56
+
+   17.3300   19.0000   20.7300   22.5200   24.3700   26.2800   28.2500
+
+  Columns 57 through 63
+
+   30.2800   32.3700   34.5200   36.7300   39.0000   41.3300   43.7200
+
+  Columns 64 through 70
+
+   46.1700   48.6800   51.2500   53.8800   56.5700   59.3200   62.1300
+
+  Columns 71 through 77
+
+   65.0000   67.9300   70.9200   73.9700   77.0800   80.2500   83.4800
+
+  Columns 78 through 81
+
+   86.7700   90.1200   93.5300   97.0000
+
+clc
+fplot('F',[-3:.1:5])
+help fplot
+ <strong>fplot</strong>   Plot function
+    <strong>fplot</strong>(FUN,LIMS) plots the function FUN between the x-axis limits
+    specified by LIMS = [XMIN XMAX]. Using LIMS = [XMIN XMAX YMIN YMAX]
+    also controls the y-axis limits. FUN(x) must return a row vector for
+    each element of vector x. For example, if FUN returns
+    [f1(x),f2(x),f3(x)] then for input [x1;x2] FUN should return
+ 
+       [f1(x1) f2(x1) f3(x1);
+        f1(x2) f2(x2) f3(x2)]
+ 
+    <strong>fplot</strong>(FUN,LIMS,TOL) with TOL < 1 specifies the relative error
+    tolerance. The default TOL is 2e-3, i.e. 0.2 percent accuracy.
+ 
+    <strong>fplot</strong>(FUN,LIMS,N) with N >= 1 plots the function with a minimum of N+1
+    points. The default N is 1. The maximum step size is restricted to be
+    (1/N)*(XMAX-XMIN).
+ 
+    <strong>fplot</strong>(FUN,LIMS,'LineSpec') plots with the given line specification.
+ 
+    <strong>fplot</strong>(FUN,LIMS,...) accepts combinations of the optional arguments
+    TOL, N, and 'LineSpec', in any order.
+    
+    [X,Y] = <strong>fplot</strong>(FUN,LIMS,...) returns X and Y such that Y = FUN(X). No
+    plot is drawn on the screen.
+ 
+    <strong>fplot</strong>(AX,...) plots into AX instead of GCA.
+ 
+    Examples:
+        fplot(@humps,[0 1])
+        fplot(@(x)[tan(x),sin(x),cos(x)], 2*pi*[-1 1 -1 1])
+        fplot(@(x) sin(1./x), [0.01 0.1], 1e-3)
+        f = @(x,n)abs(exp(-1j*x*(0:n-1))*ones(n,1));
+        fplot(@(x)f(x,10),[0 2*pi])
+ 
+    See also <a href="matlab:help plot">plot</a>, <a href="matlab:help ezplot">ezplot</a>, <a href="matlab:help function_handle">function_handle</a>.
+
+    <a href="matlab:doc fplot">Reference page for fplot</a>
+
+fplot('F',[-3 5])
+grid
+fplot(@(x)[tan(x),sin(x),cos(x)], 2*pi*[-1 1 -1 1])
+HF=@F
+
+HF = 
+
+    @F
+
+fplot(HF,[-3 5])
+feval(HF,[-3:.1:5])
+
+ans =
+
+  Columns 1 through 7
+
+    9.0000    7.7300    6.5200    5.3700    4.2800    3.2500    2.2800
+
+  Columns 8 through 14
+
+    1.3700    0.5200   -0.2700   -1.0000   -1.6700   -2.2800   -2.8300
+
+  Columns 15 through 21
+
+   -3.3200   -3.7500   -4.1200   -4.4300   -4.6800   -4.8700   -5.0000
+
+  Columns 22 through 28
+
+   -5.0700   -5.0800   -5.0300   -4.9200   -4.7500   -4.5200   -4.2300
+
+  Columns 29 through 35
+
+   -3.8800   -3.4700   -3.0000   -2.4700   -1.8800   -1.2300   -0.5200
+
+  Columns 36 through 42
+
+    0.2500    1.0800    1.9700    2.9200    3.9300    5.0000    6.1300
+
+  Columns 43 through 49
+
+    7.3200    8.5700    9.8800   11.2500   12.6800   14.1700   15.7200
+
+  Columns 50 through 56
+
+   17.3300   19.0000   20.7300   22.5200   24.3700   26.2800   28.2500
+
+  Columns 57 through 63
+
+   30.2800   32.3700   34.5200   36.7300   39.0000   41.3300   43.7200
+
+  Columns 64 through 70
+
+   46.1700   48.6800   51.2500   53.8800   56.5700   59.3200   62.1300
+
+  Columns 71 through 77
+
+   65.0000   67.9300   70.9200   73.9700   77.0800   80.2500   83.4800
+
+  Columns 78 through 81
+
+   86.7700   90.1200   93.5300   97.0000
+
+y=feval(HF,[-3:.1:5])
+
+y =
+
+  Columns 1 through 7
+
+    9.0000    7.7300    6.5200    5.3700    4.2800    3.2500    2.2800
+
+  Columns 8 through 14
+
+    1.3700    0.5200   -0.2700   -1.0000   -1.6700   -2.2800   -2.8300
+
+  Columns 15 through 21
+
+   -3.3200   -3.7500   -4.1200   -4.4300   -4.6800   -4.8700   -5.0000
+
+  Columns 22 through 28
+
+   -5.0700   -5.0800   -5.0300   -4.9200   -4.7500   -4.5200   -4.2300
+
+  Columns 29 through 35
+
+   -3.8800   -3.4700   -3.0000   -2.4700   -1.8800   -1.2300   -0.5200
+
+  Columns 36 through 42
+
+    0.2500    1.0800    1.9700    2.9200    3.9300    5.0000    6.1300
+
+  Columns 43 through 49
+
+    7.3200    8.5700    9.8800   11.2500   12.6800   14.1700   15.7200
+
+  Columns 50 through 56
+
+   17.3300   19.0000   20.7300   22.5200   24.3700   26.2800   28.2500
+
+  Columns 57 through 63
+
+   30.2800   32.3700   34.5200   36.7300   39.0000   41.3300   43.7200
+
+  Columns 64 through 70
+
+   46.1700   48.6800   51.2500   53.8800   56.5700   59.3200   62.1300
+
+  Columns 71 through 77
+
+   65.0000   67.9300   70.9200   73.9700   77.0800   80.2500   83.4800
+
+  Columns 78 through 81
+
+   86.7700   90.1200   93.5300   97.0000
+
+clc
+y=feval('F',[-3:.1:5])
+
+y =
+
+  Columns 1 through 7
+
+    9.0000    7.7300    6.5200    5.3700    4.2800    3.2500    2.2800
+
+  Columns 8 through 14
+
+    1.3700    0.5200   -0.2700   -1.0000   -1.6700   -2.2800   -2.8300
+
+  Columns 15 through 21
+
+   -3.3200   -3.7500   -4.1200   -4.4300   -4.6800   -4.8700   -5.0000
+
+  Columns 22 through 28
+
+   -5.0700   -5.0800   -5.0300   -4.9200   -4.7500   -4.5200   -4.2300
+
+  Columns 29 through 35
+
+   -3.8800   -3.4700   -3.0000   -2.4700   -1.8800   -1.2300   -0.5200
+
+  Columns 36 through 42
+
+    0.2500    1.0800    1.9700    2.9200    3.9300    5.0000    6.1300
+
+  Columns 43 through 49
+
+    7.3200    8.5700    9.8800   11.2500   12.6800   14.1700   15.7200
+
+  Columns 50 through 56
+
+   17.3300   19.0000   20.7300   22.5200   24.3700   26.2800   28.2500
+
+  Columns 57 through 63
+
+   30.2800   32.3700   34.5200   36.7300   39.0000   41.3300   43.7200
+
+  Columns 64 through 70
+
+   46.1700   48.6800   51.2500   53.8800   56.5700   59.3200   62.1300
+
+  Columns 71 through 77
+
+   65.0000   67.9300   70.9200   73.9700   77.0800   80.2500   83.4800
+
+  Columns 78 through 81
+
+   86.7700   90.1200   93.5300   97.0000
+
+clc
+f = inline('3*sin(2*x.^2)') 
+
+f =
+
+     Inline function:
+     f(x) = 3*sin(2*x.^2)
+
+fonk = inline('3*sin(2*x.^2)')
+
+fonk =
+
+     Inline function:
+     fonk(x) = 3*sin(2*x.^2)
+
+clear f
+clc
+fonk
+
+fonk =
+
+     Inline function:
+     fonk(x) = 3*sin(2*x.^2)
+
+formula(fonk)
+
+ans =
+
+3*sin(2*x.^2)
+
+feval(fonk,x)
+
+ans =
+
+  Columns 1 through 7
+
+   -2.2530   -2.6898    0.0839    2.7106    2.4466   -0.1990   -2.5968
+
+  Columns 8 through 14
+
+   -2.7447   -0.7574    1.7057    2.9681    2.4170    0.5866   -1.4467
+
+  Columns 15 through 21
+
+   -2.7542   -2.9326   -2.1064   -0.7085    0.7759    1.9817    2.7279
+
+  Columns 22 through 28
+
+    2.9964    2.8740    2.4915    1.9782    1.4383    0.9437    0.5371
+
+  Columns 29 through 35
+
+    0.2397    0.0600         0    0.0600    0.2397    0.5371    0.9437
+
+  Columns 36 through 42
+
+    1.4383    1.9782    2.4915    2.8740    2.9964    2.7279    1.9817
+
+  Columns 43 through 49
+
+    0.7759   -0.7085   -2.1064   -2.9326   -2.7542   -1.4467    0.5866
+
+  Columns 50 through 56
+
+    2.4170    2.9681    1.7057   -0.7574   -2.7447   -2.5968   -0.1990
+
+  Columns 57 through 63
+
+    2.4466    2.7106    0.0839   -2.6898   -2.2530    1.0861    2.9947
+
+  Columns 64 through 70
+
+    0.6287   -2.7118   -1.7741    2.1253    2.3394   -1.7079   -2.5178
+
+  Columns 71 through 77
+
+    1.6543    2.4183   -1.9837   -1.9762    2.5577    1.0025   -2.9875
+
+  Columns 78 through 81
+
+    0.5893    2.5931   -2.3427   -0.7871
+
+clc
+exp(1)
+
+ans =
+
+    2.7183
+
+format long
+exp(1)
+
+ans =
+
+   2.718281828459046
+
+clc
+clear
+s=3+4i
+
+s =
+
+  3.000000000000000 + 4.000000000000000i
+
+format
+abs
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('abs')" style="font-weight:bold">abs</a>
+Not enough input arguments.
+} 
+abs(s)
+
+ans =
+
+     5
+
+sqrt(rea(s)^2+imag(s)^2)
+{Undefined function or variable 'rea'.
+} 
+sqrt(real(s)^2+imag(s)^2)
+
+ans =
+
+     5
+
+atan2(4/3)
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('atan2')" style="font-weight:bold">atan2</a>
+Not enough input arguments.
+} 
+atan2(4,3)
+
+ans =
+
+    0.9273
+
+angle(s)
+
+ans =
+
+    0.9273
+
+exit

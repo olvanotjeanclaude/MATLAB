@@ -1,0 +1,1681 @@
+MATLAB OTURUMU BAŞARILI BİR ŞEKİLDE AÇILDI...
+dir
+
+.                                 diagProduct.m                     
+..                                diz.m                             
+1988-Broomhead-CS.pdf             dizi.m                            
+2021_9_27_13_22_36.txt            dosya_09_10_2023.m                
+2021_9_27_13_47_20.txt            dsolve_D3y.m                      
+2021_9_27_13_51_47.txt            dupCol.m                          
+2022_10_12_14_8_7.txt             dupRow.m                          
+2022_10_19_14_14_21.txt           euler_terim.m                     
+2022_10_26_14_9_5.txt             ex_06_02.m                        
+2022_10_5_19_58_41.txt            ex_06_07.m                        
+2022_11_23_14_1_58.txt            ex_06_10.m                        
+2022_11_2_14_10_38.txt            ex_06_14.m                        
+2022_11_30_14_12_30.txt           exp_polyfit.m                     
+2022_11_9_14_16_19.txt            fft_construct.m                   
+2022_12_14_14_23_58.txt           fig_02_04.m                       
+2022_12_14_14_35_40.txt           fig_04_15.m                       
+2022_12_21_14_17_4.txt            fonk.m                            
+2022_9_21_14_31_19.txt            gauss_eleme.m                     
+2022_9_21_14_48_44.txt            gcd2.m                            
+2022_9_21_14_49_37.txt            gha_image_coding.m                
+2022_9_28_13_6_36.txt             graph_rail_network.m              
+2023_10_16_14_13_45.txt           h_swiss_.m                        
+2023_10_23_12_9_3.txt             hi_lo.m                           
+2023_10_23_14_16_34.txt           hparabola.m                       
+2023_10_2_14_25_22.txt            inf_while.m                       
+2023_10_2_14_59_11.txt            interfer.m                        
+2023_10_30_14_6_48.txt            itermenu.m                        
+2023_10_9_14_14_59.txt            main_haykin_4_8_mlp.m             
+2023_11_13_14_12_11.txt           mk_data.m                         
+2023_11_20_14_22_19.txt           movie_yay.m                       
+2023_11_2_11_59_7.txt             n_term_fourier.m                  
+2023_11_6_14_14_1.txt             newff_sind.m                      
+2023_12_11_14_16_0.txt            persmean.m                        
+2023_12_25_14_14_7.txt            person.m                          
+2023_12_25_14_16_44.txt           pipe.m                            
+2023_12_4_14_5_57.txt             pipes1.m                          
+2023_12_6_14_21_7.txt             pipes2.m                          
+2023_3_13_14_33_5.txt             pl_circ.m                         
+2023_3_20_15_32_59.txt            pline.m                           
+2023_3_27_14_37_23.txt            pow_polyfit.m                     
+2023_4_10_14_5_11.txt             powers.m                          
+2023_4_17_14_40_38.txt            pyt.m                             
+2023_4_3_14_4_29.txt              rbf.m                             
+2023_5_15_14_1_25.txt             rbfDesign.m                       
+2023_8_15_22_55_23.txt            rbfDesignExample.m                
+2023_9_28_16_33_3.txt             rbf_classifier.m                  
+2024_10_2_23_21_45.txt            rbf_correct.m                     
+2024_10_3_12_50_1.txt             rbf_db.m                          
+2024_10_3_14_15_2.txt             rbf_mkGF.m                        
+2024_1_8_14_11_35.txt             rbf_test.m                        
+2024_4_1_14_6_32.txt              readme_rbf                        
+2024_7_22_15_25_34.txt            rectify.m                         
+AND_perceptron.m                  rectify.m.M                       
+AND_perceptron_sign.m             rowSum.m                          
+BR1_matris.m                      segment.m                         
+BR2_isim.m                        segment1.m                        
+BR3_koordinat.m                   shuffle.m                         
+BR_hucre.m                        simp.m                            
+Ex_02_06.m                        sin_newff.m                       
+Ex_04_06.m                        sin_of_mlp.m                      
+Exp_02_04.m                       slprj                             
+Exp_02_05.m                       spipe.m                           
+Exp_02_08.m                       sse_polyfit.m                     
+Exp_02_09.m                       svm_dec_bnd.m                     
+F.m                               svm_proymayor.m                   
+IterMeth.m                        svm_proymenor.m                   
+Newton_Raphson.m                  svm_rbf.m                         
+Per2cell.m                        svm_test.m                        
+RGB.m                             thresh.m                          
+RGBcolr.m                         true_error.m                      
+SVM_6_4.m                         ultim.m                           
+Tablo.xlsx                        untitled_ert_rtw                  
+Tablo_3_1.xlsx                    uramp.m                           
+XOR_multi_layer_perceptron_MLP.m  ustep.m                           
+almac_ve.m                        vecrot.m                          
+almac_veya.m                      veri.mat                          
+aprox_error.m                     veritext.txt                      
+bisection_method.m                vr.m                              
+bpm_dec_bnds.m                    vr_xls_yaz_oku.m                  
+bpm_phi.m                         watch.m                           
+bpm_phi_d.m                       weight.m                          
+bpm_test.m                        xor_hardlim.m                     
+bpm_train.m                       xor_rbf.m                         
+class_vs_struct.m                 yariyabolme.m                     
+colSum.m                          yaz.xlsx                          
+convert1.m                        
+
+ver
+-----------------------------------------------------------------------------------------------------
+MATLAB Version: 24.1.0.2537033 (R2024a)
+MATLAB License Number: 968398
+Operating System: Microsoft Windows 10 Pro Version 10.0 (Build 19045)
+Java Version: Java 1.8.0_202-b08 with Oracle Corporation Java HotSpot(TM) 64-Bit Server VM mixed mode
+-----------------------------------------------------------------------------------------------------
+MATLAB                                                Version 24.1        (R2024a)
+Simulink                                              Version 24.1        (R2024a)
+5G Toolbox                                            Version 24.1        (R2024a)
+AUTOSAR Blockset                                      Version 24.1        (R2024a)
+Aerospace Blockset                                    Version 24.1        (R2024a)
+Aerospace Toolbox                                     Version 24.1        (R2024a)
+Antenna Toolbox                                       Version 24.1        (R2024a)
+Audio Toolbox                                         Version 24.1        (R2024a)
+Automated Driving Toolbox                             Version 24.1        (R2024a)
+Bioinformatics Toolbox                                Version 24.1        (R2024a)
+Bluetooth Toolbox                                     Version 24.1        (R2024a)
+C2000 Microcontroller Blockset                        Version 24.1        (R2024a)
+Communications Toolbox                                Version 24.1        (R2024a)
+Computer Vision Toolbox                               Version 24.1        (R2024a)
+Control System Toolbox                                Version 24.1        (R2024a)
+Curve Fitting Toolbox                                 Version 24.1        (R2024a)
+DDS Blockset                                          Version 24.1        (R2024a)
+DSP HDL Toolbox                                       Version 24.1        (R2024a)
+DSP System Toolbox                                    Version 24.1        (R2024a)
+Data Acquisition Toolbox                              Version 24.1        (R2024a)
+Database Toolbox                                      Version 24.1        (R2024a)
+Datafeed Toolbox                                      Version 24.1        (R2024a)
+Deep Learning HDL Toolbox                             Version 24.1        (R2024a)
+Deep Learning Toolbox                                 Version 24.1        (R2024a)
+Econometrics Toolbox                                  Version 24.1        (R2024a)
+Embedded Coder                                        Version 24.1        (R2024a)
+Filter Design HDL Coder                               Version 24.1        (R2024a)
+Financial Instruments Toolbox                         Version 24.1        (R2024a)
+Financial Toolbox                                     Version 24.1        (R2024a)
+Fixed-Point Designer                                  Version 24.1        (R2024a)
+Fuzzy Logic Toolbox                                   Version 24.1        (R2024a)
+GPU Coder                                             Version 24.1        (R2024a)
+Global Optimization Toolbox                           Version 24.1        (R2024a)
+HDL Coder                                             Version 24.1        (R2024a)
+HDL Verifier                                          Version 24.1        (R2024a)
+Image Acquisition Toolbox                             Version 24.1        (R2024a)
+Image Processing Toolbox                              Version 24.1        (R2024a)
+Industrial Communication Toolbox                      Version 24.1        (R2024a)
+Instrument Control Toolbox                            Version 24.1        (R2024a)
+LTE Toolbox                                           Version 24.1        (R2024a)
+Lidar Toolbox                                         Version 24.1        (R2024a)
+MATLAB Coder                                          Version 24.1        (R2024a)
+MATLAB Compiler                                       Version 24.1        (R2024a)
+MATLAB Compiler SDK                                   Version 24.1        (R2024a)
+MATLAB Report Generator                               Version 24.1        (R2024a)
+MATLAB Test                                           Version 24.1        (R2024a)
+Mapping Toolbox                                       Version 24.1        (R2024a)
+Medical Imaging Toolbox                               Version 24.1        (R2024a)
+Mixed-Signal Blockset                                 Version 24.1        (R2024a)
+Model Predictive Control Toolbox                      Version 24.1        (R2024a)
+Model-Based Calibration Toolbox                       Version 24.1        (R2024a)
+Motor Control Blockset                                Version 24.1        (R2024a)
+Navigation Toolbox                                    Version 24.1        (R2024a)
+Optimization Toolbox                                  Version 24.1        (R2024a)
+Parallel Computing Toolbox                            Version 24.1        (R2024a)
+Partial Differential Equation Toolbox                 Version 24.1        (R2024a)
+Phased Array System Toolbox                           Version 24.1        (R2024a)
+Powertrain Blockset                                   Version 24.1        (R2024a)
+Predictive Maintenance Toolbox                        Version 24.1        (R2024a)
+RF Blockset                                           Version 24.1        (R2024a)
+RF PCB Toolbox                                        Version 24.1        (R2024a)
+RF Toolbox                                            Version 24.1        (R2024a)
+ROS Toolbox                                           Version 24.1        (R2024a)
+Radar Toolbox                                         Version 24.1        (R2024a)
+Reinforcement Learning Toolbox                        Version 24.1        (R2024a)
+Requirements Toolbox                                  Version 24.1        (R2024a)
+Risk Management Toolbox                               Version 24.1        (R2024a)
+Robotics System Toolbox                               Version 24.1        (R2024a)
+Robust Control Toolbox                                Version 24.1        (R2024a)
+Satellite Communications Toolbox                      Version 24.1        (R2024a)
+Sensor Fusion and Tracking Toolbox                    Version 24.1        (R2024a)
+SerDes Toolbox                                        Version 24.1        (R2024a)
+Signal Integrity Toolbox                              Version 24.1        (R2024a)
+Signal Processing Toolbox                             Version 24.1        (R2024a)
+SimBiology                                            Version 24.1        (R2024a)
+SimEvents                                             Version 24.1        (R2024a)
+Simscape                                              Version 24.1        (R2024a)
+Simscape Battery                                      Version 24.1        (R2024a)
+Simscape Driveline                                    Version 24.1        (R2024a)
+Simscape Electrical                                   Version 24.1        (R2024a)
+Simscape Fluids                                       Version 24.1        (R2024a)
+Simscape Multibody                                    Version 24.1        (R2024a)
+Simulink 3D Animation                                 Version 24.1        (R2024a)
+Simulink Check                                        Version 24.1        (R2024a)
+Simulink Code Inspector                               Version 24.1        (R2024a)
+Simulink Coder                                        Version 24.1        (R2024a)
+Simulink Compiler                                     Version 24.1        (R2024a)
+Simulink Control Design                               Version 24.1        (R2024a)
+Simulink Coverage                                     Version 24.1        (R2024a)
+Simulink Design Optimization                          Version 24.1        (R2024a)
+Simulink Design Verifier                              Version 24.1        (R2024a)
+Simulink Desktop Real-Time                            Version 24.1        (R2024a)
+Simulink Fault Analyzer                               Version 24.1        (R2024a)
+Simulink PLC Coder                                    Version 24.1        (R2024a)
+Simulink Real-Time                                    Version 24.1        (R2024a)
+Simulink Report Generator                             Version 24.1        (R2024a)
+Simulink Test                                         Version 24.1        (R2024a)
+SoC Blockset                                          Version 24.1        (R2024a)
+Spreadsheet Link                                      Version 24.1        (R2024a)
+Stateflow                                             Version 24.1        (R2024a)
+Statistics and Machine Learning Toolbox               Version 24.1        (R2024a)
+Symbolic Math Toolbox                                 Version 24.1        (R2024a)
+System Composer                                       Version 24.1        (R2024a)
+System Identification Toolbox                         Version 24.1        (R2024a)
+Text Analytics Toolbox                                Version 24.1        (R2024a)
+UAV Toolbox                                           Version 24.1        (R2024a)
+Vehicle Dynamics Blockset                             Version 24.1        (R2024a)
+Vehicle Network Toolbox                               Version 24.1        (R2024a)
+Vision HDL Toolbox                                    Version 24.1        (R2024a)
+WLAN Toolbox                                          Version 24.1        (R2024a)
+Wavelet Toolbox                                       Version 24.1        (R2024a)
+Wireless HDL Toolbox                                  Version 24.1        (R2024a)
+Wireless Testbench                                    Version 24.1        (R2024a)
+userpath
+
+ans =
+
+    'C:\Users\kou\OneDrive\Belgeler\MATLAB'
+
+clc
+ans
+
+ans =
+
+    'C:\Users\kou\OneDrive\Belgeler\MATLAB'
+
+clc
+log10(100)
+
+ans =
+
+     2
+
+log(100)
+
+ans =
+
+    4.6052
+
+help log2
+ <strong>log2</strong>   Base 2 logarithm and dissect floating point number.
+    Y = <strong>log2</strong>(X) is the base 2 logarithm of the elements of X.
+ 
+    [F,E] = <strong>log2</strong>(X) for each element of the real array X, returns an
+    array F of real numbers, usually in the range 0.5 <= abs(F) < 1,
+    and an array E of integers, so that X = F .* 2.^E.  Any zeros in X
+    produce F = 0 and E = 0.  This corresponds to the ANSI C function
+    frexp() and the IEEE floating point standard function logb().
+ 
+    See also <a href="matlab:help log -displayBanner">log</a>, <a href="matlab:help log10 -displayBanner">log10</a>, <a href="matlab:help pow2 -displayBanner">pow2</a>, <a href="matlab:help nextpow2 -displayBanner">nextpow2</a>, <a href="matlab:help realmax -displayBanner">realmax</a>, <a href="matlab:help realmin -displayBanner">realmin</a>.
+
+    <a href="matlab:doc log2">Documentation for log2</a>
+    <a href="matlab:matlab.lang.internal.introspective.overloads.displayOverloads('log2')">Other uses of log2</a>
+
+exp(log(1))
+
+ans =
+
+     1
+
+help sin
+ <strong>sin</strong>    Sine of argument in radians.
+    <strong>sin</strong>(X) is the sine of the elements of X.
+ 
+    See also <a href="matlab:help asin -displayBanner">asin</a>, <a href="matlab:help sind -displayBanner">sind</a>, <a href="matlab:help sinpi -displayBanner">sinpi</a>.
+
+    <a href="matlab:doc sin">Documentation for sin</a>
+    <a href="matlab:matlab.lang.internal.introspective.overloads.displayOverloads('sin')">Other uses of sin</a>
+
+sin(30)
+
+ans =
+
+   -0.9880
+
+sind(30)
+
+ans =
+
+    0.5000
+
+sin(30*pi/180)
+
+ans =
+
+    0.5000
+
+help cos
+ <strong>cos</strong>    Cosine of argument in radians.
+    <strong>cos</strong>(X) is the cosine of the elements of X. 
+ 
+    See also <a href="matlab:help acos -displayBanner">acos</a>, <a href="matlab:help cosd -displayBanner">cosd</a>, <a href="matlab:help cospi -displayBanner">cospi</a>.
+
+    <a href="matlab:doc cos">Documentation for cos</a>
+    <a href="matlab:matlab.lang.internal.introspective.overloads.displayOverloads('cos')">Other uses of cos</a>
+
+clc
+pi
+
+ans =
+
+    3.1416
+
+format long
+
+pi
+
+ans =
+
+   3.141592653589793
+
+eps
+
+ans =
+
+     2.220446049250313e-16
+
+3/0
+
+ans =
+
+   Inf
+
+0/0
+
+ans =
+
+   NaN
+
+help isnan
+ <strong>isnan</strong>  True for Not-a-Number.
+    <strong>isnan</strong>(X) returns an array that contains 1's where
+    the elements of X are NaN's and 0's where they are not.
+    For example, <strong>isnan</strong>([pi NaN Inf -Inf]) is [0 1 0 0].
+ 
+    See also <a href="matlab:help isfinite -displayBanner">isfinite</a>, <a href="matlab:help isinf -displayBanner">isinf</a>, <a href="matlab:help ismissing -displayBanner">ismissing</a>.
+
+    <a href="matlab:doc isnan">Documentation for isnan</a>
+    <a href="matlab:matlab.lang.internal.introspective.overloads.displayOverloads('isnan')">Other uses of isnan</a>
+
+ isnan([pi NaN Inf -Inf]) 
+
+ans =
+
+  1×4 <a href="matlab:helpPopup('logical')" style="font-weight:bold">logical</a> array
+
+   0   1   0   0
+
+isinf([pi NaN Inf -Inf])
+
+ans =
+
+  1×4 <a href="matlab:helpPopup('logical')" style="font-weight:bold">logical</a> array
+
+   0   0   1   1
+
+help isfinite
+ <strong>isfinite</strong> True for finite elements.
+    <strong>isfinite</strong>(X) returns an array that contains 1's where
+    the elements of X are finite and 0's where they are not.
+    For example, <strong>isfinite</strong>([pi NaN Inf -Inf]) is [1 0 0 0].
+ 
+    For any X, exactly one of <strong>isfinite</strong>(X), ISINF(X), or ISNAN(X)
+    is 1 for each element.
+ 
+    See also <a href="matlab:help isnan -displayBanner">isnan</a>, <a href="matlab:help isinf -displayBanner">isinf</a>.
+
+    <a href="matlab:doc isfinite">Documentation for isfinite</a>
+    <a href="matlab:matlab.lang.internal.introspective.overloads.displayOverloads('isfinite')">Other uses of isfinite</a>
+
+isfinite([pi NaN Inf -Inf])
+
+ans =
+
+  1×4 <a href="matlab:helpPopup('logical')" style="font-weight:bold">logical</a> array
+
+   1   0   0   0
+
+clc
+help const
+--- help for <strong>coder.const</strong> ---
+
+ <strong>coder.const</strong> evaluates an expression or function call at compile time.
+ 
+    <strong>coder.const</strong>(EXPR) evaluates expression EXPR. This can handle simple
+    function calls, e.g. A = <strong>coder.const</strong>(fcn(10)).
+ 
+    [A1,...,An] = <strong>coder.const</strong>(@FCN, ARG1, ..., ARGn) calls function @FCN with
+    multiple output arguments.
+
+    <a href="matlab:doc coder.const">Documentation for coder.const</a>
+
+lookfor constant
+<a href="matlab:help cdflib.getConstantNames -displayBanner">cdflib.getConstantNames</a>        - Names of Common Data Format (CDF) library <strong>constant</strong>s
+<a href="matlab:help cdflib.getConstantValue -displayBanner">cdflib.getConstantValue</a>        - Numeric value corresponding to Common Data Format (CDF) library <strong>constant</strong>
+<a href="matlab:help dde23 -displayBanner">dde23</a>                          - Solve delay differential equations (DDEs) with <strong>constant</strong> delays
+<a href="matlab:help matlab.io.fits.getConstantValue -displayBanner">matlab.io.fits.getConstantValue</a> - Numeric value of named <strong>constant</strong>
+<a href="matlab:help netcdf.getConstant -displayBanner">netcdf.getConstant</a>             - Return numeric value of named <strong>constant</strong>
+<a href="matlab:help netcdf.getConstantNames -displayBanner">netcdf.getConstantNames</a>        - Return list of <strong>constant</strong>s known to netCDF library
+<a href="matlab:help parallel.pool.Constant -displayBanner">parallel.pool.Constant</a>         - Copy or create data only once on workers in parallel pool
+<a href="matlab:help xline -displayBanner">xline</a>                          - Vertical line with <strong>constant</strong> x-value
+<a href="matlab:help yline -displayBanner">yline</a>                          - Horizontal line with <strong>constant</strong> y-value
+<a href="matlab:help matlab.graphics.axis.Axes.PositionConstraint -displayBanner">matlab.graphics.axis.Axes.PositionConstraint</a> - Position to hold <strong>constant</strong>
+<a href="matlab:help matlab.graphics.axis.GeographicAxes.PositionConstraint -displayBanner">matlab.graphics.axis.GeographicAxes.PositionConstraint</a> - Position to hold <strong>constant</strong>
+<a href="matlab:help matlab.graphics.axis.PolarAxes.PositionConstraint -displayBanner">matlab.graphics.axis.PolarAxes.PositionConstraint</a> - Position to hold <strong>constant</strong>
+<a href="matlab:help matlab.graphics.chart.BubbleCloud.PositionConstraint -displayBanner">matlab.graphics.chart.BubbleCloud.PositionConstraint</a> - Position to hold <strong>constant</strong>
+<a href="matlab:help matlab.graphics.chart.decoration.ConstantLine.Value -displayBanner">matlab.graphics.chart.decoration.ConstantLine.Value</a> - Location of <strong>constant</strong> line
+<a href="matlab:help matlab.graphics.chart.decoration.ConstantLine.InterceptAxis -displayBanner">matlab.graphics.chart.decoration.ConstantLine.InterceptAxis</a> - Intercept axis
+<a href="matlab:help matlab.graphics.chart.decoration.ConstantLine.Layer -displayBanner">matlab.graphics.chart.decoration.ConstantLine.Layer</a> - Layer position
+<a href="matlab:help matlab.graphics.chart.decoration.ConstantLine.Label -displayBanner">matlab.graphics.chart.decoration.ConstantLine.Label</a> - Line label
+<a href="matlab:help matlab.graphics.chart.decoration.ConstantLine.LabelHorizontalAlignment -displayBanner">matlab.graphics.chart.decoration.ConstantLine.LabelHorizontalAlignment</a> - Horizontal alignment of label
+<a href="matlab:help matlab.graphics.chart.decoration.ConstantLine.LabelVerticalAlignment -displayBanner">matlab.graphics.chart.decoration.ConstantLine.LabelVerticalAlignment</a> - Vertical alignment of label
+<a href="matlab:help matlab.graphics.chart.decoration.ConstantLine.LabelOrientation -displayBanner">matlab.graphics.chart.decoration.ConstantLine.LabelOrientation</a> - Label orientation
+<a href="matlab:help matlab.graphics.chart.decoration.ConstantLine.Interpreter -displayBanner">matlab.graphics.chart.decoration.ConstantLine.Interpreter</a> - Text interpreter
+<a href="matlab:help matlab.graphics.chart.decoration.ConstantLine.Color -displayBanner">matlab.graphics.chart.decoration.ConstantLine.Color</a> - Line color
+<a href="matlab:help matlab.graphics.chart.decoration.ConstantLine.ColorMode -displayBanner">matlab.graphics.chart.decoration.ConstantLine.ColorMode</a> - Control how Color is set
+<a href="matlab:help matlab.graphics.chart.decoration.ConstantLine.LineStyle -displayBanner">matlab.graphics.chart.decoration.ConstantLine.LineStyle</a> - Line style
+<a href="matlab:help matlab.graphics.chart.decoration.ConstantLine.LineStyleMode -displayBanner">matlab.graphics.chart.decoration.ConstantLine.LineStyleMode</a> - Control how LineStyle is set
+<a href="matlab:help matlab.graphics.chart.decoration.ConstantLine.LineWidth -displayBanner">matlab.graphics.chart.decoration.ConstantLine.LineWidth</a> - Line width
+<a href="matlab:help matlab.graphics.chart.decoration.ConstantLine.Alpha -displayBanner">matlab.graphics.chart.decoration.ConstantLine.Alpha</a> - Line transparency
+<a href="matlab:help matlab.graphics.chart.decoration.ConstantLine.SeriesIndex -displayBanner">matlab.graphics.chart.decoration.ConstantLine.SeriesIndex</a> - Series index
+<a href="matlab:help matlab.graphics.chart.decoration.ConstantLine.FontName -displayBanner">matlab.graphics.chart.decoration.ConstantLine.FontName</a> - Font name
+<a href="matlab:help matlab.graphics.chart.decoration.ConstantLine.FontSize -displayBanner">matlab.graphics.chart.decoration.ConstantLine.FontSize</a> - Font Size
+<a href="matlab:help matlab.graphics.chart.decoration.ConstantLine.FontWeight -displayBanner">matlab.graphics.chart.decoration.ConstantLine.FontWeight</a> - Character thickness
+<a href="matlab:help matlab.graphics.chart.decoration.ConstantLine.FontAngle -displayBanner">matlab.graphics.chart.decoration.ConstantLine.FontAngle</a> - Character slant
+<a href="matlab:help matlab.graphics.chart.decoration.ConstantLine.DisplayName -displayBanner">matlab.graphics.chart.decoration.ConstantLine.DisplayName</a> - Legend label
+<a href="matlab:help matlab.graphics.chart.decoration.ConstantLine.Annotation -displayBanner">matlab.graphics.chart.decoration.ConstantLine.Annotation</a> - Include object in legend
+<a href="matlab:help matlab.graphics.chart.decoration.ConstantLine.Visible -displayBanner">matlab.graphics.chart.decoration.ConstantLine.Visible</a> - State of visibility
+<a href="matlab:help matlab.graphics.chart.decoration.ConstantLine.ContextMenu -displayBanner">matlab.graphics.chart.decoration.ConstantLine.ContextMenu</a> - Context menu
+<a href="matlab:help matlab.graphics.chart.decoration.ConstantLine.Selected -displayBanner">matlab.graphics.chart.decoration.ConstantLine.Selected</a> - Selection state
+<a href="matlab:help matlab.graphics.chart.decoration.ConstantLine.SelectionHighlight -displayBanner">matlab.graphics.chart.decoration.ConstantLine.SelectionHighlight</a> - Display of selection handles
+<a href="matlab:help matlab.graphics.chart.decoration.ConstantLine.ButtonDownFcn -displayBanner">matlab.graphics.chart.decoration.ConstantLine.ButtonDownFcn</a> - Mouse-click callback
+<a href="matlab:help matlab.graphics.chart.decoration.ConstantLine.CreateFcn -displayBanner">matlab.graphics.chart.decoration.ConstantLine.CreateFcn</a> - Creation function
+<a href="matlab:help matlab.graphics.chart.decoration.ConstantLine.DeleteFcn -displayBanner">matlab.graphics.chart.decoration.ConstantLine.DeleteFcn</a> - Deletion function
+<a href="matlab:help matlab.graphics.chart.decoration.ConstantLine.Interruptible -displayBanner">matlab.graphics.chart.decoration.ConstantLine.Interruptible</a> - Callback interruption
+<a href="matlab:help matlab.graphics.chart.decoration.ConstantLine.BusyAction -displayBanner">matlab.graphics.chart.decoration.ConstantLine.BusyAction</a> - Callback queuing
+<a href="matlab:help matlab.graphics.chart.decoration.ConstantLine.PickableParts -displayBanner">matlab.graphics.chart.decoration.ConstantLine.PickableParts</a> - Ability to capture mouse clicks
+<a href="matlab:help matlab.graphics.chart.decoration.ConstantLine.HitTest -displayBanner">matlab.graphics.chart.decoration.ConstantLine.HitTest</a> - Response to captured mouse clicks
+<a href="matlab:help matlab.graphics.chart.decoration.ConstantLine.BeingDeleted -displayBanner">matlab.graphics.chart.decoration.ConstantLine.BeingDeleted</a> - Deletion status
+<a href="matlab:help matlab.graphics.chart.decoration.ConstantLine.Parent -displayBanner">matlab.graphics.chart.decoration.ConstantLine.Parent</a> - Parent
+<a href="matlab:help matlab.graphics.chart.decoration.ConstantLine.Children -displayBanner">matlab.graphics.chart.decoration.ConstantLine.Children</a> - Children
+<a href="matlab:help matlab.graphics.chart.decoration.ConstantLine.HandleVisibility -displayBanner">matlab.graphics.chart.decoration.ConstantLine.HandleVisibility</a> - Visibility of object handle
+<a href="matlab:help matlab.graphics.chart.decoration.ConstantLine.Type -displayBanner">matlab.graphics.chart.decoration.ConstantLine.Type</a> - Type of graphics object
+<a href="matlab:help matlab.graphics.chart.decoration.ConstantLine.Tag -displayBanner">matlab.graphics.chart.decoration.ConstantLine.Tag</a> - Object identifier
+<a href="matlab:help matlab.graphics.chart.decoration.ConstantLine.UserData -displayBanner">matlab.graphics.chart.decoration.ConstantLine.UserData</a> - User data
+<a href="matlab:help matlab.graphics.chart.decoration.ConstantRegion.Value -displayBanner">matlab.graphics.chart.decoration.ConstantRegion.Value</a> - Minimum and maximum region values
+<a href="matlab:help matlab.graphics.chart.decoration.ConstantRegion.InterceptAxis -displayBanner">matlab.graphics.chart.decoration.ConstantRegion.InterceptAxis</a> - Intercept axis
+<a href="matlab:help matlab.graphics.chart.decoration.ConstantRegion.Layer -displayBanner">matlab.graphics.chart.decoration.ConstantRegion.Layer</a> - Layer position
+<a href="matlab:help matlab.graphics.chart.decoration.ConstantRegion.FaceColor -displayBanner">matlab.graphics.chart.decoration.ConstantRegion.FaceColor</a> - Fill color
+<a href="matlab:help matlab.graphics.chart.decoration.ConstantRegion.FaceColorMode -displayBanner">matlab.graphics.chart.decoration.ConstantRegion.FaceColorMode</a> - Control how FaceColor is set
+<a href="matlab:help matlab.graphics.chart.decoration.ConstantRegion.EdgeColor -displayBanner">matlab.graphics.chart.decoration.ConstantRegion.EdgeColor</a> - Boundary line color
+<a href="matlab:help matlab.graphics.chart.decoration.ConstantRegion.FaceAlpha -displayBanner">matlab.graphics.chart.decoration.ConstantRegion.FaceAlpha</a> - Fill color transparency
+<a href="matlab:help matlab.graphics.chart.decoration.ConstantRegion.EdgeAlpha -displayBanner">matlab.graphics.chart.decoration.ConstantRegion.EdgeAlpha</a> - Boundary line transparency
+<a href="matlab:help matlab.graphics.chart.decoration.ConstantRegion.LineStyle -displayBanner">matlab.graphics.chart.decoration.ConstantRegion.LineStyle</a> - Boundary line style
+<a href="matlab:help matlab.graphics.chart.decoration.ConstantRegion.LineWidth -displayBanner">matlab.graphics.chart.decoration.ConstantRegion.LineWidth</a> - Boundary line thickness
+<a href="matlab:help matlab.graphics.chart.decoration.ConstantRegion.SeriesIndex -displayBanner">matlab.graphics.chart.decoration.ConstantRegion.SeriesIndex</a> - Series index
+<a href="matlab:help matlab.graphics.chart.decoration.ConstantRegion.DisplayName -displayBanner">matlab.graphics.chart.decoration.ConstantRegion.DisplayName</a> - Legend label
+<a href="matlab:help matlab.graphics.chart.decoration.ConstantRegion.Annotation -displayBanner">matlab.graphics.chart.decoration.ConstantRegion.Annotation</a> - Include object in legend
+<a href="matlab:help matlab.graphics.chart.decoration.ConstantRegion.Visible -displayBanner">matlab.graphics.chart.decoration.ConstantRegion.Visible</a> - State of visibility
+<a href="matlab:help matlab.graphics.chart.decoration.ConstantRegion.ContextMenu -displayBanner">matlab.graphics.chart.decoration.ConstantRegion.ContextMenu</a> - Context menu
+<a href="matlab:help matlab.graphics.chart.decoration.ConstantRegion.Selected -displayBanner">matlab.graphics.chart.decoration.ConstantRegion.Selected</a> - Selection state
+<a href="matlab:help matlab.graphics.chart.decoration.ConstantRegion.SelectionHighlight -displayBanner">matlab.graphics.chart.decoration.ConstantRegion.SelectionHighlight</a> - Display of selection handles
+<a href="matlab:help matlab.graphics.chart.decoration.ConstantRegion.ButtonDownFcn -displayBanner">matlab.graphics.chart.decoration.ConstantRegion.ButtonDownFcn</a> - Mouse-click callback
+<a href="matlab:help matlab.graphics.chart.decoration.ConstantRegion.CreateFcn -displayBanner">matlab.graphics.chart.decoration.ConstantRegion.CreateFcn</a> - Creation function
+<a href="matlab:help matlab.graphics.chart.decoration.ConstantRegion.DeleteFcn -displayBanner">matlab.graphics.chart.decoration.ConstantRegion.DeleteFcn</a> - Deletion function
+<a href="matlab:help matlab.graphics.chart.decoration.ConstantRegion.Interruptible -displayBanner">matlab.graphics.chart.decoration.ConstantRegion.Interruptible</a> - Callback interruption
+<a href="matlab:help matlab.graphics.chart.decoration.ConstantRegion.BusyAction -displayBanner">matlab.graphics.chart.decoration.ConstantRegion.BusyAction</a> - Callback queuing
+<a href="matlab:help matlab.graphics.chart.decoration.ConstantRegion.PickableParts -displayBanner">matlab.graphics.chart.decoration.ConstantRegion.PickableParts</a> - Ability to capture mouse clicks
+<a href="matlab:help matlab.graphics.chart.decoration.ConstantRegion.HitTest -displayBanner">matlab.graphics.chart.decoration.ConstantRegion.HitTest</a> - Response to captured mouse clicks
+<a href="matlab:help matlab.graphics.chart.decoration.ConstantRegion.BeingDeleted -displayBanner">matlab.graphics.chart.decoration.ConstantRegion.BeingDeleted</a> - Deletion status
+<a href="matlab:help matlab.graphics.chart.decoration.ConstantRegion.Parent -displayBanner">matlab.graphics.chart.decoration.ConstantRegion.Parent</a> - Parent
+<a href="matlab:help matlab.graphics.chart.decoration.ConstantRegion.Children -displayBanner">matlab.graphics.chart.decoration.ConstantRegion.Children</a> - Children
+<a href="matlab:help matlab.graphics.chart.decoration.ConstantRegion.HandleVisibility -displayBanner">matlab.graphics.chart.decoration.ConstantRegion.HandleVisibility</a> - Visibility of object handle
+<a href="matlab:help matlab.graphics.chart.decoration.ConstantRegion.Type -displayBanner">matlab.graphics.chart.decoration.ConstantRegion.Type</a> - Type of graphics object
+<a href="matlab:help matlab.graphics.chart.decoration.ConstantRegion.Tag -displayBanner">matlab.graphics.chart.decoration.ConstantRegion.Tag</a> - Object identifier
+<a href="matlab:help matlab.graphics.chart.decoration.ConstantRegion.UserData -displayBanner">matlab.graphics.chart.decoration.ConstantRegion.UserData</a> - User data
+<a href="matlab:help matlab.graphics.chart.DonutChart.PositionConstraint -displayBanner">matlab.graphics.chart.DonutChart.PositionConstraint</a> - Position to hold <strong>constant</strong>
+<a href="matlab:help matlab.graphics.chart.GeographicBubbleChart.PositionConstraint -displayBanner">matlab.graphics.chart.GeographicBubbleChart.PositionConstraint</a> - Position to hold <strong>constant</strong>
+<a href="matlab:help matlab.graphics.chart.HeatmapChart.PositionConstraint -displayBanner">matlab.graphics.chart.HeatmapChart.PositionConstraint</a> - Position to hold <strong>constant</strong>
+<a href="matlab:help matlab.graphics.chart.ParallelCoordinatesPlot.PositionConstraint -displayBanner">matlab.graphics.chart.ParallelCoordinatesPlot.PositionConstraint</a> - Position to hold <strong>constant</strong>
+<a href="matlab:help matlab.graphics.chart.PieChart.PositionConstraint -displayBanner">matlab.graphics.chart.PieChart.PositionConstraint</a> - Position to hold <strong>constant</strong>
+<a href="matlab:help matlab.graphics.chart.ScatterHistogramChart.PositionConstraint -displayBanner">matlab.graphics.chart.ScatterHistogramChart.PositionConstraint</a> - Position to hold <strong>constant</strong>
+<a href="matlab:help matlab.graphics.chart.StackedLineChart.PositionConstraint -displayBanner">matlab.graphics.chart.StackedLineChart.PositionConstraint</a> - Position to hold <strong>constant</strong>
+<a href="matlab:help matlab.graphics.chart.WordCloudChart.PositionConstraint -displayBanner">matlab.graphics.chart.WordCloudChart.PositionConstraint</a> - Position to hold <strong>constant</strong>
+<a href="matlab:help matlab.graphics.chartcontainer.ChartContainer.PositionConstraint -displayBanner">matlab.graphics.chartcontainer.ChartContainer.PositionConstraint</a> - Position to hold <strong>constant</strong>
+<a href="matlab:help matlab.graphics.layout.TiledChartLayout.PositionConstraint -displayBanner">matlab.graphics.layout.TiledChartLayout.PositionConstraint</a> - Position to hold <strong>constant</strong>
+<a href="matlab:help matlab.metadata.DynamicProperty.Constant -displayBanner">matlab.metadata.DynamicProperty.Constant</a> - Value of property attribute <strong>Constant</strong>
+<a href="matlab:help matlab.metadata.Property.Constant -displayBanner">matlab.metadata.Property.Constant</a> - Value of property attribute <strong>Constant</strong>
+<a href="matlab:help matlab.ui.control.UIAxes.PositionConstraint -displayBanner">matlab.ui.control.UIAxes.PositionConstraint</a> - Position to hold <strong>constant</strong>
+<a href="matlab:help parallel.pool.Constant.Value -displayBanner">parallel.pool.Constant.Value</a>   - Underlying data or handle-type resource
+<a href="matlab:help QuantumCircuitChart.PositionConstraint -displayBanner">QuantumCircuitChart.PositionConstraint</a> - Position to hold <strong>constant</strong>
+<a href="matlab:help qubo.ConstantTerm -displayBanner">qubo.ConstantTerm</a>              - <strong>Constant</strong> term for objective function
+<a href="matlab:help matlab.graphics.chart.decoration.ConstantLine -displayBanner">matlab.graphics.chart.decoration.ConstantLine</a> - <strong>Constant</strong> line appearance and behavior
+<a href="matlab:help matlab.graphics.chart.decoration.ConstantRegion -displayBanner">matlab.graphics.chart.decoration.ConstantRegion</a> - <strong>Constant</strong> region appearance and behavior
+<a href="matlab:help SetAllowConstantSampleTime -displayBanner">SetAllowConstantSampleTime</a>     - Specify sample time behavior and tunability for S-function blocks with port-based sample times
+<a href="matlab:help SS_OPTION_ALLOW_CONSTANT_PORT_SAMPLE_TIME -displayBanner">SS_OPTION_ALLOW_CONSTANT_PORT_SAMPLE_TIME</a> - Allow a sample time of Inf for a port
+<a href="matlab:help SS_OPTION_DISALLOW_CONSTANT_SAMPLE_TIME -displayBanner">SS_OPTION_DISALLOW_CONSTANT_SAMPLE_TIME</a> - Disallow inheritance of Inf sample time
+<a href="matlab:help addConstant -displayBanner">addConstant</a>                    - Add <strong>constant</strong> to the Architectural Data section of Simulink data dictionary
+<a href="matlab:help coder.const -displayBanner">coder.const</a>                    - Fold expressions into <strong>constant</strong>s in generated code
+<a href="matlab:help coder.ignoreConst -displayBanner">coder.ignoreConst</a>              - Prevent use of <strong>constant</strong> value of expression for function specializations
+<a href="matlab:help coder.ignoreSize -displayBanner">coder.ignoreSize</a>               - Prevent code generator from creating function specializations for <strong>constant</strong>-size expressions
+<a href="matlab:help coder.load -displayBanner">coder.load</a>                     - Load compile-time <strong>constant</strong>s from MAT-file or ASCII file
+<a href="matlab:help coder.mustBeConst -displayBanner">coder.mustBeConst</a>              - Validate that value is a compile-time <strong>constant</strong>
+<a href="matlab:help getConstant -displayBanner">getConstant</a>                    - Get <strong>constant</strong> in Architectural Data section of Simulink data dictionary
+<a href="matlab:help getConstantNames -displayBanner">getConstantNames</a>               - Get <strong>constant</strong> names in Architectural Data section of Simulink data dictionary
+<a href="matlab:help removeConstant -displayBanner">removeConstant</a>                 - Remove <strong>constant</strong> from Architectural Data section of Simulink data dictionary
+<a href="matlab:help Simulink.dictionary.archdata.AliasType.moveToDesignData -displayBanner">Simulink.dictionary.archdata.AliasType.moveToDesignData</a> - Move interfaces, data types, and <strong>constant</strong>s in Architectural Data section of Simulink data dictionary to design data
+<a href="matlab:help Simulink.dictionary.ArchitecturalData.Constants -displayBanner">Simulink.dictionary.ArchitecturalData.Constants</a> - <strong>Constant</strong>s defined in the Architectural Data section
+<a href="matlab:help('Interpolation (n-D) Using PreLookup (Obsolete)', '-displayBanner')">Interpolation (n-D) Using PreLookup (Obsolete)</a> - Perform high-performance <strong>constant</strong> or linear interpolation, mapping N input values to sampled representation of function in N variables via output from PreLookup Index Search block
+<a href="matlab:help('PreLookup Index Search (Obsolete)', '-displayBanner')">PreLookup Index Search (Obsolete)</a> - First stage of high-performance <strong>constant</strong> or linear interpolation that performs index search and interval fraction calculation for input on breakpoint set
+<a href="matlab:help('Compare To Constant', '-displayBanner')">Compare To Constant</a>            - Determine how signal compares to specified <strong>constant</strong>
+<a href="matlab:help Constant -displayBanner">Constant</a>                       - Generate <strong>constant</strong> value
+<a href="matlab:help('Enumerated Constant', '-displayBanner')">Enumerated Constant</a>            - Generate enumerated <strong>constant</strong> value
+<a href="matlab:help Gain -displayBanner">Gain</a>                           - Multiply input by <strong>constant</strong>
+<a href="matlab:help Ramp -displayBanner">Ramp</a>                           - Generate <strong>constant</strong>ly increasing or decreasing signal
+<a href="matlab:help Relay -displayBanner">Relay</a>                          - Switch output between two <strong>constant</strong>s
+<a href="matlab:help('String Constant', '-displayBanner')">String Constant</a>                - Output specified string
+<a href="matlab:help('jc_0702: Use of named Stateflow parameters and constants', '-displayBanner')">jc_0702: Use of named Stateflow parameters and constants</a> - 
+<a href="matlab:help('Detect overflow', '-displayBanner')">Detect overflow</a>                - Diagnostic action to take when fixed-point <strong>constant</strong> overflow occurs
+<a href="matlab:help('Detect precision loss', '-displayBanner')">Detect precision loss</a>          - Diagnostic action to take when fixed-point <strong>constant</strong> precision loss occurs
+<a href="matlab:help('Detect underflow', '-displayBanner')">Detect underflow</a>               - Diagnostic action to take when fixed-point <strong>constant</strong> underflow occurs
+<a href="matlab:help ssGetInputPortAcceptExprInRTW -displayBanner">ssGetInputPortAcceptExprInRTW</a>  - Determine whether a block input accepts a non<strong>constant</strong> expression
+<a href="matlab:help ssGetOutputPortOutputExprInRTW -displayBanner">ssGetOutputPortOutputExprInRTW</a> - Determine whether a block output generates a non<strong>constant</strong> expression
+<a href="matlab:help ssSetInputPortAcceptExprInRTW -displayBanner">ssSetInputPortAcceptExprInRTW</a>  - Specify whether a block input accepts a non<strong>constant</strong> expression
+<a href="matlab:help ssSetOutputPortOutputExprInRTW -displayBanner">ssSetOutputPortOutputExprInRTW</a> - Specify whether a block output generates a non<strong>constant</strong> expression
+<a href="matlab:help addConstant -displayBanner">addConstant</a>                    - Add <strong>constant</strong> to the Architectural Data section of Simulink data dictionary
+<a href="matlab:help getConstant -displayBanner">getConstant</a>                    - Get <strong>constant</strong> in Architectural Data section of Simulink data dictionary
+<a href="matlab:help getConstantNames -displayBanner">getConstantNames</a>               - Get <strong>constant</strong> names in Architectural Data section of Simulink data dictionary
+<a href="matlab:help removeConstant -displayBanner">removeConstant</a>                 - Remove <strong>constant</strong> from Architectural Data section of Simulink data dictionary
+<a href="matlab:help coder.const -displayBanner">coder.const</a>                    - Fold expressions into <strong>constant</strong>s in generated code
+<a href="matlab:help coder.ignoreConst -displayBanner">coder.ignoreConst</a>              - Prevent use of <strong>constant</strong> value of expression for function specializations
+<a href="matlab:help coder.ignoreSize -displayBanner">coder.ignoreSize</a>               - Prevent code generator from creating function specializations for <strong>constant</strong>-size expressions
+<a href="matlab:help coder.load -displayBanner">coder.load</a>                     - Load compile-time <strong>constant</strong>s from MAT-file or ASCII file
+<a href="matlab:help coder.mustBeConst -displayBanner">coder.mustBeConst</a>              - Validate that value is a compile-time <strong>constant</strong>
+<a href="matlab:help sgrid -displayBanner">sgrid</a>                          - Generate s-plane grid of <strong>constant</strong> damping factors and natural frequencies
+<a href="matlab:help zgrid -displayBanner">zgrid</a>                          - Generate z-plane grid of <strong>constant</strong> damping factors and natural frequencies
+<a href="matlab:help removeconstantrows -displayBanner">removeconstantrows</a>             - Process matrices by removing rows with <strong>constant</strong> values
+<a href="matlab:help cameas -displayBanner">cameas</a>                         - Measurement function for <strong>constant</strong>-acceleration motion
+<a href="matlab:help cameasjac -displayBanner">cameasjac</a>                      - Jacobian of measurement function for <strong>constant</strong>-acceleration motion
+<a href="matlab:help constacc -displayBanner">constacc</a>                       - <strong>Constant</strong>-acceleration motion model
+<a href="matlab:help constaccjac -displayBanner">constaccjac</a>                    - Jacobian for <strong>constant</strong>-acceleration motion
+<a href="matlab:help constturn -displayBanner">constturn</a>                      - <strong>Constant</strong> turn-rate motion model
+<a href="matlab:help constturnjac -displayBanner">constturnjac</a>                   - Jacobian for <strong>constant</strong> turn-rate motion
+<a href="matlab:help constvel -displayBanner">constvel</a>                       - <strong>Constant</strong> velocity state update
+<a href="matlab:help constveljac -displayBanner">constveljac</a>                    - Jacobian for <strong>constant</strong>-velocity motion
+<a href="matlab:help ctmeas -displayBanner">ctmeas</a>                         - Measurement function for <strong>constant</strong> turn-rate motion
+<a href="matlab:help ctmeasjac -displayBanner">ctmeasjac</a>                      - Jacobian of measurement function for <strong>constant</strong> turn-rate motion
+<a href="matlab:help cvmeas -displayBanner">cvmeas</a>                         - Measurement function for <strong>constant</strong> velocity motion
+<a href="matlab:help cvmeasjac -displayBanner">cvmeasjac</a>                      - Jacobian of measurement function for <strong>constant</strong> velocity motion
+<a href="matlab:help initcaabf -displayBanner">initcaabf</a>                      - Create <strong>constant</strong> acceleration alpha-beta tracking filter from detection report
+<a href="matlab:help initcaekf -displayBanner">initcaekf</a>                      - Create <strong>constant</strong>-acceleration extended Kalman filter from detection report
+<a href="matlab:help initcakf -displayBanner">initcakf</a>                       - Create <strong>constant</strong>-acceleration linear Kalman filter from detection report
+<a href="matlab:help initcaukf -displayBanner">initcaukf</a>                      - Create <strong>constant</strong>-acceleration unscented Kalman filter from detection report
+<a href="matlab:help initctekf -displayBanner">initctekf</a>                      - Create <strong>constant</strong> turn-rate extended Kalman filter from detection report
+<a href="matlab:help initctukf -displayBanner">initctukf</a>                      - Create <strong>constant</strong> turn-rate unscented Kalman filter from detection report
+<a href="matlab:help initcvabf -displayBanner">initcvabf</a>                      - Create <strong>constant</strong> velocity tracking alpha-beta filter from detection report
+<a href="matlab:help initcvekf -displayBanner">initcvekf</a>                      - Create <strong>constant</strong>-velocity extended Kalman filter from detection report
+<a href="matlab:help initcvkf -displayBanner">initcvkf</a>                       - Create <strong>constant</strong>-velocity linear Kalman filter from detection report
+<a href="matlab:help initcvukf -displayBanner">initcvukf</a>                      - Create <strong>constant</strong>-velocity unscented Kalman filter from detection report
+<a href="matlab:help coder.const -displayBanner">coder.const</a>                    - Fold expressions into <strong>constant</strong>s in generated code
+<a href="matlab:help coder.ignoreConst -displayBanner">coder.ignoreConst</a>              - Prevent use of <strong>constant</strong> value of expression for function specializations
+<a href="matlab:help coder.load -displayBanner">coder.load</a>                     - Load compile-time <strong>constant</strong>s from MAT-file or ASCII file
+<a href="matlab:help coder.mustBeConst -displayBanner">coder.mustBeConst</a>              - Validate that value is a compile-time <strong>constant</strong>
+<a href="matlab:help modByConstant -displayBanner">modByConstant</a>                  - Modulus after division by a <strong>constant</strong> denominator
+<a href="matlab:help cameas -displayBanner">cameas</a>                         - Measurement function for <strong>constant</strong>-acceleration motion
+<a href="matlab:help cameasjac -displayBanner">cameasjac</a>                      - Jacobian of measurement function for <strong>constant</strong>-acceleration motion
+<a href="matlab:help constacc -displayBanner">constacc</a>                       - <strong>Constant</strong>-acceleration motion model
+<a href="matlab:help constaccjac -displayBanner">constaccjac</a>                    - Jacobian for <strong>constant</strong>-acceleration motion
+<a href="matlab:help constturn -displayBanner">constturn</a>                      - <strong>Constant</strong> turn-rate motion model
+<a href="matlab:help constturnjac -displayBanner">constturnjac</a>                   - Jacobian for <strong>constant</strong> turn-rate motion
+<a href="matlab:help constvel -displayBanner">constvel</a>                       - <strong>Constant</strong> velocity state update
+<a href="matlab:help constveljac -displayBanner">constveljac</a>                    - Jacobian for <strong>constant</strong>-velocity motion
+<a href="matlab:help constvelmsc -displayBanner">constvelmsc</a>                    - <strong>Constant</strong> velocity (CV) motion model in MSC frame
+<a href="matlab:help constvelmscjac -displayBanner">constvelmscjac</a>                 - Jacobian of <strong>constant</strong> velocity (CV) motion model in MSC frame
+<a href="matlab:help ctmeas -displayBanner">ctmeas</a>                         - Measurement function for <strong>constant</strong> turn-rate motion
+<a href="matlab:help ctmeasjac -displayBanner">ctmeasjac</a>                      - Jacobian of measurement function for <strong>constant</strong> turn-rate motion
+<a href="matlab:help ctrect -displayBanner">ctrect</a>                         - <strong>Constant</strong> turn-rate rectangular target motion model
+<a href="matlab:help ctrectcorners -displayBanner">ctrectcorners</a>                  - Corner measurements of <strong>constant</strong> turn-rate rectangular target
+<a href="matlab:help ctrectjac -displayBanner">ctrectjac</a>                      - Jacobian of <strong>constant</strong> turn-rate rectangular target motion model
+<a href="matlab:help ctrectmeas -displayBanner">ctrectmeas</a>                     - <strong>Constant</strong> turn-rate rectangular target measurement model
+<a href="matlab:help ctrectmeasjac -displayBanner">ctrectmeasjac</a>                  - Jacobian of <strong>constant</strong> turn-rate rectangular target measurement model
+<a href="matlab:help cvmeas -displayBanner">cvmeas</a>                         - Measurement function for <strong>constant</strong> velocity motion
+<a href="matlab:help cvmeasjac -displayBanner">cvmeasjac</a>                      - Jacobian of measurement function for <strong>constant</strong> velocity motion
+<a href="matlab:help cvmeasmsc -displayBanner">cvmeasmsc</a>                      - Measurement based on <strong>constant</strong> velocity (CV) model in MSC frame
+<a href="matlab:help cvmeasmscjac -displayBanner">cvmeasmscjac</a>                   - Jacobian of measurement using <strong>constant</strong> velocity (CV) model in MSC frame
+<a href="matlab:help initapekf -displayBanner">initapekf</a>                      - <strong>Constant</strong> velocity angle-parameterized EKF initialization
+<a href="matlab:help initcaabf -displayBanner">initcaabf</a>                      - Create <strong>constant</strong> acceleration alpha-beta tracking filter from detection report
+<a href="matlab:help initcackf -displayBanner">initcackf</a>                      - Create <strong>constant</strong> acceleration tracking cubature Kalman filter from detection report
+<a href="matlab:help initcaekf -displayBanner">initcaekf</a>                      - Create <strong>constant</strong>-acceleration extended Kalman filter from detection report
+<a href="matlab:help initcakf -displayBanner">initcakf</a>                       - Create <strong>constant</strong>-acceleration linear Kalman filter from detection report
+<a href="matlab:help initcapf -displayBanner">initcapf</a>                       - Create <strong>constant</strong> acceleration tracking particle filter from detection report
+<a href="matlab:help initcaukf -displayBanner">initcaukf</a>                      - Create <strong>constant</strong>-acceleration unscented Kalman filter from detection report
+<a href="matlab:help initctckf -displayBanner">initctckf</a>                      - Create <strong>constant</strong> turn rate tracking cubature Kalman filter from detection report
+<a href="matlab:help initctekf -displayBanner">initctekf</a>                      - Create <strong>constant</strong> turn-rate extended Kalman filter from detection report
+<a href="matlab:help initctpf -displayBanner">initctpf</a>                       - Create <strong>constant</strong> turn rate tracking particle filter from detection report
+<a href="matlab:help initctukf -displayBanner">initctukf</a>                      - Create <strong>constant</strong> turn-rate unscented Kalman filter from detection report
+<a href="matlab:help initcvabf -displayBanner">initcvabf</a>                      - Create <strong>constant</strong> velocity tracking alpha-beta filter from detection report
+<a href="matlab:help initcvckf -displayBanner">initcvckf</a>                      - Create <strong>constant</strong> velocity tracking cubature Kalman filter from detection report
+<a href="matlab:help initcvekf -displayBanner">initcvekf</a>                      - Create <strong>constant</strong>-velocity extended Kalman filter from detection report
+<a href="matlab:help initcvimm -displayBanner">initcvimm</a>                      - IMM initialization with two <strong>constant</strong> velocity models
+<a href="matlab:help initcvkf -displayBanner">initcvkf</a>                       - Create <strong>constant</strong>-velocity linear Kalman filter from detection report
+<a href="matlab:help initcvmscekf -displayBanner">initcvmscekf</a>                   - <strong>Constant</strong> velocity trackingMSCEKF initialization
+<a href="matlab:help initcvpf -displayBanner">initcvpf</a>                       - Create <strong>constant</strong> velocity tracking particle filter from detection report
+<a href="matlab:help initcvukf -displayBanner">initcvukf</a>                      - Create <strong>constant</strong>-velocity unscented Kalman filter from detection report
+<a href="matlab:help initrpekf -displayBanner">initrpekf</a>                      - <strong>Constant</strong> velocity range-parameterized EKF initialization
+<a href="matlab:help initvisionbboxkf -displayBanner">initvisionbboxkf</a>               - Create <strong>constant</strong>-velocity linear Kalman filter for 2-D axis-aligned bounding box from detection report
+<a href="matlab:help coder.gpu.constantMemory -displayBanner">coder.gpu.constantMemory</a>       - Pragma that maps a variable to the <strong>constant</strong> memory on GPU
+<a href="matlab:help arxRegul -displayBanner">arxRegul</a>                       - Determine regularization <strong>constant</strong>s for ARX model estimation
+<a href="matlab:help sgrid -displayBanner">sgrid</a>                          - Generate s-plane grid of <strong>constant</strong> damping factors and natural frequencies
+<a href="matlab:help zgrid -displayBanner">zgrid</a>                          - Generate z-plane grid of <strong>constant</strong> damping factors and natural frequencies
+<a href="matlab:help imadd -displayBanner">imadd</a>                          - Add two images or add <strong>constant</strong> to image
+<a href="matlab:help imdivide -displayBanner">imdivide</a>                       - Divide one image into another or divide image by <strong>constant</strong>
+<a href="matlab:help immultiply -displayBanner">immultiply</a>                     - Multiply two images or multiply image by <strong>constant</strong>
+<a href="matlab:help imsubtract -displayBanner">imsubtract</a>                     - Subtract one image from another or subtract <strong>constant</strong> from image
+<a href="matlab:help mdistort -displayBanner">mdistort</a>                       - Display contours of <strong>constant</strong> map distortion on axesm-based map
+<a href="matlab:help parallel.pool.Constant -displayBanner">parallel.pool.Constant</a>         - Build and use <strong>constant</strong> from data or function handle
+<a href="matlab:help setConstantMemory -displayBanner">setConstantMemory</a>              - Set some <strong>constant</strong> memory on GPU
+<a href="matlab:help physconst -displayBanner">physconst</a>                      - Physical <strong>constant</strong>s
+<a href="matlab:help cameas -displayBanner">cameas</a>                         - Measurement function for <strong>constant</strong>-acceleration motion
+<a href="matlab:help cameasjac -displayBanner">cameasjac</a>                      - Jacobian of measurement function for <strong>constant</strong>-acceleration motion
+<a href="matlab:help cfarloss -displayBanner">cfarloss</a>                       - Loss due to <strong>constant</strong> false alarm rate (CFAR) adaptive processing
+<a href="matlab:help constacc -displayBanner">constacc</a>                       - <strong>Constant</strong>-acceleration motion model
+<a href="matlab:help constaccjac -displayBanner">constaccjac</a>                    - Jacobian for <strong>constant</strong>-acceleration motion
+<a href="matlab:help constturn -displayBanner">constturn</a>                      - <strong>Constant</strong> turn-rate motion model
+<a href="matlab:help constturnjac -displayBanner">constturnjac</a>                   - Jacobian for <strong>constant</strong> turn-rate motion
+<a href="matlab:help constvel -displayBanner">constvel</a>                       - <strong>Constant</strong> velocity state update
+<a href="matlab:help constveljac -displayBanner">constveljac</a>                    - Jacobian for <strong>constant</strong>-velocity motion
+<a href="matlab:help ctmeas -displayBanner">ctmeas</a>                         - Measurement function for <strong>constant</strong> turn-rate motion
+<a href="matlab:help ctmeasjac -displayBanner">ctmeasjac</a>                      - Jacobian of measurement function for <strong>constant</strong> turn-rate motion
+<a href="matlab:help cvmeas -displayBanner">cvmeas</a>                         - Measurement function for <strong>constant</strong> velocity motion
+<a href="matlab:help cvmeasjac -displayBanner">cvmeasjac</a>                      - Jacobian of measurement function for <strong>constant</strong> velocity motion
+<a href="matlab:help initcaabf -displayBanner">initcaabf</a>                      - Create <strong>constant</strong> acceleration alpha-beta tracking filter from detection report
+<a href="matlab:help initcaekf -displayBanner">initcaekf</a>                      - Create <strong>constant</strong>-acceleration extended Kalman filter from detection report
+<a href="matlab:help initcakf -displayBanner">initcakf</a>                       - Create <strong>constant</strong>-acceleration linear Kalman filter from detection report
+<a href="matlab:help initcaukf -displayBanner">initcaukf</a>                      - Create <strong>constant</strong>-acceleration unscented Kalman filter from detection report
+<a href="matlab:help initctekf -displayBanner">initctekf</a>                      - Create <strong>constant</strong> turn-rate extended Kalman filter from detection report
+<a href="matlab:help initctukf -displayBanner">initctukf</a>                      - Create <strong>constant</strong> turn-rate unscented Kalman filter from detection report
+<a href="matlab:help initcvabf -displayBanner">initcvabf</a>                      - Create <strong>constant</strong> velocity tracking alpha-beta filter from detection report
+<a href="matlab:help initcvekf -displayBanner">initcvekf</a>                      - Create <strong>constant</strong>-velocity extended Kalman filter from detection report
+<a href="matlab:help initcvkf -displayBanner">initcvkf</a>                       - Create <strong>constant</strong>-velocity linear Kalman filter from detection report
+<a href="matlab:help initcvukf -displayBanner">initcvukf</a>                      - Create <strong>constant</strong>-velocity unscented Kalman filter from detection report
+<a href="matlab:help cmsclsyn -displayBanner">cmsclsyn</a>                       - Approximately solve <strong>constant</strong>-matrix, upper bound µ-synthesis problem
+<a href="matlab:help catalan -displayBanner">catalan</a>                        - Catalan <strong>constant</strong>
+<a href="matlab:help eulergamma -displayBanner">eulergamma</a>                     - Euler-Mascheroni <strong>constant</strong>
+<a href="matlab:help symfalse -displayBanner">symfalse</a>                       - Symbolic logical <strong>constant</strong> false
+<a href="matlab:help symtrue -displayBanner">symtrue</a>                        - Symbolic logical <strong>constant</strong> true
+<a href="matlab:help addConstant -displayBanner">addConstant</a>                    - Add <strong>constant</strong> to the Architectural Data section of Simulink data dictionary
+<a href="matlab:help getConstant -displayBanner">getConstant</a>                    - Get <strong>constant</strong> in Architectural Data section of Simulink data dictionary
+<a href="matlab:help getConstantNames -displayBanner">getConstantNames</a>               - Get <strong>constant</strong> names in Architectural Data section of Simulink data dictionary
+<a href="matlab:help removeConstant -displayBanner">removeConstant</a>                 - Remove <strong>constant</strong> from Architectural Data section of Simulink data dictionary
+<a href="matlab:help cqt -displayBanner">cqt</a>                            - <strong>Constant</strong>-Q nonstationary Gabor transform
+<a href="matlab:help icqt -displayBanner">icqt</a>                           - Inverse <strong>constant</strong>-Q transform using nonstationary Gabor frames
+<a href="matlab:help comm.AGC -displayBanner">comm.AGC</a>                       - Adaptively adjust gain for <strong>constant</strong> signal level output
+<a href="matlab:help cev -displayBanner">cev</a>                            - <strong>Constant</strong> Elasticity of Variance (CEV) model
+<a href="matlab:help phased.CFARDetector -displayBanner">phased.CFARDetector</a>            - <strong>Constant</strong> false alarm rate (CFAR) detector
+<a href="matlab:help Battery.PulseSequence.estimateInitialTau -displayBanner">Battery.PulseSequence.estimateInitialTau</a> - Estimate RC pair time <strong>constant</strong>
+<a href="matlab:help Simulink.dictionary.archdata.AliasType.moveToDesignData -displayBanner">Simulink.dictionary.archdata.AliasType.moveToDesignData</a> - Move interfaces, data types, and <strong>constant</strong>s in Architectural Data section of Simulink data dictionary to design data
+<a href="matlab:help ggiwphd.initcaggiwphd -displayBanner">ggiwphd.initcaggiwphd</a>          - Create <strong>constant</strong> acceleration ggiwphd filter
+<a href="matlab:help ggiwphd.initctggiwphd -displayBanner">ggiwphd.initctggiwphd</a>          - Create <strong>constant</strong> turn-rate ggiwphd filter
+<a href="matlab:help ggiwphd.initcvggiwphd -displayBanner">ggiwphd.initcvggiwphd</a>          - Create <strong>constant</strong> velocity ggiwphd filter
+<a href="matlab:help gmphd.initcagmphd -displayBanner">gmphd.initcagmphd</a>              - Create <strong>constant</strong> acceleration gmphd filter
+<a href="matlab:help gmphd.initctgmphd -displayBanner">gmphd.initctgmphd</a>              - Create <strong>constant</strong> turn-rate gmphd filter
+<a href="matlab:help gmphd.initctrectgmphd -displayBanner">gmphd.initctrectgmphd</a>          - Create <strong>constant</strong> turn-rate rectangular target gmphd filter
+<a href="matlab:help gmphd.initcvgmphd -displayBanner">gmphd.initcvgmphd</a>              - Create <strong>constant</strong> velocity gmphd filter
+<a href="matlab:help constantGammaClutter.reset -displayBanner">constantGammaClutter.reset</a>     - Reset random numbers and time count for clutter simulation
+<a href="matlab:help constantGammaClutter.step -displayBanner">constantGammaClutter.step</a>      - Simulate clutter using <strong>constant</strong> gamma model
+<a href="matlab:help gpuConstantGammaClutter.reset -displayBanner">gpuConstantGammaClutter.reset</a>  - Reset random numbers and time count for clutter simulation
+<a href="matlab:help gpuConstantGammaClutter.step -displayBanner">gpuConstantGammaClutter.step</a>   - Simulate clutter using <strong>constant</strong> gamma model
+<a href="matlab:help Simulink.dictionary.archdata.AliasType.moveToDesignData -displayBanner">Simulink.dictionary.archdata.AliasType.moveToDesignData</a> - Move interfaces, data types, and <strong>constant</strong>s in Architectural Data section of Simulink data dictionary to design data
+<a href="matlab:help coder.Constant -displayBanner">coder.Constant</a>                 - Specification of <strong>constant</strong> value for code generation
+<a href="matlab:help coder.Constant -displayBanner">coder.Constant</a>                 - Specification of <strong>constant</strong> value for code generation
+<a href="matlab:help simscape.multibody.ConstantVelocityJoint -displayBanner">simscape.multibody.ConstantVelocityJoint</a> - Construct <strong>constant</strong>-velocity joint
+<a href="matlab:help simscape.multibody.ConstantVelocityPrimitive -displayBanner">simscape.multibody.ConstantVelocityPrimitive</a> - Construct <strong>constant</strong>-velocity joint primitive
+<a href="matlab:help Battery.Parameters.Tx -displayBanner">Battery.Parameters.Tx</a>          - RC pair time <strong>constant</strong>
+<a href="matlab:help Battery.Parameters.TxMin -displayBanner">Battery.Parameters.TxMin</a>       - Minimum RC pair time <strong>constant</strong>
+<a href="matlab:help Battery.Parameters.TxMax -displayBanner">Battery.Parameters.TxMax</a>       - Maximum RC pair time <strong>constant</strong>
+<a href="matlab:help Simulink.dictionary.ArchitecturalData.Constants -displayBanner">Simulink.dictionary.ArchitecturalData.Constants</a> - <strong>Constant</strong>s defined in the Architectural Data section
+<a href="matlab:help coder.CodeConfig.ConstantFoldingTimeout -displayBanner">coder.CodeConfig.ConstantFoldingTimeout</a> - Maximum number of instructions to be executed by the <strong>constant</strong> folder
+<a href="matlab:help coder.CodeConfig.LargeConstantGeneration -displayBanner">coder.CodeConfig.LargeConstantGeneration</a> - Whether to write large deep learning <strong>constant</strong>s to binary data files
+<a href="matlab:help coder.CodeConfig.LargeConstantThreshold -displayBanner">coder.CodeConfig.LargeConstantThreshold</a> - Threshold above which the code generator writes DNN <strong>constant</strong>s to binary data files
+<a href="matlab:help coder.Constant.Value -displayBanner">coder.Constant.Value</a>           - Actual value of <strong>constant</strong>
+<a href="matlab:help coder.EmbeddedCodeConfig.ConstantFoldingTimeout -displayBanner">coder.EmbeddedCodeConfig.ConstantFoldingTimeout</a> - Maximum number of instructions to be executed by the <strong>constant</strong> folder
+<a href="matlab:help coder.EmbeddedCodeConfig.CustomSymbolStrMacro -displayBanner">coder.EmbeddedCodeConfig.CustomSymbolStrMacro</a> - Custom identifier format for <strong>constant</strong> macro identifiers
+<a href="matlab:help coder.EmbeddedCodeConfig.LargeConstantGeneration -displayBanner">coder.EmbeddedCodeConfig.LargeConstantGeneration</a> - Whether to write large deep learning <strong>constant</strong>s to binary data files
+<a href="matlab:help coder.EmbeddedCodeConfig.LargeConstantThreshold -displayBanner">coder.EmbeddedCodeConfig.LargeConstantThreshold</a> - Threshold above which the code generator writes DNN <strong>constant</strong>s to binary data files
+<a href="matlab:help coder.EmbeddedCodeConfig.SILPILCheckConstantInputs -displayBanner">coder.EmbeddedCodeConfig.SILPILCheckConstantInputs</a> - <strong>Constant</strong> input checking mode for a SIL or PIL execution
+<a href="matlab:help coder.MexCodeConfig.ConstantFoldingTimeout -displayBanner">coder.MexCodeConfig.ConstantFoldingTimeout</a> - Maximum number of instructions to be executed by the <strong>constant</strong> folder
+<a href="matlab:help coder.MexCodeConfig.ConstantInputs -displayBanner">coder.MexCodeConfig.ConstantInputs</a> - <strong>Constant</strong> input checking mode
+<a href="matlab:help coder.MexCodeConfig.LargeConstantGeneration -displayBanner">coder.MexCodeConfig.LargeConstantGeneration</a> - Whether to write large deep learning <strong>constant</strong>s to binary data files
+<a href="matlab:help coder.MexCodeConfig.LargeConstantThreshold -displayBanner">coder.MexCodeConfig.LargeConstantThreshold</a> - Threshold above which the code generator writes DNN <strong>constant</strong>s to binary data files
+<a href="matlab:help comm.FMBroadcastDemodulator.FilterTimeConstant -displayBanner">comm.FMBroadcastDemodulator.FilterTimeConstant</a> - De-emphasis highpass filter time <strong>constant</strong>
+<a href="matlab:help comm.FMBroadcastModulator.FilterTimeConstant -displayBanner">comm.FMBroadcastModulator.FilterTimeConstant</a> - Pre-emphasis highpass filter time <strong>constant</strong>
+<a href="matlab:help tunablePID.Kp -displayBanner">tunablePID.Kp</a>                  - Parametrization of PID gains and filter time <strong>constant</strong>
+<a href="matlab:help tunablePID.Ki -displayBanner">tunablePID.Ki</a>                  - Parametrization of PID gains and filter time <strong>constant</strong>
+<a href="matlab:help tunablePID.Kd -displayBanner">tunablePID.Kd</a>                  - Parametrization of PID gains and filter time <strong>constant</strong>
+<a href="matlab:help tunablePID.Tf -displayBanner">tunablePID.Tf</a>                  - Parametrization of PID gains and filter time <strong>constant</strong>
+<a href="matlab:help mlearnlib.graphics.chart.ConfusionMatrixChart.PositionConstraint -displayBanner">mlearnlib.graphics.chart.ConfusionMatrixChart.PositionConstraint</a> - Position to hold <strong>constant</strong>
+<a href="matlab:help nnet.cnn.layer.BatchNormalizationLayer.Epsilon -displayBanner">nnet.cnn.layer.BatchNormalizationLayer.Epsilon</a> - <strong>Constant</strong> to add to mini-batch variances
+<a href="matlab:help nnet.cnn.Layer.GroupNormalizationLayer.Epsilon -displayBanner">nnet.cnn.Layer.GroupNormalizationLayer.Epsilon</a> - <strong>Constant</strong> to add to mini-batch variances
+<a href="matlab:help nnet.cnn.Layer.InstanceNormalizationLayer.Epsilon -displayBanner">nnet.cnn.Layer.InstanceNormalizationLayer.Epsilon</a> - <strong>Constant</strong> to add to mini-batch variances
+<a href="matlab:help nnet.cnn.layer.LayerNormalizationLayer.Epsilon -displayBanner">nnet.cnn.layer.LayerNormalizationLayer.Epsilon</a> - <strong>Constant</strong> to add to mini-batch variances
+<a href="matlab:help arima.Constant -displayBanner">arima.Constant</a>                 - Model <strong>constant</strong>
+<a href="matlab:help conjugatebvarm.IncludeConstant -displayBanner">conjugatebvarm.IncludeConstant</a> - Flag for including model <strong>constant</strong> c
+<a href="matlab:help conjugatebvarm.Constant -displayBanner">conjugatebvarm.Constant</a>        - Distribution mean of model <strong>constant</strong> c
+<a href="matlab:help diffusebvarm.IncludeConstant -displayBanner">diffusebvarm.IncludeConstant</a>   - Flag for including model <strong>constant</strong> c
+<a href="matlab:help diffusebvarm.Constant -displayBanner">diffusebvarm.Constant</a>          - Distribution mean of model <strong>constant</strong> c
+<a href="matlab:help egarch.Constant -displayBanner">egarch.Constant</a>                - Conditional variance model <strong>constant</strong>
+<a href="matlab:help empiricalbvarm.IncludeConstant -displayBanner">empiricalbvarm.IncludeConstant</a> - Flag for including model <strong>constant</strong> c
+<a href="matlab:help empiricalbvarm.Constant -displayBanner">empiricalbvarm.Constant</a>        - Distribution mean of model <strong>constant</strong> c
+<a href="matlab:help garch.Constant -displayBanner">garch.Constant</a>                 - Conditional variance model <strong>constant</strong>
+<a href="matlab:help gjr.Constant -displayBanner">gjr.Constant</a>                   - Conditional variance model <strong>constant</strong>
+<a href="matlab:help normalbvarm.IncludeConstant -displayBanner">normalbvarm.IncludeConstant</a>    - Flag for including model <strong>constant</strong> c
+<a href="matlab:help normalbvarm.Constant -displayBanner">normalbvarm.Constant</a>           - Distribution mean of model <strong>constant</strong> c
+<a href="matlab:help semiconjugatebvarm.IncludeConstant -displayBanner">semiconjugatebvarm.IncludeConstant</a> - Flag for including model <strong>constant</strong> c
+<a href="matlab:help semiconjugatebvarm.Constant -displayBanner">semiconjugatebvarm.Constant</a>    - Distribution mean of model <strong>constant</strong> c
+<a href="matlab:help varm.Constant -displayBanner">varm.Constant</a>                  - Model intercepts
+<a href="matlab:help vecm.Constant -displayBanner">vecm.Constant</a>                  - Overall model <strong>constant</strong>
+<a href="matlab:help vecm.CointegrationConstant -displayBanner">vecm.CointegrationConstant</a>     - <strong>Constant</strong> in cointegrating relations
+<a href="matlab:help finmodel.JarrowYildirim.NominalConstant -displayBanner">finmodel.JarrowYildirim.NominalConstant</a> - Nominal rate <strong>constant</strong>
+<a href="matlab:help finmodel.JarrowYildirim.RealConstant -displayBanner">finmodel.JarrowYildirim.RealConstant</a> - Real rate <strong>constant</strong>
+<a href="matlab:help finmodel.SABR.Beta -displayBanner">finmodel.SABR.Beta</a>             - SABR <strong>constant</strong> elasticity of variance (CEV) exponent
+<a href="matlab:help coder.Constant.Value -displayBanner">coder.Constant.Value</a>           - Actual value of <strong>constant</strong>
+<a href="matlab:help coder.mexconfig.ConstantFoldingTimeout -displayBanner">coder.mexconfig.ConstantFoldingTimeout</a> - Maximum number of <strong>constant</strong> folder instructions
+<a href="matlab:help coder.mexconfig.ConstantInputs -displayBanner">coder.mexconfig.ConstantInputs</a> - <strong>Constant</strong> input checking mode
+<a href="matlab:help accelparams.ConstantBias -displayBanner">accelparams.ConstantBias</a>       - <strong>Constant</strong> sensor offset bias (m/s^{2})
+<a href="matlab:help altimeterSensor.ConstantBias -displayBanner">altimeterSensor.ConstantBias</a>   - <strong>Constant</strong> offset bias (m)
+<a href="matlab:help gyroparams.ConstantBias -displayBanner">gyroparams.ConstantBias</a>        - <strong>Constant</strong> sensor offset bias (rad/s)
+<a href="matlab:help magparams.ConstantBias -displayBanner">magparams.ConstantBias</a>         - <strong>Constant</strong> sensor offset bias (μT)
+<a href="matlab:help hdl.WorkingSet.FillValue -displayBanner">hdl.WorkingSet.FillValue</a>       - <strong>Constant</strong> value to fill outside of working set
+<a href="matlab:help('hdlcoder.HDL Coding Standard Customization.NonIntegerTypes', '-displayBanner')">hdlcoder.HDL Coding Standard Customization.NonIntegerTypes</a> - Check for non-integer <strong>constant</strong>s
+<a href="matlab:help('HDL Construct.UseAggregatesForConst', '-displayBanner')">HDL Construct.UseAggregatesForConst</a> - Represent <strong>constant</strong> values by aggregates
+<a href="matlab:help images.roi.Ellipse.FixedAspectRatio -displayBanner">images.roi.Ellipse.FixedAspectRatio</a> - Aspect ratio remains <strong>constant</strong>
+<a href="matlab:help images.roi.Rectangle.FixedAspectRatio -displayBanner">images.roi.Rectangle.FixedAspectRatio</a> - Aspect ratio remains <strong>constant</strong>
+<a href="matlab:help map.graphics.axis.MapAxes.PositionConstraint -displayBanner">map.graphics.axis.MapAxes.PositionConstraint</a> - Position to hold <strong>constant</strong>
+<a href="matlab:help accelparams.ConstantBias -displayBanner">accelparams.ConstantBias</a>       - <strong>Constant</strong> sensor offset bias (m/s^{2})
+<a href="matlab:help altimeterSensor.ConstantBias -displayBanner">altimeterSensor.ConstantBias</a>   - <strong>Constant</strong> offset bias (m)
+<a href="matlab:help controllerPurePursuit.DesiredLinearVelocity -displayBanner">controllerPurePursuit.DesiredLinearVelocity</a> - Desired <strong>constant</strong> linear velocity
+<a href="matlab:help gyroparams.ConstantBias -displayBanner">gyroparams.ConstantBias</a>        - <strong>Constant</strong> sensor offset bias (rad/s)
+<a href="matlab:help magparams.ConstantBias -displayBanner">magparams.ConstantBias</a>         - <strong>Constant</strong> sensor offset bias (μT)
+<a href="matlab:help nav.graphics.chart.SkyPlotChart.PositionConstraint -displayBanner">nav.graphics.chart.SkyPlotChart.PositionConstraint</a> - Position to hold <strong>constant</strong>
+<a href="matlab:help plannerRRTStar.BallRadiusConstant -displayBanner">plannerRRTStar.BallRadiusConstant</a> - <strong>Constant</strong> used to estimate the near neighbors search radius
+<a href="matlab:help parallel.pool.Constant.Value -displayBanner">parallel.pool.Constant.Value</a>   - Underlying data or handle-type resource
+<a href="matlab:help femodel.StefanBoltzmann -displayBanner">femodel.StefanBoltzmann</a>        - <strong>Constant</strong> of proportionality in Stefan-Boltzmann law governing radiation heat transfer
+<a href="matlab:help pde.PDEVisualization.PositionConstraint -displayBanner">pde.PDEVisualization.PositionConstraint</a> - Position to hold <strong>constant</strong>
+<a href="matlab:help pde.ThermalModel.StefanBoltzmannConstant -displayBanner">pde.ThermalModel.StefanBoltzmannConstant</a> - <strong>Constant</strong> of proportionality in Stefan-Boltzmann law governing radiation heat transfer
+<a href="matlab:help phased.MatchedFilter.Nbar -displayBanner">phased.MatchedFilter.Nbar</a>      - Number of nearly-<strong>constant</strong> sidelobes in Taylor window
+<a href="matlab:help constantGammaClutter.Sensor -displayBanner">constantGammaClutter.Sensor</a>    - 
+<a href="matlab:help constantGammaClutter.Gamma -displayBanner">constantGammaClutter.Gamma</a>     - 
+<a href="matlab:help constantGammaClutter.EarthModel -displayBanner">constantGammaClutter.EarthModel</a> - 
+<a href="matlab:help constantGammaClutter.ClutterMinRange -displayBanner">constantGammaClutter.ClutterMinRange</a> - 
+<a href="matlab:help constantGammaClutter.ClutterMaxRange -displayBanner">constantGammaClutter.ClutterMaxRange</a> - 
+<a href="matlab:help constantGammaClutter.ClutterAzimuthCenter -displayBanner">constantGammaClutter.ClutterAzimuthCenter</a> - 
+<a href="matlab:help constantGammaClutter.ClutterAzimuthSpan -displayBanner">constantGammaClutter.ClutterAzimuthSpan</a> - 
+<a href="matlab:help constantGammaClutter.PatchAzimuthSpan -displayBanner">constantGammaClutter.PatchAzimuthSpan</a> - 
+<a href="matlab:help constantGammaClutter.CoherenceTime -displayBanner">constantGammaClutter.CoherenceTime</a> - 
+<a href="matlab:help constantGammaClutter.PropagationSpeed -displayBanner">constantGammaClutter.PropagationSpeed</a> - 
+<a href="matlab:help constantGammaClutter.SampleRate -displayBanner">constantGammaClutter.SampleRate</a> - 
+<a href="matlab:help constantGammaClutter.PRF -displayBanner">constantGammaClutter.PRF</a>       - 
+<a href="matlab:help constantGammaClutter.PRFSelectionInputPort -displayBanner">constantGammaClutter.PRFSelectionInputPort</a> - 
+<a href="matlab:help constantGammaClutter.OutputFormat -displayBanner">constantGammaClutter.OutputFormat</a> - 
+<a href="matlab:help constantGammaClutter.NumPulses -displayBanner">constantGammaClutter.NumPulses</a> - 
+<a href="matlab:help constantGammaClutter.NumSamples -displayBanner">constantGammaClutter.NumSamples</a> - 
+<a href="matlab:help constantGammaClutter.OperatingFrequency -displayBanner">constantGammaClutter.OperatingFrequency</a> - 
+<a href="matlab:help constantGammaClutter.TransmitSignalInputPort -displayBanner">constantGammaClutter.TransmitSignalInputPort</a> - 
+<a href="matlab:help constantGammaClutter.WeightsInputPort -displayBanner">constantGammaClutter.WeightsInputPort</a> - 
+<a href="matlab:help constantGammaClutter.TransmitERP -displayBanner">constantGammaClutter.TransmitERP</a> - 
+<a href="matlab:help constantGammaClutter.PlatformHeight -displayBanner">constantGammaClutter.PlatformHeight</a> - 
+<a href="matlab:help constantGammaClutter.PlatformSpeed -displayBanner">constantGammaClutter.PlatformSpeed</a> - 
+<a href="matlab:help constantGammaClutter.PlatformDirection -displayBanner">constantGammaClutter.PlatformDirection</a> - 
+<a href="matlab:help constantGammaClutter.MountingAngles -displayBanner">constantGammaClutter.MountingAngles</a> - 
+<a href="matlab:help constantGammaClutter.SeedSource -displayBanner">constantGammaClutter.SeedSource</a> - 
+<a href="matlab:help constantGammaClutter.Seed -displayBanner">constantGammaClutter.Seed</a>      - 
+<a href="matlab:help gpuConstantGammaClutter.Sensor -displayBanner">gpuConstantGammaClutter.Sensor</a> - 
+<a href="matlab:help gpuConstantGammaClutter.Gamma -displayBanner">gpuConstantGammaClutter.Gamma</a>  - 
+<a href="matlab:help gpuConstantGammaClutter.EarthModel -displayBanner">gpuConstantGammaClutter.EarthModel</a> - 
+<a href="matlab:help gpuConstantGammaClutter.ClutterMinRange -displayBanner">gpuConstantGammaClutter.ClutterMinRange</a> - 
+<a href="matlab:help gpuConstantGammaClutter.ClutterMaxRange -displayBanner">gpuConstantGammaClutter.ClutterMaxRange</a> - 
+<a href="matlab:help gpuConstantGammaClutter.ClutterAzimuthCenter -displayBanner">gpuConstantGammaClutter.ClutterAzimuthCenter</a> - 
+<a href="matlab:help gpuConstantGammaClutter.ClutterAzimuthSpan -displayBanner">gpuConstantGammaClutter.ClutterAzimuthSpan</a> - 
+<a href="matlab:help gpuConstantGammaClutter.PatchAzimuthSpan -displayBanner">gpuConstantGammaClutter.PatchAzimuthSpan</a> - 
+<a href="matlab:help gpuConstantGammaClutter.CoherenceTime -displayBanner">gpuConstantGammaClutter.CoherenceTime</a> - 
+<a href="matlab:help gpuConstantGammaClutter.PropagationSpeed -displayBanner">gpuConstantGammaClutter.PropagationSpeed</a> - 
+<a href="matlab:help gpuConstantGammaClutter.SampleRate -displayBanner">gpuConstantGammaClutter.SampleRate</a> - 
+<a href="matlab:help gpuConstantGammaClutter.PRF -displayBanner">gpuConstantGammaClutter.PRF</a>    - 
+<a href="matlab:help gpuConstantGammaClutter.PRFSelectionInputPort -displayBanner">gpuConstantGammaClutter.PRFSelectionInputPort</a> - 
+<a href="matlab:help gpuConstantGammaClutter.OutputFormat -displayBanner">gpuConstantGammaClutter.OutputFormat</a> - 
+<a href="matlab:help gpuConstantGammaClutter.NumPulses -displayBanner">gpuConstantGammaClutter.NumPulses</a> - 
+<a href="matlab:help gpuConstantGammaClutter.NumSamples -displayBanner">gpuConstantGammaClutter.NumSamples</a> - 
+<a href="matlab:help gpuConstantGammaClutter.OperatingFrequency -displayBanner">gpuConstantGammaClutter.OperatingFrequency</a> - 
+<a href="matlab:help gpuConstantGammaClutter.TransmitSignalInputPort -displayBanner">gpuConstantGammaClutter.TransmitSignalInputPort</a> - 
+<a href="matlab:help gpuConstantGammaClutter.WeightsInputPort -displayBanner">gpuConstantGammaClutter.WeightsInputPort</a> - 
+<a href="matlab:help gpuConstantGammaClutter.TransmitERP -displayBanner">gpuConstantGammaClutter.TransmitERP</a> - 
+<a href="matlab:help gpuConstantGammaClutter.PlatformHeight -displayBanner">gpuConstantGammaClutter.PlatformHeight</a> - 
+<a href="matlab:help gpuConstantGammaClutter.PlatformSpeed -displayBanner">gpuConstantGammaClutter.PlatformSpeed</a> - 
+<a href="matlab:help gpuConstantGammaClutter.PlatformDirection -displayBanner">gpuConstantGammaClutter.PlatformDirection</a> - 
+<a href="matlab:help gpuConstantGammaClutter.MountingAngles -displayBanner">gpuConstantGammaClutter.MountingAngles</a> - 
+<a href="matlab:help gpuConstantGammaClutter.SeedSource -displayBanner">gpuConstantGammaClutter.SeedSource</a> - 
+<a href="matlab:help gpuConstantGammaClutter.Seed -displayBanner">gpuConstantGammaClutter.Seed</a>   - 
+<a href="matlab:help SmithPlot.GridValue -displayBanner">SmithPlot.GridValue</a>            - Defines <strong>constant</strong> resistance circles and <strong>constant</strong> reactance arcs
+<a href="matlab:help developmentTriangle.TailFactor -displayBanner">developmentTriangle.TailFactor</a> - Tail factor <strong>constant</strong>
+<a href="matlab:help controllerPurePursuit.DesiredLinearVelocity -displayBanner">controllerPurePursuit.DesiredLinearVelocity</a> - Desired <strong>constant</strong> linear velocity
+<a href="matlab:help taskSpaceMotionModel.JointDamping -displayBanner">taskSpaceMotionModel.JointDamping</a> - Joint damping <strong>constant</strong>
+<a href="matlab:help nav.graphics.chart.SkyPlotChart.PositionConstraint -displayBanner">nav.graphics.chart.SkyPlotChart.PositionConstraint</a> - Position to hold <strong>constant</strong>
+<a href="matlab:help Constant -displayBanner">Constant</a>                       - Specify variable or <strong>constant</strong> species amount, parameter value, or compartment capacity
+<a href="matlab:help ConstantAmount -displayBanner">ConstantAmount</a>                 - Specify variable or <strong>constant</strong> species amount
+<a href="matlab:help ConstantCapacity -displayBanner">ConstantCapacity</a>               - Specify variable or <strong>constant</strong> compartment capacity
+<a href="matlab:help ConstantValue -displayBanner">ConstantValue</a>                  - Specify variable or <strong>constant</strong> parameter value
+<a href="matlab:help SimBiology.export.ValueInfo.Constant -displayBanner">SimBiology.export.ValueInfo.Constant</a> - Display whether value is <strong>constant</strong> or time-varying
+<a href="matlab:help frest.PRBS.OneSamplePerClockPeriod -displayBanner">frest.PRBS.OneSamplePerClockPeriod</a> - Option to keep signal <strong>constant</strong> for either one or multiple samples per clock period
+<a href="matlab:help simscape.multibody.ConstantVelocityJoint.CV -displayBanner">simscape.multibody.ConstantVelocityJoint.CV</a> - <strong>Constant</strong>-velocity primitive
+<a href="matlab:help simscape.multibody.ConstantVelocityPrimitive.InternalState -displayBanner">simscape.multibody.ConstantVelocityPrimitive.InternalState</a> - Internal state representation
+<a href="matlab:help mlearnlib.graphics.chart.ConfusionMatrixChart.PositionConstraint -displayBanner">mlearnlib.graphics.chart.ConfusionMatrixChart.PositionConstraint</a> - Position to hold <strong>constant</strong>
+<a href="matlab:help Simulink.dictionary.ArchitecturalData.Constants -displayBanner">Simulink.dictionary.ArchitecturalData.Constants</a> - <strong>Constant</strong>s defined in the Architectural Data section
+<a href="matlab:help textanalytics.chart.DependencyChart.PositionConstraint -displayBanner">textanalytics.chart.DependencyChart.PositionConstraint</a> - Position to hold <strong>constant</strong>
+<a href="matlab:help constantGammaClutter -displayBanner">constantGammaClutter</a>           - Simulate <strong>constant</strong> gamma clutter
+<a href="matlab:help gpuConstantGammaClutter -displayBanner">gpuConstantGammaClutter</a>        - Simulate <strong>constant</strong>-gamma clutter using GPU
+<a href="matlab:help('Control Volume System', '-displayBanner')">Control Volume System</a>          - <strong>Constant</strong> volume open thermodynamic system with heat transfer
+<a href="matlab:help AGC -displayBanner">AGC</a>                            - Adaptively adjust gain for <strong>constant</strong> signal-level output
+<a href="matlab:help Constant -displayBanner">Constant</a>                       - Generate <strong>constant</strong> value
+<a href="matlab:help('Constant Ramp', '-displayBanner')">Constant Ramp</a>                  - Generate ramp signal with length based on input dimensions
+<a href="matlab:help('DSP Constant (Obsolete)', '-displayBanner')">DSP Constant (Obsolete)</a>        - Generate discrete- or continuous-time <strong>constant</strong> signal
+<a href="matlab:help('Divide by Constant and Round', '-displayBanner')">Divide by Constant and Round</a>   - Divide input by a <strong>constant</strong> and round to integer
+<a href="matlab:help('Divide by Constant HDL Optimized', '-displayBanner')">Divide by Constant HDL Optimized</a> - Divide input by a <strong>constant</strong> and round to integer and generate optimized HDL code
+<a href="matlab:help('Modulo by Constant', '-displayBanner')">Modulo by Constant</a>             - Perform modulo operation with a <strong>constant</strong> denominator
+<a href="matlab:help('Modulo by Constant HDL Optimized', '-displayBanner')">Modulo by Constant HDL Optimized</a> - Perform mod operation with a <strong>constant</strong> denominator and generate optimized HDL code
+<a href="matlab:help('PMSM Mechanical Parameter Estimator', '-displayBanner')">PMSM Mechanical Parameter Estimator</a> - Estimate back EMF <strong>constant</strong>, rotor inertia, and viscous damping of permanent magnet synchronous motor (PMSM)
+<a href="matlab:help('2-D CFAR Detector', '-displayBanner')">2-D CFAR Detector</a>              - Two-dimensional <strong>constant</strong> false alarm rate (CFAR) detector
+<a href="matlab:help('CFAR Detector', '-displayBanner')">CFAR Detector</a>                  - <strong>Constant</strong> false alarm rate (CFAR) detector
+<a href="matlab:help('Constant Gamma Clutter', '-displayBanner')">Constant Gamma Clutter</a>         - <strong>Constant</strong> gamma clutter simulation
+<a href="matlab:help('GPU Constant Gamma Clutter', '-displayBanner')">GPU Constant Gamma Clutter</a>     - <strong>Constant</strong> gamma clutter simulation using gpu
+<a href="matlab:help('Continuous Wave', '-displayBanner')">Continuous Wave</a>                - Model <strong>constant</strong> envelope source
+<a href="matlab:help('Battery CC-CV', '-displayBanner')">Battery CC-CV</a>                  - <strong>Constant</strong> current <strong>constant</strong> voltage charging algorithm
+<a href="matlab:help('CCCV Battery Charger', '-displayBanner')">CCCV Battery Charger</a>           - <strong>Constant</strong>-current <strong>constant</strong>-voltage battery charger
+<a href="matlab:help('Orifice (2P)', '-displayBanner')">Orifice (2P)</a>                   - <strong>Constant</strong>- or variable-area orifice in a two-phase fluid network
+<a href="matlab:help('Orifice (IL)', '-displayBanner')">Orifice (IL)</a>                   - <strong>Constant</strong>-area or variable-area orifice in an isothermal liquid system
+<a href="matlab:help('Orifice (TL)', '-displayBanner')">Orifice (TL)</a>                   - <strong>Constant</strong>-area or variable-area orifice in a thermal liquid system
+<a href="matlab:help('Pressure-Compensated Pump (IL)', '-displayBanner')">Pressure-Compensated Pump (IL)</a> - <strong>Constant</strong>-pressure, variable-displacement pump in an isothermal liquid network
+<a href="matlab:help('AC Voltage Source', '-displayBanner')">AC Voltage Source</a>              - Ideal <strong>constant</strong> voltage source
+<a href="matlab:help('Constant Area Pneumatic Orifice', '-displayBanner')">Constant Area Pneumatic Orifice</a> - Sharp-edged orifice in pneumatic systems
+<a href="matlab:help('Constant Area Pneumatic Orifice (ISO 6358)', '-displayBanner')">Constant Area Pneumatic Orifice (ISO 6358)</a> - Fixed-area pneumatic orifice complying with ISO 6358 standard
+<a href="matlab:help('Constant Volume Chamber (2P)', '-displayBanner')">Constant Volume Chamber (2P)</a>   - Chamber with fixed volume of two-phase fluid and variable number of ports
+<a href="matlab:help('Constant Volume Chamber (G)', '-displayBanner')">Constant Volume Chamber (G)</a>    - Chamber with fixed volume of gas and variable number of ports
+<a href="matlab:help('Constant Volume Chamber (IL)', '-displayBanner')">Constant Volume Chamber (IL)</a>   - Chamber with one port and fixed volume of isothermal liquid
+<a href="matlab:help('Constant Volume Chamber (MA)', '-displayBanner')">Constant Volume Chamber (MA)</a>   - Chamber with fixed volume of moist air and variable number of ports
+<a href="matlab:help('Constant Volume Chamber (TL)', '-displayBanner')">Constant Volume Chamber (TL)</a>   - Chamber with fixed volume of thermal liquid and variable number of ports
+<a href="matlab:help('Constant Volume Pneumatic Chamber', '-displayBanner')">Constant Volume Pneumatic Chamber</a> - <strong>Constant</strong> volume pneumatic chamber based on ideal gas law
+<a href="matlab:help('DC Current Source', '-displayBanner')">DC Current Source</a>              - Ideal <strong>constant</strong> current source
+<a href="matlab:help('DC Voltage Source', '-displayBanner')">DC Voltage Source</a>              - Ideal <strong>constant</strong> voltage source
+<a href="matlab:help('Flow Rate Source (2P)', '-displayBanner')">Flow Rate Source (2P)</a>          - Generate <strong>constant</strong> or time-varying mass flow rate or volumetric flow rate in two-phase fluid network
+<a href="matlab:help('Flow Rate Source (G)', '-displayBanner')">Flow Rate Source (G)</a>           - Generate <strong>constant</strong> or time-varying mass flow rate or volumetric flow rate in gas network
+<a href="matlab:help('Flow Rate Source (MA)', '-displayBanner')">Flow Rate Source (MA)</a>          - Generate <strong>constant</strong> or time-varying mass flow rate or volumetric flow rate in moist air network
+<a href="matlab:help('Flow Rate Source (TL)', '-displayBanner')">Flow Rate Source (TL)</a>          - Generate <strong>constant</strong> or time-varying mass flow rate or volumetric flow rate in thermal liquid network
+<a href="matlab:help('Heat Flow Rate Source', '-displayBanner')">Heat Flow Rate Source</a>          - <strong>Constant</strong> source of thermal energy, characterized by heat flow
+<a href="matlab:help('Moisture Source (MA)', '-displayBanner')">Moisture Source (MA)</a>           - Inject or extract moisture at a <strong>constant</strong> or time-varying rate
+<a href="matlab:help('Network Coupler (Constant Volume Chamber (IL))', '-displayBanner')">Network Coupler (Constant Volume Chamber (IL))</a> - Split network at an isothermal liquid connection
+<a href="matlab:help('Network Coupler (Constant Volume Chamber (TL))', '-displayBanner')">Network Coupler (Constant Volume Chamber (TL))</a> - Split network at a thermal liquid connection
+<a href="matlab:help('Pneumatic Flow Rate Source', '-displayBanner')">Pneumatic Flow Rate Source</a>     - Ideal compressor with <strong>constant</strong> mass flow rate
+<a href="matlab:help('Pneumatic Pressure Source', '-displayBanner')">Pneumatic Pressure Source</a>      - Ideal compressor with <strong>constant</strong> pressure difference
+<a href="matlab:help('Pressure Source (2P)', '-displayBanner')">Pressure Source (2P)</a>           - Generate <strong>constant</strong> or time-varying pressure differential
+<a href="matlab:help('Pressure Source (G)', '-displayBanner')">Pressure Source (G)</a>            - Generate <strong>constant</strong> or time-varying pressure differential
+<a href="matlab:help('Pressure Source (MA)', '-displayBanner')">Pressure Source (MA)</a>           - Generate <strong>constant</strong> or time-varying pressure differential
+<a href="matlab:help('Pressure Source (TL)', '-displayBanner')">Pressure Source (TL)</a>           - Generate <strong>constant</strong> or time-varying pressure differential
+<a href="matlab:help('PS Bias', '-displayBanner')">PS Bias</a>                        - Add <strong>constant</strong> bias to input physical signal
+<a href="matlab:help('PS Constant', '-displayBanner')">PS Constant</a>                    - Generate <strong>constant</strong> physical signal
+<a href="matlab:help('PS Constant Delay', '-displayBanner')">PS Constant Delay</a>              - Delay input physical signal by specified time
+<a href="matlab:help('PS Constant Offset Estimator', '-displayBanner')">PS Constant Offset Estimator</a>   - Measure <strong>constant</strong> offset value of periodic signal
+<a href="matlab:help('PS Gain', '-displayBanner')">PS Gain</a>                        - Multiply input physical signal by <strong>constant</strong>
+<a href="matlab:help('PS Ramp', '-displayBanner')">PS Ramp</a>                        - Generate <strong>constant</strong>ly increasing or decreasing physical signal
+<a href="matlab:help('Reservoir (2P)', '-displayBanner')">Reservoir (2P)</a>                 - Two-phase fluid reservoir at <strong>constant</strong> temperature and pressure
+<a href="matlab:help('Reservoir (G)', '-displayBanner')">Reservoir (G)</a>                  - Boundary conditions for gas network at <strong>constant</strong> pressure and temperature
+<a href="matlab:help('Reservoir (IL)', '-displayBanner')">Reservoir (IL)</a>                 - Isothermal liquid reservoir at <strong>constant</strong> or time-varying pressure
+<a href="matlab:help('Reservoir (MA)', '-displayBanner')">Reservoir (MA)</a>                 - Boundary conditions for moist air network at <strong>constant</strong> pressure, temperature, moisture, and trace gas levels
+<a href="matlab:help('Reservoir (TL)', '-displayBanner')">Reservoir (TL)</a>                 - Thermal liquid reservoir at <strong>constant</strong> temperature and pressure
+<a href="matlab:help('Temperature Source', '-displayBanner')">Temperature Source</a>             - <strong>Constant</strong> source of thermal energy, characterized by temperature
+<a href="matlab:help('Thermal Resistance', '-displayBanner')">Thermal Resistance</a>             - <strong>Constant</strong> resistance in thermal systems
+<a href="matlab:help('Thermodynamic Properties Sensor (G)', '-displayBanner')">Thermodynamic Properties Sensor (G)</a> - Measure specific enthalpy, density, specific heat at <strong>constant</strong> pressure, and specific entropy
+<a href="matlab:help('Thermodynamic Properties Sensor (MA)', '-displayBanner')">Thermodynamic Properties Sensor (MA)</a> - Measure specific enthalpy, density, specific heat at <strong>constant</strong> pressure, and specific entropy of air mixture
+<a href="matlab:help('Thermodynamic Properties Sensor (TL)', '-displayBanner')">Thermodynamic Properties Sensor (TL)</a> - Measure specific internal energy, density, and specific heat at <strong>constant</strong> pressure in thermal liquid networks
+<a href="matlab:help('Trace Gas Source (MA)', '-displayBanner')">Trace Gas Source (MA)</a>          - Inject or extract trace gas at a <strong>constant</strong> or time-varying rate
+<a href="matlab:help('Constant Velocity Joint', '-displayBanner')">Constant Velocity Joint</a>        - Joint that enforces a <strong>constant</strong>-velocity kinematic constraint between two shafts
+<a href="matlab:help('Constant Current Load', '-displayBanner')">Constant Current Load</a>          - <strong>Constant</strong> current load for DC or AC supply
+<a href="matlab:help('Constant Current Load (Three-Phase)', '-displayBanner')">Constant Current Load (Three-Phase)</a> - Three-phase <strong>constant</strong> current load
+<a href="matlab:help('Constant Power Load', '-displayBanner')">Constant Power Load</a>            - <strong>Constant</strong> power load for DC or AC supply
+<a href="matlab:help('Constant Power Load (Three-Phase)', '-displayBanner')">Constant Power Load (Three-Phase)</a> - Three-phase <strong>constant</strong> power load
+<a href="matlab:help('DC Current Source', '-displayBanner')">DC Current Source</a>              - <strong>Constant</strong> current source
+<a href="matlab:help('DC Voltage Source', '-displayBanner')">DC Voltage Source</a>              - <strong>Constant</strong> voltage source
+<a href="matlab:help('Machine Inertia', '-displayBanner')">Machine Inertia</a>                - Machine inertia parameterized using machine inertia <strong>constant</strong> or anchor inertia
+<a href="matlab:help('Constant macros', '-displayBanner')">Constant macros</a>                - Customize generated <strong>constant</strong> macro identifiers
+<a href="matlab:help('Check for non-integer constants', '-displayBanner')">Check for non-integer constants</a> - Specify whether to check for non-integer <strong>constant</strong>s
+<a href="matlab:help('Represent constant values by aggregates', '-displayBanner')">Represent constant values by aggregates</a> - <strong>Constant</strong>s represented by aggregates
+<a href="matlab:help('Inline Named Constants', '-displayBanner')">Inline Named Constants</a>         - Improve code readability by inlining named <strong>constant</strong>s in generated code
+<a href="matlab:help('Large constant generation in MATLAB functions', '-displayBanner')">Large constant generation in MATLAB functions</a> - Whether to write large deep learning <strong>constant</strong>s to binary data files
+<a href="matlab:help('Large constant threshold in MATLAB functions (bytes)', '-displayBanner')">Large constant threshold in MATLAB functions (bytes)</a> - Threshold above which the code generator writes DNN <strong>constant</strong>s to binary data files
+<a href="matlab:help('Constant Head Tank', '-displayBanner')">Constant Head Tank</a>             - (To be removed) Hydraulic reservoir where pressurization and fluid level remain <strong>constant</strong> regardless of volume change
+<a href="matlab:help('Fixed Orifice', '-displayBanner')">Fixed Orifice</a>                  - (To be removed) Hydraulic orifice with <strong>constant</strong> cross-sectional area
+<a href="matlab:help('Constant Area Hydraulic Orifice', '-displayBanner')">Constant Area Hydraulic Orifice</a> - (To be removed) Hydraulic orifice with <strong>constant</strong> cross-sectional area
+<a href="matlab:help('Constant Volume Hydraulic Chamber', '-displayBanner')">Constant Volume Hydraulic Chamber</a> - (To be removed) Hydraulic capacity of <strong>constant</strong> volume
+<a href="matlab:help('Hydraulic Constant Flow Rate Source', '-displayBanner')">Hydraulic Constant Flow Rate Source</a> - (To be removed) Ideal source of hydraulic energy, characterized by <strong>constant</strong> flow rate
+<a href="matlab:help('Hydraulic Constant Mass Flow Rate Source', '-displayBanner')">Hydraulic Constant Mass Flow Rate Source</a> - (To be removed) Ideal source of mechanical energy in hydraulic network, characterized by <strong>constant</strong> mass flow rate
+<a href="matlab:help('Hydraulic Constant Pressure Source', '-displayBanner')">Hydraulic Constant Pressure Source</a> - (To be removed) Ideal source of hydraulic energy, characterized by <strong>constant</strong> pressure
+<a href="matlab:help dsp.Window.NumConstantSidelobes -displayBanner">dsp.Window.NumConstantSidelobes</a> - Number of <strong>constant</strong> sidelobes
+
+help Constant -displayBanner
+--- help for Block <strong>Constant</strong> ---
+
+ <strong>Constant</strong> - Generate constant value
+    The <strong>Constant</strong> block generates a real or complex constant value signal.
+
+    Output Arguments
+      <a href="matlab:web('C:\Program Files\MATLAB\R2024a\help\simulink\slref/constant.html#d126e40731')">Port_1</a> - <strong>Constant</strong> value
+        scalar | vector | matrix | N-D array
+
+    Examples
+      <a href="matlab:openExample('simulink/CreateNonvirtualBusFromStructureExample')">Create Nonvirtual Bus from MATLAB Structure</a>
+      <a href="matlab:openExample('simulink_automotive/SimulatingAutomaticClimateControlSystemsExample')">Simulating Automatic Climate Control Systems</a>
+      <a href="matlab:openExample('simulink_general/sldemo_boilerExample')">Bang-Bang Control Using Temporal Logic</a>
+      <a href="matlab:openExample('simulink_general/sldemo_bounceExample')">Simulation of Bouncing Ball</a>
+
+    See also <a href="matlab:help('Enumerated Constant', '-displayBanner')">Enumerated Constant</a>, <a href="matlab:help Simulink.Parameter -displayBanner">Simulink.Parameter</a>, <a href="matlab:help Simulink.BusElement -displayBanner">Simulink.BusElement</a>
+
+    Introduced in Simulink before R2006a
+    <a href="matlab:doc simulink/Constant">Documentation for Constant</a>
+
+clc
+prime=[2 3 5 711 13]
+
+prime =
+
+     2     3     5   711    13
+
+prime=[2 3 5 7 11 13]
+
+prime =
+
+     2     3     5     7    11    13
+
+prime(end)
+
+ans =
+
+    13
+
+prime(end-1)
+
+ans =
+
+    11
+
+prime(1)
+
+ans =
+
+     2
+
+prime
+
+prime =
+
+     2     3     5     7    11    13
+
+format compact
+dir
+
+.                                 diagProduct.m                     
+..                                diz.m                             
+1988-Broomhead-CS.pdf             dizi.m                            
+2021_9_27_13_22_36.txt            dosya_09_10_2023.m                
+2021_9_27_13_47_20.txt            dsolve_D3y.m                      
+2021_9_27_13_51_47.txt            dupCol.m                          
+2022_10_12_14_8_7.txt             dupRow.m                          
+2022_10_19_14_14_21.txt           euler_terim.m                     
+2022_10_26_14_9_5.txt             ex_06_02.m                        
+2022_10_5_19_58_41.txt            ex_06_07.m                        
+2022_11_23_14_1_58.txt            ex_06_10.m                        
+2022_11_2_14_10_38.txt            ex_06_14.m                        
+2022_11_30_14_12_30.txt           exp_polyfit.m                     
+2022_11_9_14_16_19.txt            fft_construct.m                   
+2022_12_14_14_23_58.txt           fig_02_04.m                       
+2022_12_14_14_35_40.txt           fig_04_15.m                       
+2022_12_21_14_17_4.txt            fonk.m                            
+2022_9_21_14_31_19.txt            gauss_eleme.m                     
+2022_9_21_14_48_44.txt            gcd2.m                            
+2022_9_21_14_49_37.txt            gha_image_coding.m                
+2022_9_28_13_6_36.txt             graph_rail_network.m              
+2023_10_16_14_13_45.txt           h_swiss_.m                        
+2023_10_23_12_9_3.txt             hi_lo.m                           
+2023_10_23_14_16_34.txt           hparabola.m                       
+2023_10_2_14_25_22.txt            inf_while.m                       
+2023_10_2_14_59_11.txt            interfer.m                        
+2023_10_30_14_6_48.txt            itermenu.m                        
+2023_10_9_14_14_59.txt            main_haykin_4_8_mlp.m             
+2023_11_13_14_12_11.txt           mk_data.m                         
+2023_11_20_14_22_19.txt           movie_yay.m                       
+2023_11_2_11_59_7.txt             n_term_fourier.m                  
+2023_11_6_14_14_1.txt             newff_sind.m                      
+2023_12_11_14_16_0.txt            persmean.m                        
+2023_12_25_14_14_7.txt            person.m                          
+2023_12_25_14_16_44.txt           pipe.m                            
+2023_12_4_14_5_57.txt             pipes1.m                          
+2023_12_6_14_21_7.txt             pipes2.m                          
+2023_3_13_14_33_5.txt             pl_circ.m                         
+2023_3_20_15_32_59.txt            pline.m                           
+2023_3_27_14_37_23.txt            pow_polyfit.m                     
+2023_4_10_14_5_11.txt             powers.m                          
+2023_4_17_14_40_38.txt            pyt.m                             
+2023_4_3_14_4_29.txt              rbf.m                             
+2023_5_15_14_1_25.txt             rbfDesign.m                       
+2023_8_15_22_55_23.txt            rbfDesignExample.m                
+2023_9_28_16_33_3.txt             rbf_classifier.m                  
+2024_10_2_23_21_45.txt            rbf_correct.m                     
+2024_10_3_12_50_1.txt             rbf_db.m                          
+2024_10_3_14_15_2.txt             rbf_mkGF.m                        
+2024_1_8_14_11_35.txt             rbf_test.m                        
+2024_4_1_14_6_32.txt              readme_rbf                        
+2024_7_22_15_25_34.txt            rectify.m                         
+AND_perceptron.m                  rectify.m.M                       
+AND_perceptron_sign.m             rowSum.m                          
+BR1_matris.m                      segment.m                         
+BR2_isim.m                        segment1.m                        
+BR3_koordinat.m                   shuffle.m                         
+BR_hucre.m                        simp.m                            
+Ex_02_06.m                        sin_newff.m                       
+Ex_04_06.m                        sin_of_mlp.m                      
+Exp_02_04.m                       slprj                             
+Exp_02_05.m                       spipe.m                           
+Exp_02_08.m                       sse_polyfit.m                     
+Exp_02_09.m                       svm_dec_bnd.m                     
+F.m                               svm_proymayor.m                   
+IterMeth.m                        svm_proymenor.m                   
+Newton_Raphson.m                  svm_rbf.m                         
+Per2cell.m                        svm_test.m                        
+RGB.m                             thresh.m                          
+RGBcolr.m                         true_error.m                      
+SVM_6_4.m                         ultim.m                           
+Tablo.xlsx                        untitled_ert_rtw                  
+Tablo_3_1.xlsx                    uramp.m                           
+XOR_multi_layer_perceptron_MLP.m  ustep.m                           
+almac_ve.m                        vecrot.m                          
+almac_veya.m                      veri.mat                          
+aprox_error.m                     veritext.txt                      
+bisection_method.m                vr.m                              
+bpm_dec_bnds.m                    vr_xls_yaz_oku.m                  
+bpm_phi.m                         watch.m                           
+bpm_phi_d.m                       weight.m                          
+bpm_test.m                        xor_hardlim.m                     
+bpm_train.m                       xor_rbf.m                         
+class_vs_struct.m                 yariyabolme.m                     
+colSum.m                          yaz.xlsx                          
+convert1.m                        
+
+clc
+a
+{Unrecognized function or variable 'a'.} 
+ans
+ans =
+     2
+format loose
+ans
+
+ans =
+
+     2
+
+format e
+{Error using <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('format')" style="font-weight:bold">format</a>
+Invalid format option e.
+} 
+clc
+p=[2:2:13]
+
+p =
+
+     2     4     6     8    10    12
+
+p=[1:2:13]
+
+p =
+
+     1     3     5     7     9    11    13
+
+p=[1:-2:13]
+
+p =
+
+  1×0 empty <a href="matlab:helpPopup('double')" style="font-weight:bold">double</a> row vector
+
+p=[13:-2:1]
+
+p =
+
+    13    11     9     7     5     3     1
+
+fliplr(p)
+
+ans =
+
+     1     3     5     7     9    11    13
+
+prime*p
+{Error using <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('mtimes')" style="font-weight:bold"> * </a>
+Incorrect dimensions for matrix multiplication. Check that the number
+of columns in the first matrix matches the number of rows in the second
+matrix. To operate on each element of the matrix individually, use
+TIMES (.*) for elementwise multiplication.
+
+<a href="matlab:helpview('matlab','error_innerdim')" style="font-weight:bold">Related documentation</a>
+} 
+prime*p'
+{Error using <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('mtimes')" style="font-weight:bold"> * </a>
+Incorrect dimensions for matrix multiplication. Check that the number
+of columns in the first matrix matches the number of rows in the second
+matrix. To operate on each element of the matrix individually, use
+TIMES (.*) for elementwise multiplication.
+
+<a href="matlab:helpview('matlab','error_innerdim')" style="font-weight:bold">Related documentation</a>
+} 
+length(p)
+
+ans =
+
+     7
+
+length(prime)
+
+ans =
+
+     6
+
+p(end)=[9
+p(end)=[]
+
+p =
+
+    13    11     9     7     5     3
+
+prime*p'
+
+ans =
+
+   247
+
+prime.*p
+
+ans =
+
+    26    33    45    49    55    39
+
+p^2
+{Error using <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('mpower', 'C:\Program Files\MATLAB\R2024a\toolbox\matlab\matfun\mpower.m', 52)" style="font-weight:bold"> ^ </a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2024a\toolbox\matlab\matfun\mpower.m',52,0)">line 52</a>)
+Incorrect dimensions for raising a matrix to a power. Check that the
+matrix is square and the power is a scalar. To operate on each element
+of the matrix individually, use POWER (.^) for elementwise power.
+} 
+p.^2
+
+ans =
+
+   169   121    81    49    25     9
+
+clc
+prime./p
+
+ans =
+
+  Columns 1 through 3
+
+   0.153846153846154   0.272727272727273   0.555555555555556
+
+  Columns 4 through 6
+
+   1.000000000000000   2.200000000000000   4.333333333333333
+
+help /
+ / Right matrix divide.
+    B/A is the matrix division of A into B, which is roughly the
+    same as B*INV(A) , except it is computed in a different way.
+    More precisely, B/A = (A'\B')'. See MLDIVIDE for details.
+ 
+    C = <strong>mrdivide</strong>(B,A) is called for the syntax 'B / A' when B or A is an object.
+ 
+    See <a href="matlab:helpview('matlab','MATLAB_OPS')">MATLAB Operators and Special Characters</a> for more details.
+ 
+    See also <a href="matlab:help mldivide -displayBanner">mldivide</a>, <a href="matlab:help rdivide -displayBanner">rdivide</a>, <a href="matlab:help ldivide -displayBanner">ldivide</a>, <a href="matlab:help pagemrdivide -displayBanner">pagemrdivide</a>.
+
+    <a href="matlab:doc mrdivide">Documentation for mrdivide</a>
+    <a href="matlab:matlab.lang.internal.introspective.overloads.displayOverloads('mrdivide')">Other uses of mrdivide</a>
+
+4/2
+
+ans =
+
+     2
+
+clc
+prime./p
+
+ans =
+
+  Columns 1 through 3
+
+   0.153846153846154   0.272727272727273   0.555555555555556
+
+  Columns 4 through 6
+
+   1.000000000000000   2.200000000000000   4.333333333333333
+
+prime.\p
+
+ans =
+
+  Columns 1 through 3
+
+   6.500000000000000   3.666666666666667   1.800000000000000
+
+  Columns 4 through 6
+
+   1.000000000000000   0.454545454545455   0.230769230769231
+
+prime
+
+prime =
+
+     2     3     5     7    11    13
+
+clc
+format compact
+prime
+prime =
+     2     3     5     7    11    13
+p
+p =
+    13    11     9     7     5     3
+prime.\p
+ans =
+  Columns 1 through 3
+   6.500000000000000   3.666666666666667   1.800000000000000
+  Columns 4 through 6
+   1.000000000000000   0.454545454545455   0.230769230769231
+prime.*inv(p)
+{Error using <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('inv')" style="font-weight:bold">inv</a>
+Matrix must be square.} 
+1./(p)
+ans =
+  Columns 1 through 3
+   0.076923076923077   0.090909090909091   0.111111111111111
+  Columns 4 through 6
+   0.142857142857143   0.200000000000000   0.333333333333333
+clc
+1./(p)
+ans =
+  Columns 1 through 3
+   0.076923076923077   0.090909090909091   0.111111111111111
+  Columns 4 through 6
+   0.142857142857143   0.200000000000000   0.333333333333333
+1./p
+ans =
+  Columns 1 through 3
+   0.076923076923077   0.090909090909091   0.111111111111111
+  Columns 4 through 6
+   0.142857142857143   0.200000000000000   0.333333333333333
+clc
+prime.*(1./(p))
+ans =
+  Columns 1 through 3
+   0.153846153846154   0.272727272727273   0.555555555555556
+  Columns 4 through 6
+   1.000000000000000   2.200000000000000   4.333333333333333
+clc
+prime.\p
+ans =
+  Columns 1 through 3
+   6.500000000000000   3.666666666666667   1.800000000000000
+  Columns 4 through 6
+   1.000000000000000   0.454545454545455   0.230769230769231
+2*1/13
+ans =
+   0.153846153846154
+(1./prime).*p
+ans =
+  Columns 1 through 3
+   6.500000000000000   3.666666666666667   1.800000000000000
+  Columns 4 through 6
+   1.000000000000000   0.454545454545455   0.230769230769231
+prime.\p
+ans =
+  Columns 1 through 3
+   6.500000000000000   3.666666666666667   1.800000000000000
+  Columns 4 through 6
+   1.000000000000000   0.454545454545455   0.230769230769231
+clc
+p'
+ans =
+    13
+    11
+     9
+     7
+     5
+     3
+p(3)=p(3)*i
+p =
+  Column 1
+ 13.000000000000000 + 0.000000000000000i
+  Column 2
+ 11.000000000000000 + 0.000000000000000i
+  Column 3
+  0.000000000000000 + 9.000000000000000i
+  Column 4
+  7.000000000000000 + 0.000000000000000i
+  Column 5
+  5.000000000000000 + 0.000000000000000i
+  Column 6
+  3.000000000000000 + 0.000000000000000i
+format short
+p
+p =
+  Columns 1 through 3
+  13.0000 + 0.0000i  11.0000 + 0.0000i   0.0000 + 9.0000i
+  Columns 4 through 6
+   7.0000 + 0.0000i   5.0000 + 0.0000i   3.0000 + 0.0000i
+p'
+ans =
+  13.0000 + 0.0000i
+  11.0000 + 0.0000i
+   0.0000 - 9.0000i
+   7.0000 + 0.0000i
+   5.0000 + 0.0000i
+   3.0000 + 0.0000i
+conj(p')
+ans =
+  13.0000 + 0.0000i
+  11.0000 + 0.0000i
+   0.0000 + 9.0000i
+   7.0000 + 0.0000i
+   5.0000 + 0.0000i
+   3.0000 + 0.0000i
+clc
+x=[0:pi/90:pi];
+y=sin(x);
+plot(x,y)
+grid
+xlabel('x \phi')
+xlabel('x_\phi')
+xlabel('x^\phi')
+xlabel('x^\theta')
+help ylabel
+ <strong>ylabel</strong> Y-axis label.
+    <strong>ylabel</strong>('text') adds text beside the Y-axis on the current axis.
+ 
+    <strong>ylabel</strong>('text','Property1',PropertyValue1,'Property2',PropertyValue2,...)
+    sets the values of the specified properties of the ylabel.
+ 
+    <strong>ylabel</strong>(AX,...) adds the ylabel to the specified axes.
+ 
+    H = <strong>ylabel</strong>(...) returns the handle to the text object used as the label.
+ 
+    See also <a href="matlab:help xlabel -displayBanner">xlabel</a>, <a href="matlab:help zlabel -displayBanner">zlabel</a>, <a href="matlab:help title -displayBanner">title</a>, <a href="matlab:help subtitle -displayBanner">subtitle</a>, <a href="matlab:help text -displayBanner">text</a>.
+
+    <a href="matlab:doc ylabel">Documentation for ylabel</a>
+
+title('GRAPH of sin(\phi)')
+clc
+magic(3)
+ans =
+     8     1     6
+     3     5     7
+     4     9     2
+rand(3)
+ans =
+    0.8147    0.9134    0.2785
+    0.9058    0.6324    0.5469
+    0.1270    0.0975    0.9575
+randn(3)
+ans =
+    2.7694    0.7254   -0.2050
+   -1.3499   -0.0631   -0.1241
+    3.0349    0.7147    1.4897
+magic(3)
+ans =
+     8     1     6
+     3     5     7
+     4     9     2
+magic(3)
+ans =
+     8     1     6
+     3     5     7
+     4     9     2
+magic(5)
+ans =
+    17    24     1     8    15
+    23     5     7    14    16
+     4     6    13    20    22
+    10    12    19    21     3
+    11    18    25     2     9
+clc
+A=rand(3)*10
+A =
+    7.9221    0.3571    6.7874
+    9.5949    8.4913    7.5774
+    6.5574    9.3399    7.4313
+A=round(rand(3)*10)
+A =
+     4     7     0
+     7     0     1
+     2     3     8
+A=round(1+rand(3)*10)
+A =
+     8     1     9
+     4     5     9
+    11     5     3
+A=round(rand(3)*10)
+A =
+     5     7     7
+     4     8     7
+     6     3     2
+B=round(rand(3)*10)
+B =
+     1     3     8
+     5     6     3
+    10     2     5
+clc
+A
+A =
+     5     7     7
+     4     8     7
+     6     3     2
+B
+B =
+     1     3     8
+     5     6     3
+    10     2     5
+A*B
+ans =
+   110    71    96
+   114    74    91
+    41    40    67
+A.*B
+ans =
+     5    21    56
+    20    48    21
+    60     6    10
+A\B
+ans =
+    1.0256   -0.3333    1.3846
+    5.0256    2.6667   -3.6154
+   -5.6154   -2.0000    3.7692
+inv(A)*B
+ans =
+    1.0256   -0.3333    1.3846
+    5.0256    2.6667   -3.6154
+   -5.6154   -2.0000    3.7692
+A.\B
+ans =
+    0.2000    0.4286    1.1429
+    1.2500    0.7500    0.4286
+    1.6667    0.6667    2.5000
+inv(A).*B
+ans =
+    0.1282   -0.5385    1.4359
+   -4.3590    4.9231    0.5385
+    9.2308   -1.3846   -1.5385
+(1./A).*B
+ans =
+    0.2000    0.4286    1.1429
+    1.2500    0.7500    0.4286
+    1.6667    0.6667    2.5000
+A.\B
+ans =
+    0.2000    0.4286    1.1429
+    1.2500    0.7500    0.4286
+    1.6667    0.6667    2.5000
+A
+A =
+     5     7     7
+     4     8     7
+     6     3     2
+C=[A B]
+C =
+     5     7     7     1     3     8
+     4     8     7     5     6     3
+     6     3     2    10     2     5
+C=[A ; B]
+C =
+     5     7     7
+     4     8     7
+     6     3     2
+     1     3     8
+     5     6     3
+    10     2     5
+C(end,:)=[]
+C =
+     5     7     7
+     4     8     7
+     6     3     2
+     1     3     8
+     5     6     3
+C(3,:)=B(1,:)
+C =
+     5     7     7
+     4     8     7
+     1     3     8
+     1     3     8
+     5     6     3
+B
+B =
+     1     3     8
+     5     6     3
+    10     2     5
+C
+C =
+     5     7     7
+     4     8     7
+     1     3     8
+     1     3     8
+     5     6     3
+C(3,:)=[]
+C =
+     5     7     7
+     4     8     7
+     1     3     8
+     5     6     3
+C(3,2)
+ans =
+     3
+C(8)
+ans =
+     6
+C(7)
+ans =
+     3
+C
+C =
+     5     7     7
+     4     8     7
+     1     3     8
+     5     6     3
+size(C)
+ans =
+     4     3
+length(C)
+ans =
+     4
+size(C,1)
+ans =
+     4
+size(C,2)
+ans =
+     3
+ones(size(A))
+ans =
+     1     1     1
+     1     1     1
+     1     1     1
+ones(size(C))
+ans =
+     1     1     1
+     1     1     1
+     1     1     1
+     1     1     1
+zeros(size(C))
+ans =
+     0     0     0
+     0     0     0
+     0     0     0
+     0     0     0
+clc
+3+4i
+ans =
+   3.0000 + 4.0000i
+3+i4
+{Unrecognized function or variable 'i4'.} 
+3+i*4
+ans =
+   3.0000 + 4.0000i
+i=5
+i =
+     5
+3+i*4
+ans =
+    23
+3+j*4
+ans =
+   3.0000 + 4.0000i
+s=3+j*4
+s =
+   3.0000 + 4.0000i
+real(s)
+ans =
+     3
+imag(s)
+ans =
+     4
+s
+s =
+   3.0000 + 4.0000i
+conj(s)
+ans =
+   3.0000 - 4.0000i
+abs(s)
+ans =
+     5
+s^3
+ans =
+  -1.1700e+02 + 4.4000e+01i
+round(rand(3))+round(rand(3))i
+ round(rand(3))+round(rand(3))i
+                              ↑
+{Invalid expression. Check for missing multiplication operator, missing
+or unbalanced delimiters, or other syntax error. To construct matrices,
+use brackets instead of parentheses.
+} 
+round(rand(3))+round(rand(3))*j
+ans =
+   1.0000 + 1.0000i   1.0000 + 0.0000i   0.0000 + 1.0000i
+   1.0000 + 0.0000i   0.0000 + 0.0000i   1.0000 + 0.0000i
+   1.0000 + 1.0000i   0.0000 + 0.0000i   0.0000 + 0.0000i
+round(rand(3)*10)+round(rand(3)*10)*j
+ans =
+   8.0000 + 1.0000i   9.0000 + 8.0000i   8.0000 + 6.0000i
+   6.0000 + 1.0000i   3.0000 + 9.0000i   4.0000 + 5.0000i
+   5.0000 + 5.0000i   8.0000 + 1.0000i   6.0000 + 0.0000i
+K1=round(rand(3)*10)+round(rand(3)*10)*j
+K1 =
+   3.0000 + 7.0000i   3.0000 + 1.0000i   6.0000 + 2.0000i
+   2.0000 + 7.0000i   5.0000 + 2.0000i   3.0000 + 8.0000i
+   8.0000 + 5.0000i   2.0000 + 9.0000i   7.0000 + 5.0000i
+K1.^2
+ans =
+ -40.0000 +42.0000i   8.0000 + 6.0000i  32.0000 +24.0000i
+ -45.0000 +28.0000i  21.0000 +20.0000i -55.0000 +48.0000i
+  39.0000 +80.0000i -77.0000 +36.0000i  24.0000 +70.0000i
+K2=round(rand(3)*10)+round(rand(3)*10)*j
+K2 =
+  10.0000 + 1.0000i   1.0000 + 8.0000i   8.0000 + 2.0000i
+   1.0000 + 4.0000i  10.0000 + 4.0000i   8.0000 + 3.0000i
+   4.0000 + 3.0000i   0.0000 + 9.0000i   9.0000 + 1.0000i
+K1/K2
+ans =
+   0.0490 + 0.5363i   0.4675 - 0.3547i   0.1943 - 0.1275i
+   0.5246 + 0.4993i   0.9141 + 0.0863i  -0.8017 + 0.0361i
+   0.8601 + 0.4114i   0.2981 + 0.1688i  -0.1302 - 0.2362i
+K1\K2
+ans =
+  -0.6388 - 1.0753i   1.6115 - 0.1496i   0.5063 - 0.7279i
+   0.2025 - 0.2785i   1.4195 + 0.9688i   0.4323 - 0.0636i
+   0.9920 + 1.2243i  -1.5837 - 0.6651i   0.0237 + 0.0585i
+conj(K1\K2)
+ans =
+  -0.6388 + 1.0753i   1.6115 + 0.1496i   0.5063 + 0.7279i
+   0.2025 + 0.2785i   1.4195 - 0.9688i   0.4323 + 0.0636i
+   0.9920 - 1.2243i  -1.5837 + 0.6651i   0.0237 - 0.0585i
+s
+s =
+   3.0000 + 4.0000i
+compass(s)
+abs(s)
+ans =
+     5
+angle(s)
+ans =
+    0.9273
+angle(s)*.pi/180
+ angle(s)*.pi/180
+          ↑
+{Invalid use of operator.
+} 
+angle(s)*pi/180
+ans =
+    0.0162
+angle(s)*180/pi
+ans =
+   53.1301
+sqrt(4)
+ans =
+     2
+sqrt(s)
+ans =
+   2.0000 + 1.0000i
+angle(s)*180/pi
+ans =
+   53.1301
+atan(imag(s)/real(s))*180/pi
+ans =
+   53.1301
+exit

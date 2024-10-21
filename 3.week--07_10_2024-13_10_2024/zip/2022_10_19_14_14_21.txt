@@ -1,0 +1,420 @@
+MATLAB OTURUMU BAŞARILI BİR ŞEKİLDE AÇILDI...
+%A*X=B
+inv(A)*B
+{Unrecognized function or variable 'A'.
+} 
+%inv(A)*B
+A=[3 4 -2;-2 3 -4]
+
+A =
+
+     3     4    -2
+    -2     3    -4
+
+rank(A)
+
+ans =
+
+     2
+
+clc
+A=[2 3 4;1 1 1]
+
+A =
+
+     2     3     4
+     1     1     1
+
+B=[4 5]'
+
+B =
+
+     4
+     5
+
+rank(A)
+
+ans =
+
+     2
+
+rank([A B])
+
+ans =
+
+     2
+
+A\B
+
+ans =
+
+    8.0000
+         0
+   -3.0000
+
+inv(A)*B
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('inv')" style="font-weight:bold">inv</a>
+Matrix must be square.
+} 
+inv(A)
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('inv')" style="font-weight:bold">inv</a>
+Matrix must be square.
+} 
+inv(A*A')
+
+ans =
+
+    0.5000   -1.5000
+   -1.5000    4.8333
+
+inv(A*A')*B
+
+ans =
+
+   -5.5000
+   18.1667
+
+A\B
+
+ans =
+
+    8.0000
+         0
+   -3.0000
+
+pinv(A)
+
+ans =
+
+   -0.5000    1.8333
+    0.0000    0.3333
+    0.5000   -1.1667
+
+pinv(A)*B
+
+ans =
+
+    7.1667
+    1.6667
+   -3.8333
+
+edit
+ex_06_06
+
+I1 =
+
+    1.1384
+    0.3938
+   -0.1146
+    0.7446
+    0.5084
+
+Check Kirchhoff's first law at node 1
+
+ans =
+
+   5.5511e-16
+
+Check Kirchhoff's first law at node 2
+
+ans =
+
+   6.6613e-16
+
+eps
+
+ans =
+
+   2.2204e-16
+
+dir ex_06_06
+'ex_06_06' not found.
+dir ex_06_06.m
+
+ex_06_06.m  
+
+delete ex_06_06.m
+delete ex_06_07.m
+dir ex_06_07.m
+'ex_06_07.m' not found.
+dir ex_06_07.m
+'ex_06_07.m' not found.
+dir ex_06_07.m
+
+ex_06_07.m  
+
+ex_06_10
+
+sol =
+
+   1.0e+04 *
+
+    2.5672
+    0.0029
+
+
+ans =
+
+   1.0e+05 *
+
+    0.0000   -0.2570    7.3531
+
+
+ans =
+
+   1.0e+05 *
+
+   0.000010000000000  -0.257005249745158   7.353062500000000
+
+
+p =
+
+   1.0e+05 *
+
+   0.000010000000000  -0.257005249745158   7.353062500000000
+
+
+t1 =
+
+    2.4165
+
+
+t2 =
+
+    0.0835
+
+
+t =
+
+    2.5000
+
+ex_06_10
+
+sol =
+
+   1.0e+04 *
+
+    2.5672
+    0.0029
+
+
+ans =
+
+   1.0e+05 *
+
+    0.0000   -0.2570    7.3531
+
+
+ans =
+
+   1.0e+05 *
+
+   0.000010000000000  -0.257005249745158   7.353062500000000
+
+
+p =
+
+   1.0e+05 *
+
+   0.000010000000000  -0.257005249745158   7.353062500000000
+
+
+t1 =
+
+    2.4165
+
+
+t2 =
+
+    0.0835
+
+
+t =
+
+    2.5000
+
+
+ans =
+
+   72.3451
+
+
+ans =
+
+   74.8451
+
+
+ans =
+
+    2.5000
+
+sol
+
+sol =
+
+   1.0e+04 *
+
+    2.5672
+    0.0029
+
+sol
+
+sol =
+
+   1.0e+04 *
+
+    2.5672
+    0.0029
+
+format long
+sol
+
+sol =
+
+   1.0e+04 *
+
+   2.567188249962091
+   0.002864247489489
+
+K  = 6.5;
+G1 = [ 1 0 ]; G2 = [ 1 2 ]; G3 = [ 1 4 5 ];
+% multiply factors of G denominator
+open = conv(G1, conv(G2, G3))
+
+open =
+
+     1     6    13    10     0
+
+K.*open
+
+ans =
+
+  Columns 1 through 4
+
+   6.500000000000000  39.000000000000000  84.500000000000000  65.000000000000000
+
+  Column 5
+
+                   0
+
+closed = open;
+l      = length(closed);
+closed(l) = K
+
+closed =
+
+  Columns 1 through 4
+
+   1.000000000000000   6.000000000000000  13.000000000000000  10.000000000000000
+
+  Column 5
+
+   6.500000000000000
+
+roots(closed)
+
+ans =
+
+ -2.650692953681490 + 1.228256916873862i
+ -2.650692953681490 - 1.228256916873862i
+ -0.349307046318508 + 0.799733388984101i
+ -0.349307046318508 - 0.799733388984101i
+
+K*open
+
+ans =
+
+  Columns 1 through 4
+
+   6.500000000000000  39.000000000000000  84.500000000000000  65.000000000000000
+
+  Column 5
+
+                   0
+
+1+K*open
+
+ans =
+
+  Columns 1 through 4
+
+   7.500000000000000  40.000000000000000  85.500000000000000  66.000000000000000
+
+  Column 5
+
+   1.000000000000000
+
+closed=K*open
+
+closed =
+
+  Columns 1 through 4
+
+   6.500000000000000  39.000000000000000  84.500000000000000  65.000000000000000
+
+  Column 5
+
+                   0
+
+closed(end)=1
+
+closed =
+
+  Columns 1 through 4
+
+   6.500000000000000  39.000000000000000  84.500000000000000  65.000000000000000
+
+  Column 5
+
+   1.000000000000000
+
+closed=K*open
+
+closed =
+
+  Columns 1 through 4
+
+   6.500000000000000  39.000000000000000  84.500000000000000  65.000000000000000
+
+  Column 5
+
+                   0
+
+closed(end)=1
+
+closed =
+
+  Columns 1 through 4
+
+   6.500000000000000  39.000000000000000  84.500000000000000  65.000000000000000
+
+  Column 5
+
+   1.000000000000000
+
+roots(closed)
+
+ans =
+
+ -2.031952235746720 + 0.986360580486056i
+ -2.031952235746720 - 0.986360580486056i
+ -1.920392676826925 + 0.000000000000000i
+ -0.015702851679628 + 0.000000000000000i
+
+closed
+
+closed =
+
+  Columns 1 through 4
+
+   6.500000000000000  39.000000000000000  84.500000000000000  65.000000000000000
+
+  Column 5
+
+   1.000000000000000
+
+rlocus(closed)
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('rlocus', 'C:\Program Files\Polyspace\R2020b\toolbox\control\ctrlobsolete\rlocus.m', 73)" style="font-weight:bold">rlocus</a> (<a href="matlab: opentoline('C:\Program Files\Polyspace\R2020b\toolbox\control\ctrlobsolete\rlocus.m',73,0)">line 73</a>)
+Not enough input arguments.
+} 
+exit

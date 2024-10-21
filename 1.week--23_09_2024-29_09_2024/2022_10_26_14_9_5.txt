@@ -1,0 +1,1651 @@
+MATLAB OTURUMU BAŞARILI BİR ŞEKİLDE AÇILDI...
+help while
+ <strong>while</strong>  Repeat statements an indefinite number of times.
+    The general form of a <strong>while</strong> statement is:
+  
+       <strong>while</strong> expression
+         statements
+       END
+  
+    The statements are executed while the real part of the expression
+    has all non-zero elements. The expression is usually the result of
+    expr rop expr where rop is ==, <, >, <=, >=, or ~=.
+ 
+    The BREAK statement can be used to terminate the loop prematurely.
+ 
+    For example (assuming A already defined):
+  
+            E = 0*A; F = E + eye(size(E)); N = 1;
+            while norm(E+F-E,1) > 0
+               E = E + F;
+               F = A*F/N;
+               N = N + 1;
+            end
+ 
+    See also <a href="matlab:help for">for</a>, <a href="matlab:help if">if</a>, <a href="matlab:help switch">switch</a>, <a href="matlab:help break">break</a>, <a href="matlab:help continue">continue</a>, <a href="matlab:help end">end</a>.
+
+    <a href="matlab:doc while">Documentation for while</a>
+
+edit
+itermenu
+Please choose one of the following:
+  To get a zoom of the plot enter ................... 1
+  To choose an initial guess value and solve enter .. 2
+  To exit the program enter ......................... 3
+Newton_Raphson
+Enter the equation to be solved, y(x), and the derivative
+of y with respect to x as strings variables, for example:
+y    = 'x - sin(x) - c'
+dydx = '1 - cos(x)'
+When the program returns the prompt k enter the appropriate
+escape command to exit keyboard mode and continue the program.
+return
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+Enter now the range within which you want to plot the equation.
+if system_dependent('IsDebugMode')==1, dbstep; end
+Then, after viewing the plot press any key to continue
+if system_dependent('IsDebugMode')==1, dbstep; end
+x min = 0.54
+
+xmin =
+
+    0.5400
+
+<a href="matlab: opentoline('C:\Users\kou\Documents\MATLAB\gunluk\Newton_Raphson.m',17,1)">17  </a>xmax = input('x max = ')
+0.63
+
+ans =
+
+    0.6300
+
+if system_dependent('IsDebugMode')==1, dbstep; end
+x max = 
+
+xmax =
+
+     []
+
+<a href="matlab: opentoline('C:\Users\kou\Documents\MATLAB\gunluk\Newton_Raphson.m',18,1)">18  </a>xx = xmin: (xmax-xmin)/100: xmax;
+xmax
+
+xmax =
+
+     []
+
+xmax=0.64
+
+xmax =
+
+    0.6400
+
+if system_dependent('IsDebugMode')==1, dbstep; end
+xx
+
+xx =
+
+  Columns 1 through 9
+
+    0.5400    0.5410    0.5420    0.5430    0.5440    0.5450    0.5460    0.5470    0.5480
+
+  Columns 10 through 18
+
+    0.5490    0.5500    0.5510    0.5520    0.5530    0.5540    0.5550    0.5560    0.5570
+
+  Columns 19 through 27
+
+    0.5580    0.5590    0.5600    0.5610    0.5620    0.5630    0.5640    0.5650    0.5660
+
+  Columns 28 through 36
+
+    0.5670    0.5680    0.5690    0.5700    0.5710    0.5720    0.5730    0.5740    0.5750
+
+  Columns 37 through 45
+
+    0.5760    0.5770    0.5780    0.5790    0.5800    0.5810    0.5820    0.5830    0.5840
+
+  Columns 46 through 54
+
+    0.5850    0.5860    0.5870    0.5880    0.5890    0.5900    0.5910    0.5920    0.5930
+
+  Columns 55 through 63
+
+    0.5940    0.5950    0.5960    0.5970    0.5980    0.5990    0.6000    0.6010    0.6020
+
+  Columns 64 through 72
+
+    0.6030    0.6040    0.6050    0.6060    0.6070    0.6080    0.6090    0.6100    0.6110
+
+  Columns 73 through 81
+
+    0.6120    0.6130    0.6140    0.6150    0.6160    0.6170    0.6180    0.6190    0.6200
+
+  Columns 82 through 90
+
+    0.6210    0.6220    0.6230    0.6240    0.6250    0.6260    0.6270    0.6280    0.6290
+
+  Columns 91 through 99
+
+    0.6300    0.6310    0.6320    0.6330    0.6340    0.6350    0.6360    0.6370    0.6380
+
+  Columns 100 through 101
+
+    0.6390    0.6400
+
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+{Unrecognized function or variable 'y'.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Newton_Raphson', 'C:\Users\kou\Documents\MATLAB\gunluk\Newton_Raphson.m', 22)" style="font-weight:bold">Newton_Raphson</a> (<a href="matlab: opentoline('C:\Users\kou\Documents\MATLAB\gunluk\Newton_Raphson.m',22,0)">line 22</a>)
+        yy    = eval(y);
+} 
+y    = 'x - sin(x) - c'
+
+y =
+
+    'x - sin(x) - c'
+
+dydx = '1 - cos(x)'
+
+dydx =
+
+    '1 - cos(x)'
+
+Newton_Raphson
+Enter the equation to be solved, y(x), and the derivative
+of y with respect to x as strings variables, for example:
+y    = 'x - sin(x) - c'
+dydx = '1 - cos(x)'
+When the program returns the prompt k enter the appropriate
+escape command to exit keyboard mode and continue the program.
+return
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+Enter now the range within which you want to plot the equation.
+if system_dependent('IsDebugMode')==1, dbstep; end
+Then, after viewing the plot press any key to continue
+if system_dependent('IsDebugMode')==1, dbstep; end
+x min = 0.54
+
+xmin =
+
+    0.5400
+
+<a href="matlab: opentoline('C:\Users\kou\Documents\MATLAB\gunluk\Newton_Raphson.m',17,1)">17  </a>xmax = input('x max = ')
+if system_dependent('IsDebugMode')==1, dbstep; end
+x max = 0.64
+
+xmax =
+
+    0.6400
+
+<a href="matlab: opentoline('C:\Users\kou\Documents\MATLAB\gunluk\Newton_Raphson.m',18,1)">18  </a>xx = xmin: (xmax-xmin)/100: xmax;
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('eval')" style="font-weight:bold">eval</a>
+Unrecognized function or variable 'c'.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Newton_Raphson', 'C:\Users\kou\Documents\MATLAB\gunluk\Newton_Raphson.m', 22)" style="font-weight:bold">Newton_Raphson</a> (<a href="matlab: opentoline('C:\Users\kou\Documents\MATLAB\gunluk\Newton_Raphson.m',22,0)">line 22</a>)
+        yy    = eval(y);
+} 
+y
+
+y =
+
+    'x - sin(x) - c'
+
+x
+
+x =
+
+    0.5400
+
+c
+{Unrecognized function or variable 'c'.
+} 
+Newton_Raphson
+Enter the equation to be solved, y(x), and the derivative
+of y with respect to x as strings variables, for example:
+y    = 'x - sin(x) - c'
+dydx = '1 - cos(x)'
+When the program returns the prompt k enter the appropriate
+escape command to exit keyboard mode and continue the program.
+Enter now the range within which you want to plot the equation.
+Then, after viewing the plot press any key to continue
+x min = 0.54
+
+xmin =
+
+    0.5400
+
+x max = 0.64
+
+xmax =
+
+    0.6400
+
+Please choose one of the following:
+  To get a zoom of the plot enter ................... 1
+  To choose an initial guess value and solve enter .. 2
+  To exit the program enter ......................... 3
+Enter your choice 2
+
+answer =
+
+     2
+
+Enter initial guess
+
+x =
+
+    0.5604
+
+
+yg =
+
+    0.0288
+
+
+x =
+
+    0.3716
+
+
+x =
+
+    0.2472
+
+
+x =
+
+    0.1646
+
+
+x =
+
+    0.1097
+
+
+x =
+
+    0.0731
+
+
+x =
+
+    0.0487
+
+
+x =
+
+    0.0325
+
+
+x =
+
+    0.0217
+
+
+x =
+
+    0.0144
+
+
+x =
+
+    0.0096
+
+
+x =
+
+    0.0064
+
+
+x =
+
+    0.0043
+
+
+x =
+
+    0.0029
+
+
+x =
+
+    0.0019
+
+
+x =
+
+    0.0013
+
+
+x =
+
+   8.4513e-04
+
+
+x =
+
+   5.6342e-04
+
+
+x =
+
+   3.7561e-04
+
+
+x =
+
+   2.5041e-04
+
+
+x =
+
+   1.6694e-04
+
+
+x =
+
+   1.1129e-04
+
+
+x =
+
+   7.4195e-05
+
+
+x =
+
+   4.9464e-05
+
+
+x =
+
+   3.2976e-05
+
+
+x =
+
+   2.1984e-05
+
+
+x =
+
+   1.4656e-05
+
+Please choose one of the following:
+  To get a zoom of the plot enter ................... 1
+  To choose an initial guess value and solve enter .. 2
+  To exit the program enter ......................... 3
+Enter new choice 1
+
+answer =
+
+     1
+
+x min = 0.55
+
+xmin =
+
+    0.5500
+
+x max = 0.6
+
+xmax =
+
+    0.6000
+
+Please choose one of the following:
+  To get a zoom of the plot enter ................... 1
+  To choose an initial guess value and solve enter .. 2
+  To exit the program enter ......................... 3
+Enter your choice 2
+
+answer =
+
+     2
+
+Enter initial guess
+{Operation terminated by user during <a href="matlab:matlab.internal.language.introspective.errorDocCallback('ginput>wfbp', 'C:\Program Files\Polyspace\R2020b\toolbox\matlab\uitools\ginput.m', 183)" style="font-weight:bold">ginput>wfbp</a> (<a href="matlab: opentoline('C:\Program Files\Polyspace\R2020b\toolbox\matlab\uitools\ginput.m',183,0)">line 183</a>)
+
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('ginput', 'C:\Program Files\Polyspace\R2020b\toolbox\matlab\uitools\ginput.m', 74)" style="font-weight:bold">ginput</a> (<a href="matlab: opentoline('C:\Program Files\Polyspace\R2020b\toolbox\matlab\uitools\ginput.m',74,0)">line 74</a>)
+            keydown = wfbp;
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Newton_Raphson', 'C:\Users\kou\Documents\MATLAB\gunluk\Newton_Raphson.m', 55)" style="font-weight:bold">Newton_Raphson</a> (<a href="matlab: opentoline('C:\Users\kou\Documents\MATLAB\gunluk\Newton_Raphson.m',55,0)">line 55</a>)
+              [ x, yg ] = ginput(1)
+} 
+Newton_Raphson
+Enter the equation to be solved, y(x), and the derivative
+of y with respect to x as strings variables, for example:
+y    = 'x - sin(x) - c'
+dydx = '1 - cos(x)'
+When the program returns the prompt k enter the appropriate
+escape command to exit keyboard mode and continue the program.
+Enter now the range within which you want to plot the equation.
+Then, after viewing the plot press any key to continue
+x min = 0.58
+
+xmin =
+
+    0.5800
+
+x max = 0.64
+
+xmax =
+
+    0.6400
+
+Please choose one of the following:
+  To get a zoom of the plot enter ................... 1
+  To choose an initial guess value and solve enter .. 2
+  To exit the program enter ......................... 3
+Enter your choice 2
+
+answer =
+
+     2
+
+Enter initial guess
+
+x =
+
+    0.5943
+
+
+yg =
+
+    0.0334
+
+
+x =
+
+    0.3938
+
+
+x =
+
+    0.2619
+
+
+x =
+
+    0.1744
+
+
+x =
+
+    0.1162
+
+
+x =
+
+    0.0774
+
+
+x =
+
+    0.0516
+
+
+x =
+
+    0.0344
+
+
+x =
+
+    0.0229
+
+
+x =
+
+    0.0153
+
+
+x =
+
+    0.0102
+
+
+x =
+
+    0.0068
+
+
+x =
+
+    0.0045
+
+
+x =
+
+    0.0030
+
+
+x =
+
+    0.0020
+
+
+x =
+
+    0.0013
+
+
+x =
+
+   8.9517e-04
+
+
+x =
+
+   5.9678e-04
+
+
+x =
+
+   3.9785e-04
+
+
+x =
+
+   2.6524e-04
+
+
+x =
+
+   1.7682e-04
+
+
+x =
+
+   1.1788e-04
+
+
+x =
+
+   7.8588e-05
+
+
+x =
+
+   5.2392e-05
+
+
+x =
+
+   3.4928e-05
+
+
+x =
+
+   2.3285e-05
+
+
+x =
+
+   1.5524e-05
+
+Please choose one of the following:
+  To get a zoom of the plot enter ................... 1
+  To choose an initial guess value and solve enter .. 2
+  To exit the program enter ......................... 3
+Enter new choice 2
+
+answer =
+
+     2
+
+Enter initial guess
+{Operation terminated by user during <a href="matlab:matlab.internal.language.introspective.errorDocCallback('ginput>wfbp', 'C:\Program Files\Polyspace\R2020b\toolbox\matlab\uitools\ginput.m', 183)" style="font-weight:bold">ginput>wfbp</a> (<a href="matlab: opentoline('C:\Program Files\Polyspace\R2020b\toolbox\matlab\uitools\ginput.m',183,0)">line 183</a>)
+
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('ginput', 'C:\Program Files\Polyspace\R2020b\toolbox\matlab\uitools\ginput.m', 74)" style="font-weight:bold">ginput</a> (<a href="matlab: opentoline('C:\Program Files\Polyspace\R2020b\toolbox\matlab\uitools\ginput.m',74,0)">line 74</a>)
+            keydown = wfbp;
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Newton_Raphson', 'C:\Users\kou\Documents\MATLAB\gunluk\Newton_Raphson.m', 55)" style="font-weight:bold">Newton_Raphson</a> (<a href="matlab: opentoline('C:\Users\kou\Documents\MATLAB\gunluk\Newton_Raphson.m',55,0)">line 55</a>)
+              [ x, yg ] = ginput(1)
+} 
+Newton_Raphson
+Enter the equation to be solved, y(x), and the derivative
+of y with respect to x as strings variables, for example:
+y    = 'x - sin(x) - c'
+dydx = '1 - cos(x)'
+When the program returns the prompt k enter the appropriate
+escape command to exit keyboard mode and continue the program.
+Enter now the range within which you want to plot the equation.
+Then, after viewing the plot press any key to continue
+x min = 0.58
+
+xmin =
+
+    0.5800
+
+x max = 0.68
+
+xmax =
+
+    0.6800
+
+Please choose one of the following:
+  To get a zoom of the plot enter ................... 1
+  To choose an initial guess value and solve enter .. 2
+  To exit the program enter ......................... 3
+Enter your choice 2
+
+answer =
+
+     2
+
+Enter initial guess
+
+x =
+
+    0.6164
+
+
+yg =
+
+    0.0381
+
+
+x =
+
+    0.4083
+
+
+x =
+
+    0.2714
+
+
+x =
+
+    0.1807
+
+
+x =
+
+    0.1204
+
+
+x =
+
+    0.0803
+
+
+x =
+
+    0.0535
+
+
+x =
+
+    0.0357
+
+
+x =
+
+    0.0238
+
+
+x =
+
+    0.0159
+
+
+x =
+
+    0.0106
+
+
+x =
+
+    0.0070
+
+
+x =
+
+    0.0047
+
+
+x =
+
+    0.0031
+
+
+x =
+
+    0.0021
+
+
+x =
+
+    0.0014
+
+
+x =
+
+   9.2769e-04
+
+
+x =
+
+   6.1846e-04
+
+
+x =
+
+   4.1231e-04
+
+
+x =
+
+   2.7487e-04
+
+
+x =
+
+   1.8325e-04
+
+
+x =
+
+   1.2216e-04
+
+
+x =
+
+   8.1443e-05
+
+
+x =
+
+   5.4295e-05
+
+
+x =
+
+   3.6197e-05
+
+
+x =
+
+   2.4131e-05
+
+
+x =
+
+   1.6087e-05
+
+Please choose one of the following:
+  To get a zoom of the plot enter ................... 1
+  To choose an initial guess value and solve enter .. 2
+  To exit the program enter ......................... 3
+Enter new choice 0.55
+
+answer =
+
+    0.5500
+
+Incorrect answer, please repeat
+Please choose one of the following:
+  To get a zoom of the plot enter ................... 1
+  To choose an initial guess value and solve enter .. 2
+  To exit the program enter ......................... 3
+Enter new choice2
+
+answer =
+
+     2
+
+Enter initial guess
+
+x =
+
+    0.6164
+
+
+yg =
+
+    0.0381
+
+
+x =
+
+    0.4083
+
+
+x =
+
+    0.2714
+
+
+x =
+
+    0.1807
+
+
+x =
+
+    0.1204
+
+
+x =
+
+    0.0803
+
+
+x =
+
+    0.0535
+
+
+x =
+
+    0.0357
+
+
+x =
+
+    0.0238
+
+
+x =
+
+    0.0159
+
+
+x =
+
+    0.0106
+
+
+x =
+
+    0.0070
+
+
+x =
+
+    0.0047
+
+
+x =
+
+    0.0031
+
+
+x =
+
+    0.0021
+
+
+x =
+
+    0.0014
+
+
+x =
+
+   9.2769e-04
+
+
+x =
+
+   6.1846e-04
+
+
+x =
+
+   4.1231e-04
+
+
+x =
+
+   2.7487e-04
+
+
+x =
+
+   1.8325e-04
+
+
+x =
+
+   1.2216e-04
+
+
+x =
+
+   8.1443e-05
+
+
+x =
+
+   5.4295e-05
+
+
+x =
+
+   3.6197e-05
+
+
+x =
+
+   2.4131e-05
+
+
+x =
+
+   1.6087e-05
+
+Please choose one of the following:
+  To get a zoom of the plot enter ................... 1
+  To choose an initial guess value and solve enter .. 2
+  To exit the program enter ......................... 3
+Enter new choice 2
+
+answer =
+
+     2
+
+Enter initial guess
+
+x =
+
+    0.5804
+
+
+yg =
+
+    0.0321
+
+
+x =
+
+    0.3847
+
+
+x =
+
+    0.2559
+
+
+x =
+
+    0.1704
+
+
+x =
+
+    0.1135
+
+
+x =
+
+    0.0757
+
+
+x =
+
+    0.0504
+
+
+x =
+
+    0.0336
+
+
+x =
+
+    0.0224
+
+
+x =
+
+    0.0149
+
+
+x =
+
+    0.0100
+
+
+x =
+
+    0.0066
+
+
+x =
+
+    0.0044
+
+
+x =
+
+    0.0030
+
+
+x =
+
+    0.0020
+
+
+x =
+
+    0.0013
+
+
+x =
+
+   8.7472e-04
+
+
+x =
+
+   5.8315e-04
+
+
+x =
+
+   3.8877e-04
+
+
+x =
+
+   2.5918e-04
+
+
+x =
+
+   1.7278e-04
+
+
+x =
+
+   1.1519e-04
+
+
+x =
+
+   7.6793e-05
+
+
+x =
+
+   5.1196e-05
+
+
+x =
+
+   3.4130e-05
+
+
+x =
+
+   2.2754e-05
+
+
+x =
+
+   1.5169e-05
+
+Please choose one of the following:
+  To get a zoom of the plot enter ................... 1
+  To choose an initial guess value and solve enter .. 2
+  To exit the program enter ......................... 3
+Enter new choice 3
+
+answer =
+
+     3
+
+Newton_Raphson
+Enter the equation to be solved, y(x), and the derivative
+of y with respect to x as strings variables, for example:
+y    = 'x - sin(x) - c'
+dydx = '1 - cos(x)'
+When the program returns the prompt k enter the appropriate
+escape command to exit keyboard mode and continue the program.
+Enter now the range within which you want to plot the equation.
+Then, after viewing the plot press any key to continue
+x min = 0.5
+
+xmin =
+
+    0.5000
+
+x max = 0.6
+
+xmax =
+
+    0.6000
+
+Please choose one of the following:
+  To get a zoom of the plot enter ................... 1
+  To choose an initial guess value and solve enter .. 2
+  To exit the program enter ......................... 3
+Enter your choice 2
+
+answer =
+
+     2
+
+Enter initial guess
+
+x =
+
+    0.5232
+
+
+yg =
+
+    0.0236
+
+
+x =
+
+    0.3472
+
+
+x =
+
+    0.2310
+
+
+x =
+
+    0.1538
+
+
+x =
+
+    0.1025
+
+
+x =
+
+    0.0683
+
+
+x =
+
+    0.0456
+
+
+x =
+
+    0.0304
+
+
+x =
+
+    0.0202
+
+
+x =
+
+    0.0135
+
+
+x =
+
+    0.0090
+
+
+x =
+
+    0.0060
+
+
+x =
+
+    0.0040
+
+
+x =
+
+    0.0027
+
+
+x =
+
+    0.0018
+
+
+x =
+
+    0.0012
+
+
+x =
+
+   7.8994e-04
+
+
+x =
+
+   5.2663e-04
+
+
+x =
+
+   3.5108e-04
+
+
+x =
+
+   2.3406e-04
+
+
+x =
+
+   1.5604e-04
+
+
+x =
+
+   1.0402e-04
+
+
+x =
+
+   6.9350e-05
+
+
+x =
+
+   4.6233e-05
+
+
+x =
+
+   3.0822e-05
+
+
+x =
+
+   2.0548e-05
+
+
+x =
+
+   1.3699e-05
+
+Please choose one of the following:
+  To get a zoom of the plot enter ................... 1
+  To choose an initial guess value and solve enter .. 2
+  To exit the program enter ......................... 3
+Enter new choice 2
+
+answer =
+
+     2
+
+Enter initial guess
+
+x =
+
+    0.5013
+
+
+yg =
+
+    0.0207
+
+
+x =
+
+    0.3328
+
+
+x =
+
+    0.2214
+
+
+x =
+
+    0.1475
+
+
+x =
+
+    0.0983
+
+
+x =
+
+    0.0655
+
+
+x =
+
+    0.0437
+
+
+x =
+
+    0.0291
+
+
+x =
+
+    0.0194
+
+
+x =
+
+    0.0129
+
+
+x =
+
+    0.0086
+
+
+x =
+
+    0.0058
+
+
+x =
+
+    0.0038
+
+
+x =
+
+    0.0026
+
+
+x =
+
+    0.0017
+
+
+x =
+
+    0.0011
+
+
+x =
+
+   7.5740e-04
+
+
+x =
+
+   5.0493e-04
+
+
+x =
+
+   3.3662e-04
+
+
+x =
+
+   2.2441e-04
+
+
+x =
+
+   1.4961e-04
+
+
+x =
+
+   9.9740e-05
+
+
+x =
+
+   6.6493e-05
+
+
+x =
+
+   4.4329e-05
+
+
+x =
+
+   2.9553e-05
+
+
+x =
+
+   1.9702e-05
+
+Please choose one of the following:
+  To get a zoom of the plot enter ................... 1
+  To choose an initial guess value and solve enter .. 2
+  To exit the program enter ......................... 3
+Enter new choice 3
+
+answer =
+
+     3
+
+help fzero
+ <strong>fzero</strong>  Single-variable nonlinear zero finding. 
+    X = <strong>fzero</strong>(FUN,X0) tries to find a zero of the function FUN near X0, 
+    if X0 is a scalar.  It first finds an interval containing X0 where the 
+    function values of the interval endpoints differ in sign, then searches 
+    that interval for a zero.  FUN is a function handle.  FUN accepts real 
+    scalar input X and returns a real scalar function value F, evaluated 
+    at X. The value X returned by <strong>fzero</strong> is near a point where FUN changes 
+    sign (if FUN is continuous), or NaN if the search fails.  
+ 
+    X = <strong>fzero</strong>(FUN,X0), where X0 is a vector of length 2, assumes X0 is a 
+    finite interval where the sign of FUN(X0(1)) differs from the sign of 
+    FUN(X0(2)). An error occurs if this is not true.  Calling <strong>fzero</strong> with a
+    finite interval guarantees <strong>fzero</strong> will return a value near a point where
+    FUN changes sign.
+ 
+    X = <strong>fzero</strong>(FUN,X0), where X0 is a scalar value, uses X0 as a starting 
+    guess. <strong>fzero</strong> looks for an interval containing a sign change for FUN and 
+    containing X0.  If no such interval is found, NaN is returned.  
+    In this case, the search terminates when the search interval 
+    is expanded until an Inf, NaN, or complex value is found. Note: if
+    the option FunValCheck is 'on', then an error will occur if an NaN or 
+    complex value is found.
+ 
+    X = <strong>fzero</strong>(FUN,X0,OPTIONS) solves the equation with the default optimization
+    parameters replaced by values in the structure OPTIONS, an argument
+    created with the OPTIMSET function.  See OPTIMSET for details.  Used
+    options are Display, TolX, FunValCheck, OutputFcn, and PlotFcns. 
+ 
+    X = <strong>fzero</strong>(PROBLEM) finds the zero of a function defined in PROBLEM. 
+    PROBLEM is a structure with the function FUN in PROBLEM.objective, 
+    the start point in PROBLEM.x0, the options structure in PROBLEM.options,
+    and solver name 'fzero' in PROBLEM.solver. 
+ 
+    [X,FVAL]= <strong>fzero</strong>(FUN,...) returns the value of the function described 
+    in FUN, at X.
+ 
+    [X,FVAL,EXITFLAG] = <strong>fzero</strong>(...) returns an EXITFLAG that describes the
+    exit condition. Possible values of EXITFLAG and the corresponding exit
+    conditions are
+ 
+      1  <strong>fzero</strong> found a zero X.
+     -1  Algorithm terminated by output function.
+     -3  NaN or Inf function value encountered during search for an interval
+          containing a sign change.
+     -4  Complex function value encountered during search for an interval 
+          containing a sign change.
+     -5  <strong>fzero</strong> may have converged to a singular point.
+     -6  <strong>fzero</strong> can not detect a change in sign of the function.
+ 
+    [X,FVAL,EXITFLAG,OUTPUT] = <strong>fzero</strong>(...) returns a structure OUTPUT
+    with the number of function evaluations in OUTPUT.funcCount, the
+    algorithm name in OUTPUT.algorithm, the number of iterations to
+    find an interval (if needed) in OUTPUT.intervaliterations, the
+    number of zero-finding iterations in OUTPUT.iterations, and the
+    exit message in OUTPUT.message.
+ 
+    Examples
+      FUN can be specified using @:
+         X = fzero(@sin,3)
+      returns pi.
+         X = fzero(@sin,3,optimset('Display','iter')) 
+      returns pi, uses the default tolerance and displays iteration information.
+ 
+      FUN can be an anonymous function:
+         X = fzero(@(x) sin(3*x),2)
+ 
+      FUN can be a parameterized function.  Use an anonymous function to
+      capture the problem-dependent parameters:
+         myfun = @(x,c) cos(c*x);  % The parameterized function.
+         c = 2;                    % The parameter.
+         X = fzero(@(x) myfun(x,c),0.1)
+    
+    Limitations
+         X = fzero(@(x) abs(x)+1, 1) 
+      returns NaN since this function does not change sign anywhere on the 
+      real axis (and does not have a zero as well).
+         X = fzero(@tan,2)
+      returns X near 1.5708 because the discontinuity of this function near the 
+      point X gives the appearance (numerically) that the function changes sign at X.
+ 
+    See also <a href="matlab:help roots">roots</a>, <a href="matlab:help fminbnd">fminbnd</a>, <a href="matlab:help function_handle">function_handle</a>.
+
+    <a href="matlab:doc fzero">Documentation for fzero</a>
+
+y
+
+y =
+
+    'x - sin(x) - c'
+
+ Y = fzero(@(x) x-sin(x),2)
+
+Y =
+
+  -1.3462e-08
+
+x-sin(x)
+
+ans =
+
+   1.2746e-15
+
+fzero(@(x) x-sin(x),Y)
+
+ans =
+
+  -1.3462e-08
+
+X = fzero(@(x) x-sin(x),5)
+
+X =
+
+  -1.1696e-08
+
+help fzero
+ <strong>fzero</strong>  Single-variable nonlinear zero finding. 
+    X = <strong>fzero</strong>(FUN,X0) tries to find a zero of the function FUN near X0, 
+    if X0 is a scalar.  It first finds an interval containing X0 where the 
+    function values of the interval endpoints differ in sign, then searches 
+    that interval for a zero.  FUN is a function handle.  FUN accepts real 
+    scalar input X and returns a real scalar function value F, evaluated 
+    at X. The value X returned by <strong>fzero</strong> is near a point where FUN changes 
+    sign (if FUN is continuous), or NaN if the search fails.  
+ 
+    X = <strong>fzero</strong>(FUN,X0), where X0 is a vector of length 2, assumes X0 is a 
+    finite interval where the sign of FUN(X0(1)) differs from the sign of 
+    FUN(X0(2)). An error occurs if this is not true.  Calling <strong>fzero</strong> with a
+    finite interval guarantees <strong>fzero</strong> will return a value near a point where
+    FUN changes sign.
+ 
+    X = <strong>fzero</strong>(FUN,X0), where X0 is a scalar value, uses X0 as a starting 
+    guess. <strong>fzero</strong> looks for an interval containing a sign change for FUN and 
+    containing X0.  If no such interval is found, NaN is returned.  
+    In this case, the search terminates when the search interval 
+    is expanded until an Inf, NaN, or complex value is found. Note: if
+    the option FunValCheck is 'on', then an error will occur if an NaN or 
+    complex value is found.
+ 
+    X = <strong>fzero</strong>(FUN,X0,OPTIONS) solves the equation with the default optimization
+    parameters replaced by values in the structure OPTIONS, an argument
+    created with the OPTIMSET function.  See OPTIMSET for details.  Used
+    options are Display, TolX, FunValCheck, OutputFcn, and PlotFcns. 
+ 
+    X = <strong>fzero</strong>(PROBLEM) finds the zero of a function defined in PROBLEM. 
+    PROBLEM is a structure with the function FUN in PROBLEM.objective, 
+    the start point in PROBLEM.x0, the options structure in PROBLEM.options,
+    and solver name 'fzero' in PROBLEM.solver. 
+ 
+    [X,FVAL]= <strong>fzero</strong>(FUN,...) returns the value of the function described 
+    in FUN, at X.
+ 
+    [X,FVAL,EXITFLAG] = <strong>fzero</strong>(...) returns an EXITFLAG that describes the
+    exit condition. Possible values of EXITFLAG and the corresponding exit
+    conditions are
+ 
+      1  <strong>fzero</strong> found a zero X.
+     -1  Algorithm terminated by output function.
+     -3  NaN or Inf function value encountered during search for an interval
+          containing a sign change.
+     -4  Complex function value encountered during search for an interval 
+          containing a sign change.
+     -5  <strong>fzero</strong> may have converged to a singular point.
+     -6  <strong>fzero</strong> can not detect a change in sign of the function.
+ 
+    [X,FVAL,EXITFLAG,OUTPUT] = <strong>fzero</strong>(...) returns a structure OUTPUT
+    with the number of function evaluations in OUTPUT.funcCount, the
+    algorithm name in OUTPUT.algorithm, the number of iterations to
+    find an interval (if needed) in OUTPUT.intervaliterations, the
+    number of zero-finding iterations in OUTPUT.iterations, and the
+    exit message in OUTPUT.message.
+ 
+    Examples
+      FUN can be specified using @:
+         X = fzero(@sin,3)
+      returns pi.
+         X = fzero(@sin,3,optimset('Display','iter')) 
+      returns pi, uses the default tolerance and displays iteration information.
+ 
+      FUN can be an anonymous function:
+         X = fzero(@(x) sin(3*x),2)
+ 
+      FUN can be a parameterized function.  Use an anonymous function to
+      capture the problem-dependent parameters:
+         myfun = @(x,c) cos(c*x);  % The parameterized function.
+         c = 2;                    % The parameter.
+         X = fzero(@(x) myfun(x,c),0.1)
+    
+    Limitations
+         X = fzero(@(x) abs(x)+1, 1) 
+      returns NaN since this function does not change sign anywhere on the 
+      real axis (and does not have a zero as well).
+         X = fzero(@tan,2)
+      returns X near 1.5708 because the discontinuity of this function near the 
+      point X gives the appearance (numerically) that the function changes sign at X.
+ 
+    See also <a href="matlab:help roots">roots</a>, <a href="matlab:help fminbnd">fminbnd</a>, <a href="matlab:help function_handle">function_handle</a>.
+
+    <a href="matlab:doc fzero">Documentation for fzero</a>
+
+  X = fzero(@(x) sin(3*x),2)
+
+X =
+
+    2.0944
+
+sin(3*X)
+
+ans =
+
+   6.4325e-16
+
